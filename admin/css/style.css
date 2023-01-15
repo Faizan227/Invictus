@@ -1,0 +1,35 @@
+/* Extra small devices (phones, 600px and down) */
+
+.logo{
+    width: 100px;
+}
+.top-bar{
+    background: #bfe2e9;
+
+}
+.padd{
+    height: 20px;
+}
+
+
+.list-group-item{
+    border:none;
+}
+
+.link_style{
+    text-decoration: none;
+}
+.card-img-custom{
+    width: 100%;
+}
+.card-custom-area{
+    overflow: hidden;
+}
+.card-h{
+    padding: 0;
+}
+.card-custom{
+    max-width: 350px;
+    float: none;
+    margin: 0 auto;
+}
