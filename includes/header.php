@@ -104,7 +104,7 @@ if(!isset($_SESSION)){
 													<li><a href="about.php" class="nav-link">About</a></li>
 													<li class="dropdown">
 														<a class="nav-link dropdown-toggle" href="services-detail.php">
-															Services
+														 Products
 														</a>
 														<!-- <ul class="dropdown-menu">
 															<li>
