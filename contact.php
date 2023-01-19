@@ -1,5 +1,34 @@
+<?php
+include "includes/connection.php"; 
+if(isset($_REQUEST['send-message'])){
+	$name = $_REQUEST['name'];
+	$email = $_REQUEST['email'];
+	$phone = $_REQUEST['phone'];
+	$message = $_REQUEST['message'];
+	include "includes/connection.php";
+	$q = "INSERT INTO messages (sen_name,sen_email,sen_phone,message) VALUES ('$name','$email','$phone','$message') ";
+	$q_run = mysqli_query($con, $q);
+	  
+	  echo mysqli_error($con);
+	  if($q_run){ ?> 
+						   <div class="contact-form-success alert alert-success  mt-4">
+								  <strong>Success!</strong> Your message has been sent to us.
+							  </div>
+							 
+	  <?php
+
+  }else{ ?>
+						<div class="contact-form-error alert alert-danger  mt-4">
+								  <strong>Error!</strong> There was an error sending your message.
+								  <span class="mail-error-message text-1 d-block"></span>
+							  </div>
+	  <?php
+  }
+
+  }
+ ?>
 <!DOCTYPE html>
-<html>
+<html lang="de">
 	<head>
 
 		<!-- Basic -->
@@ -65,7 +94,7 @@
 							</div>
 							<div class="col-md-12 align-self-center order-1">
 								<ul class="breadcrumb breadcrumb-light d-block text-center">
-									<li><a href="#">Home</a></li>
+									<li><a href="index.php">Home</a></li>
 									<li class="active">Contact</li>
 								</ul>
 							</div>
@@ -132,30 +161,23 @@
 					</div>
 					<div class="row pb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">
 						<div class="col">
-							<form class="contact-form custom-form-style-1" action="php/contact-form.php" method="POST">
-                                <div class="contact-form-success alert alert-success d-none mt-4">
-                                    <strong>Success!</strong> Your message has been sent to us.
-                                </div>
-
-                                <div class="contact-form-error alert alert-danger d-none mt-4">
-                                    <strong>Error!</strong> There was an error sending your message.
-                                    <span class="mail-error-message text-1 d-block"></span>
-                                </div>
+							<form class="custom-form-style-1" action="" method="post">
+                                
+                                
+                                
 
                                 <div class="row row-gutter-sm">
                                     <div class="form-group col-lg-6 mb-4">
                                         <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required placeholder="Your Name">
                                     </div>
-                                    <div class="form-group col-lg-6 mb-4">
-                                        <input type="text" value="" data-msg-required="Please enter your phone number." maxlength="100" class="form-control" name="phone" id="phone" required placeholder="Phone Number">
+									<div class="form-group col-lg-6 mb-4">
+                                        <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required placeholder="Your E-mail">
                                     </div>
                                 </div>
                                 <div class="row row-gutter-sm">
-                                    <div class="form-group col-lg-6 mb-4">
-                                        <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required placeholder="Your Name">
-                                    </div>
-                                    <div class="form-group col-lg-6 mb-4">
-                                        <input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required placeholder="Subject">
+                                    
+									<div class="form-group col-lg-6 mb-4">
+                                        <input type="text" value="" data-msg-required="Please enter your phone number." maxlength="100" class="form-control" name="phone" id="phone"  placeholder="Phone Number">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -165,12 +187,15 @@
                                 </div>
                                 <div class="row">
                                     <div class="form-group col mb-0">
-                                        <button type="submit" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3" data-loading-text="Loading...">SEND MESSAGE</button>
+                                        <button type="submit" name="send-message" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3" data-loading-text="Loading...">SEND MESSAGE</button>
                                     </div>
                                 </div>
+								
                             </form>
+							
 						</div>
 					</div>
+				
 				</div>
 
 			</div>

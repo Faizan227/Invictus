@@ -5,7 +5,7 @@
             <?php include 'includes/nav.php';?>
 
 <!--------------bar------------------->
-<div class="container-fluid bg-danger p-1">
+<div class="container-fluid bg-info p-1">
 </div>
 <!--------------main content area------------------->
 <div class="container">

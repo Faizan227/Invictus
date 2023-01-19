@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 	<head>
 
 		<!-- Basic -->
@@ -235,13 +235,13 @@
 							<h4 class="font-weight-bold ls-0">Our Services</h4>
 							<ul class="list-unstyled mb-0">
 								<li class="mb-1">
-									<a href="demo-cleaning-services-services-detail.html">Building Services</a>
+									<a href="services.php?cat_id=<?php echo $_GET['cat_id']; ?>">Building Services</a>
 								</li>
 								<li class="mb-1">
-									<a href="demo-cleaning-services-services-detail.html">Post Construction</a>
+									<a href="services.php?cat_id=<?php echo $_GET['cat_id']; ?>">Post Construction</a>
 								</li>
 								<li class="mb-0">
-									<a href="demo-cleaning-services-services-detail.html">Office Cleaning</a>
+									<a href="services.php?cat_id=<?php echo $_GET['cat_id']; ?>">Office Cleaning</a>
 								</li>
 							</ul>
 							<a href="demo-cleaning-services-services.html" class="btn btn-link font-weight-bold text-decoration-none ps-0">VIEW MORE</a>

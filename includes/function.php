@@ -1,63 +1,33 @@
 <?php
-
+include "connection.php";
 if(!isset($_SESSION)){
     session_start();
 }
- 
-function search(){
-    if(isset($_REQUEST['search_item'])){
-        $item = $_REQUEST['search'];
-        include "connection.php";
-        $q = "SELECT * FROM `products` WHERE `p_name` LIKE '%$item%' or `p_details` LIKE '%$item%'" ;
-        $q_run = mysqli_query($con,$q);
+function message(){
+    if(isset($_REQUEST['send_message'])){
+      $name = $_REQUEST['name'];
+      $email = $_REQUEST['email'];
+      $phone = $_REQUEST['phone'];
+      $message = $_REQUEST['message'];
+      include "connection.php";
+      $query = "INSERT INTO message (sen_name,sen_email,sen_phone,message) VALUES ('$name','$email','$phone',$message)";
+      $q_run = mysqli_query($con, $query);
         
-     if(mysqli_num_rows($q_run) > 0){
-         while($data = mysqli_fetch_array($q_run)){?>
-         <div class="container">
-             <div class="row">
-          <div class=" col-md-12">
-                
-                    <div class="row py-3">
-                        <div class=" col-lg-4 col-md-6 col-sm-12 pb-3">
-                            <div class="card product-item border-0 h-100 mb-4">
-                           
-                            <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                                    <img class="img-fluid p-3 ms-2  " src="uploads/<?php echo $data['p_file'];  ?>" alt="" style=height:180px>
+        echo mysqli_error($con);
+        if($q_run){ ?> 
+                             <div class="contact-form-success alert alert-success d-none mt-4">
+                                    <strong>Success!</strong> Your message has been sent to us.
                                 </div>
-                                <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                                    <h6 class="text-truncate mb-3"><?php echo $data['p_name'];  ?></h6>
-                                    <div class="d-flex justify-content-center">
-                                        <h6>RS <?php echo $data['p_price'];  ?></h6>
-                                        <!--                                        <h6 class="text-muted ml-2"><del>$123.00</del></h6>-->
-                                    </div>
-                                </div>
-                                <form action="" method="post">
-                                <input type="hidden" min="1" name="p_quantity" value="1">
-                                <input type="hidden" name="p_name" value="<?php echo $data['p_name']; ?>">
-                                 <input type="hidden" name="p_price" value="<?php echo  $data['p_price']; ?>">
-                                 <input type="hidden" name="p_image" value="<?php echo $data['p_file']; ?>">
-                                 <input type="hidden" name="p_id" value="<?php echo $data['p_id']; ?>">
-                                 <input type="submit" value="Add to Cart" name="add_to_cart" class="btn ms-5 ps-5 pb-3"><i style="color:#ef2d2c" class="fas fa-shopping-cart fa-xl me-2"></i>
-                                 </form>
-                                <div class="card-footer d-flex justify-content-between bg-light border">
-                                    <a href="detail.php?id=<?php echo $data['p_id'];  ?>" class="btn btn-sm text-dark p-0"><i style="color:#ef2d2c" class="fas fa-eye fa-xl me-2"></i>View Detail</a>
-                              
-                                    <!-- <input type="submit" value="add to cart" name="add_to_cart" class="btn"> -->
-                                    <a href="order.php?id=<?php echo $data['p_id']?>&p_name=<?php echo $data['p_name']?>&p_price=<?php echo $data['p_price']?>" class="btn btn-sm text-dark p-0">Buy</a>
-                                    <!-- <i style="color:#ef2d2c" class="fas fa-shopping-cart fa-xl me-2"></i> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-          </div>
-             </div>
-         </div>
-        <?php }
-     
+        <?php
 
-     } 
-    }else{
-        //echo"No Record found";
+    }else{ ?>
+                          <div class="contact-form-error alert alert-danger d-none mt-4">
+                                    <strong>Error!</strong> There was an error sending your message.
+                                    <span class="mail-error-message text-1 d-block"></span>
+                                </div>
+        <?php
+    }
+
     }
 }
 
@@ -428,3 +398,4 @@ function cus_login(){
 
     }
 }
+?>

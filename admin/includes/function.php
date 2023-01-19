@@ -157,7 +157,7 @@ function create_user(){
         $status=1;
         include "connection.php";
         $q="INSERT INTO admin (a_name, a_email, a_password , a_phone, a_type) VALUES 
-                                                        ('$name','$email','$pass','$phone','$type')";
+                                                        ('$name','$email',md5('$pass'),'$phone','$type')";
         $q_run =  mysqli_query($con, $q);
         echo mysqli_error($con);
         if($q_run){
@@ -264,7 +264,7 @@ function edit_cat(){
                     <!-----content--------------------->
                     <div class="row">
                         <!-------------form ------------->
-                        <form class="row g-3" method="post">
+                        <form class="row g-3" method="post" enctype="multipart/form-data">
                             <div class="col-md-12">
                                 <label for="cat_title" class="form-label">Category Title</label>
                                 <input type="text" class="form-control" id="cat_title" value="<?php echo $data['c_name']; ?>" name="cat_title">
@@ -272,6 +272,15 @@ function edit_cat(){
                             <div class="col-md-12">
                                 <label for="details" class="form-label">Category Details</label>
                                 <textarea class="form-control" name="cat_details" id="details"  cols="30" rows="10"><?php echo $data['c_details']; ?></textarea>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="price" class="form-label">Images</label>
+                                <img src="../uploads/<?php echo $data['c_file']; ?>" title="<?php echo $data['c_name']; ?>" alt="<?php echo $data['c_name']; ?>" style="max-width: 150px;"> 
+                                
+                            </div>
+                            <div class="col-md-3">
+                                <label for="file" class="form-label">Select Image</label>
+                                <input type="file" name="c_file" value="<?php echo $data['c_name']; ?>" class="form-control"  id="file">
                             </div>
 
                             <div class="col-12">
@@ -288,10 +297,23 @@ function edit_cat(){
                 if(isset($_REQUEST['update_cat'])){
                     $title=$_REQUEST['cat_title'];
                     $details=$_REQUEST['cat_details'];
+                    if(empty($_REQUEST['cat_title'])||empty($_REQUEST['cat_details']))
+		            {
+                        ?>
+                        <div class="alert alert-danger">
+                            All Field Required
+                        </div>
+                        <?php
 
-                    $q="UPDATE categories SET c_name='$title', c_details = '$details' WHERE c_id='$id'";
+                    }
+                    else
+                        {    
+                    $file=$_FILES['c_file']['name'];
+                    $file_name = cat_update_file_uploading($file);
+                    
+                    $q="UPDATE categories SET c_name='$title', c_details = '$details', c_file='$file_name' WHERE c_id='$id'";
                     $q_run =  mysqli_query($con, $q);
-
+                    
                     if($q_run){
                         ?>
                         <div class="alert alert-success">
@@ -309,12 +331,21 @@ function edit_cat(){
                         <?php
                     }//else
                 }
+            }
 
                  ?>
             </div>
         </div>
         <?php
     }
+}
+function cat_update_file_uploading($file_name){
+    $folder="../uploads/";
+
+    $temp = explode(".", $file_name);
+    $newfilename = round(microtime(true)) . '.' . end($temp);
+    move_uploaded_file($_FILES["c_file"]["tmp_name"], $folder . $newfilename);
+    return $newfilename;
 }
 
 function edit_post(){
@@ -358,6 +389,15 @@ function edit_post(){
                                 <label for="price" class="form-label">Dimension</label>
                                 <textarea  class="form-control" id="dimension" name="p_dimension"  rows="5"><?php echo $data['p_dimension']; ?></textarea>
                             </div>
+                            <div class="col-md-3">
+                                <label for="price" class="form-label">Images</label>
+                                <img src="../uploads/<?php echo $data['p_file']; ?>" title="<?php echo $data['p_name']; ?>" alt="<?php echo $data['p_name']; ?>" style="max-width: 150px;"> 
+                                
+                            </div>
+                            <div class="col-md-3">
+                                <label for="file" class="form-label">Select Image</label>
+                                <input type="file" name="p_file" value="" class="form-control"  id="file">
+                            </div>
 
                             <div class="col-md-12">
                                 <label for="inputState" class="form-label">Category</label>
@@ -385,8 +425,11 @@ function edit_post(){
                     $scope=$_REQUEST['p_scope'];
                     $dimension=$_REQUEST['p_dimension'];
                     $cat=$_REQUEST['p_cat'];
+                    //file uploading
+                   $file=$_FILES['p_file']['name'];
+                  $file_name = update_file_uploading($file);
                     include "connection.php";
-                    $q="UPDATE products SET p_code='$code', p_name='$title', p_category='$cat', p_details='$details', p_scope='$scope' , p_dimension='$dimension' WHERE p_id=".$id;
+                    $q="UPDATE products SET p_code='$code', p_name='$title', p_category='$cat', p_details='$details', p_scope='$scope' , p_dimension='$dimension' ,p_file='$file_name' WHERE p_id=".$id;
                     $q_run =  mysqli_query($con, $q);
                     echo mysqli_error($con);
                     if($q_run){
@@ -406,12 +449,21 @@ function edit_post(){
                         <?php
                     }//else
                 }
+                
 
                 ?>
             </div>
         </div>
         <?php
     }
+}
+function update_file_uploading($file_name){
+    $folder="../uploads/";
+
+    $temp = explode(".", $file_name);
+    $newfilename = round(microtime(true)) . '.' . end($temp);
+    move_uploaded_file($_FILES["p_file"]["tmp_name"], $folder . $newfilename);
+    return $newfilename;
 }
 
 
@@ -421,10 +473,10 @@ function login(){
         $pass = $_REQUEST['pass'];
         if($email!="" && $pass!=""){
             include "connection.php";
-            $query="SELECT * FROM admin WHERE a_email='$email' AND a_password='$pass'";
+            $query="SELECT * FROM admin WHERE a_email='$email' AND a_password=md5('$pass')";
             $q_run = mysqli_query($con, $query);
             $login_data = mysqli_fetch_array($q_run);
-            if($login_data['a_email']==$email && $login_data['a_password']==$pass ){
+            if($login_data['a_email']==$email && $login_data['a_password']==md5($pass) ){
                 ?>
                 <div class="alert alert-success">Login successful! Please Wait...</div>
                 <?php
@@ -496,7 +548,7 @@ function display_user_count(){
 }
 function display_query_count(){
     include "connection.php";
-    $q="SELECT * fROM query";
+    $q="SELECT * fROM messages";
     $q_run = mysqli_query($con, $q);
     echo mysqli_num_rows($q_run);
 }
@@ -554,19 +606,20 @@ function display_orders(){
 
 function display_query(){
     include "connection.php";
-    $q="SELECT * FROM query ORDER BY q_id DESC";
+    $q="SELECT * FROM messages ORDER BY msg_id DESC";
     $q_run =  mysqli_query($con, $q);
     // $count=100;
     while($data = mysqli_fetch_array($q_run)){
         ?>
         <tr>
             <!-- <th scope="row"><?php //echo $count; $count--; ?> </th> -->
-            <th scope="row"><?php echo $data['q_id']; ?> </th>
-            <td ><?php echo $data['q_name']; ?> </td>
-            <td><?php echo $data['q_email'] ; ?></td>
-            <td><?php echo $data['q_details']; ?></td>
+            <th scope="row"><?php echo $data['msg_id']; ?> </th>
+            <td ><?php echo $data['sen_name']; ?> </td>
+            <td><?php echo $data['sen_email'] ; ?></td>
+            <td><?php echo $data['sen_phone'] ; ?></td>
+            <td><?php echo $data['message']; ?></td>
 
-            <td><a href="?del_query=<?php echo $data['q_id']; ?>" class="btn btn-danger">Delete</a></td>
+            <td><a href="?del_query=<?php echo $data['msg_id']; ?>" class="btn btn-danger">Delete</a></td>
             <!--            <td><a href="?edit_query=--><?php //echo $data['q_id']; ?><!--" class="btn btn-primary">Edit</a></td>
 -->
         </tr>
@@ -577,7 +630,7 @@ function del_query(){
     if(isset($_REQUEST['del_query'])){
         $id=$_REQUEST['del_query'];
         include "connection.php";
-        $q="DELETE from query WHERE q_id=".$id;
+        $q="DELETE from messages WHERE msg_id=".$id;
         $q_run =  mysqli_query($con, $q);
         if($q_run){
             ?>

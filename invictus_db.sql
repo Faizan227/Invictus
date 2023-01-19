@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 15, 2023 at 06:22 PM
+-- Generation Time: Jan 19, 2023 at 11:10 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.28
 
@@ -41,8 +41,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`a_id`, `a_name`, `a_phone`, `a_email`, `a_password`, `a_type`) VALUES
-(1, 'admin', 3001234567, 'admin@gmail.com', 'admin123', '1'),
-(3, 'admin-2', 3003456324, 'admin2@gmail.com', 'admin222', 'editor');
+(5, 'admin', 3001122333, 'admin@gmail.com', '0192023a7bbd73250516f069df18b500', 'admin');
 
 -- --------------------------------------------------------
 
@@ -62,10 +61,8 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`c_id`, `c_name`, `c_details`, `c_file`) VALUES
-(1, 'diamond cutting discs', 'Particularly high quality, working without cooling breaks, deep-drawn carrier protection segments, reinforced cores or high cutting speeds? Take a look at our rich selection.', ''),
-(3, 'grinding technology', 'Cup wheels, grinding discs, segments for all possible areas of application from granite to concrete, screed, epoxy resin coatings, natural stone and more. The imagination is limitless, as is our offer.', ''),
-(4, 'diamond drill bits', 'Particularly high cutting speeds, the strongest drill bits, with diamond particles evenly arranged in rows and multi-dimensionally? Here you will find suitable diamond drill bits for your needs!', '1673707743.jpg'),
-(5, 'diamond cutting discs', 'Some ', '1673802174.jpg');
+(4, 'diamond drill bits', 'Particularly high cutting speeds, the strongest drill bits, with diamond particles evenly arranged in rows and multi-dimensionally? Here you will find suitable diamond drill bits for your needs!', '1673982533.jpg'),
+(5, 'diamond cutting discs', 'Some ', '1673980851.jpg');
 
 -- --------------------------------------------------------
 
@@ -78,6 +75,8 @@ CREATE TABLE `customer` (
   `cus_name` varchar(200) DEFAULT NULL,
   `cus_email` varchar(200) DEFAULT NULL,
   `cus_phone` bigint(20) DEFAULT NULL,
+  `company_name` varchar(200) DEFAULT NULL,
+  `com_reg_no` varchar(50) DEFAULT NULL,
   `cus_password` varchar(200) DEFAULT NULL,
   `cus_address` varchar(200) DEFAULT NULL,
   `reg_date` timestamp NULL DEFAULT NULL
@@ -87,8 +86,22 @@ CREATE TABLE `customer` (
 -- Dumping data for table `customer`
 --
 
-INSERT INTO `customer` (`id`, `cus_name`, `cus_email`, `cus_phone`, `cus_password`, `cus_address`, `reg_date`) VALUES
-(1, 'Customer-1', 'Customer@gmail.com', 3004455666, '12345678', 'Punjab Pakistan', NULL);
+INSERT INTO `customer` (`id`, `cus_name`, `cus_email`, `cus_phone`, `company_name`, `com_reg_no`, `cus_password`, `cus_address`, `reg_date`) VALUES
+(7, 'customer', 'Customer-1@gmail.com', 3001122344, 'abc', 'abc1122', '91ec1f9324753048c0096d036a694f86', 'abc', NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `messages`
+--
+
+CREATE TABLE `messages` (
+  `msg_id` int(11) NOT NULL,
+  `sen_name` varchar(50) DEFAULT NULL,
+  `sen_email` varchar(100) DEFAULT NULL,
+  `sen_phone` bigint(11) DEFAULT NULL,
+  `message` text DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -112,7 +125,7 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`p_id`, `p_code`, `p_name`, `p_category`, `p_details`, `p_dimension`, `p_scope`, `p_file`) VALUES
-(0, 'IN33104 from 102mm', 'Laser Turbo drill bit Profi+ from 102mm', 0, 'Laser welded with 10mm turbo segments, 1 1/4 connection, effective length 400mm', '25mm*3seg, 30mm*4seg, 35mm*4seg, 40mm*4seg, 45mm*5seg, 52mm*5seg, 56mm*5seg, 62mm*6seg, 67mm*6seg, 72mm*7seg, 82mm*7seg, 87mm*7seg, 92mm* 8segs, 102mm*9segs', 'Concrete, reinforced concrete, additives with a particle size of less than 50 mm, for ductile cast iron.', '1673689392.png');
+(0, 'IN33104 from 102mm', 'Laser Turbo drill bit Profi+ from 102mm', 1, 'Laser welded with 10mm turbo segments, 1 1/4 connection, effective length 400mm', '25mm*3seg, 30mm*4seg, 35mm*4seg, 40mm*4seg, 45mm*5seg, 52mm*5seg, 56mm*5seg, 62mm*6seg, 67mm*6seg, 72mm*7seg, 82mm*7seg, 87mm*7seg, 92mm* 8segs, 102mm*9segs', 'Concrete, reinforced concrete, additives with a particle size of less than 50 mm, for ductile cast iron.', '1673980079.png');
 
 --
 -- Indexes for dumped tables
@@ -137,6 +150,12 @@ ALTER TABLE `customer`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `messages`
+--
+ALTER TABLE `messages`
+  ADD PRIMARY KEY (`msg_id`);
+
+--
 -- Indexes for table `products`
 --
 ALTER TABLE `products`
@@ -150,7 +169,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `a_id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `a_id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `categories`
@@ -162,7 +181,13 @@ ALTER TABLE `categories`
 -- AUTO_INCREMENT for table `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+--
+-- AUTO_INCREMENT for table `messages`
+--
+ALTER TABLE `messages`
+  MODIFY `msg_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

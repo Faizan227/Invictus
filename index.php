@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 	<head>
 
 		<!-- Basic -->
@@ -14,7 +14,7 @@
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<link rel="shortcut icon" href="img/invictus/logo-1.png">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -119,10 +119,10 @@
 					           </div>
 				            </section>
 
-				            <div class="container position-relative z-index-1" style="margin-top: -388px;">
+				            <div id="booknow" class="container position-relative z-index-1" style="margin-top: -388px;">
 					           <div class="row align-items-end pb-4 mb-4 mb-lg-5">
 						<div class="col-lg-6 pe-lg-4 mb-5 mb-lg-0">
-							<div class="card border-0 custom-border-radius-1 box-shadow-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
+							<div  class="card border-0 custom-border-radius-1 box-shadow-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
 								<div class="card-body p-5">
 									<h2 class="text-color-secondary font-weight-bold text-7 line-height-1 mb-1">Request a Callback</h2>
 									<p class="custom-font-secondary text-4 pb-1 mb-4">Enter your details in the form and we will call you back.</p>
@@ -250,11 +250,11 @@
 					           </div>
 				            </section>
 
-				            <div class="container position-relative z-index-1" style="margin-top: -388px;">
+				            <div  class="container position-relative z-index-1" style="margin-top: -388px;">
 					           <div class="row align-items-end pb-4 mb-4 mb-lg-5">
 						<div class="col-lg-6 pe-lg-4 mb-5 mb-lg-0">
 							<div class="card border-0 custom-border-radius-1 box-shadow-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
-								<div class="card-body p-5">
+								<div id="booknow" class="card-body p-5">
 									<h2 class="text-color-secondary font-weight-bold text-7 line-height-1 mb-1">Request a Callback</h2>
 									<p class="custom-font-secondary text-4 pb-1 mb-4">Enter your details in the form and we will call you back.</p>
 									<form class="contact-form custom-form-style-1" action="php/contact-form.php" method="POST">
@@ -394,8 +394,8 @@
 							</div>
 							<div class="col-lg-5 col-xl-4">
 								<div class="d-flex justify-content-lg-end">
-									<a href="demo-cleaning-services-services.html" class="btn btn-primary btn-modern font-weight-bold text-3 btn-px-4 py-3 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1800">VIEW ALL SERVICES</a>
-									<a href="demo-cleaning-services-contact.html" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3 ms-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1600">BOOK NOW</a>
+									<a href="services.php" class="btn btn-primary btn-modern font-weight-bold text-3 btn-px-4 py-3 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1800">VIEW ALL SERVICES</a>
+									<a href="#booknow" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3 ms-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1600">BOOK NOW</a>
 								</div>
 							</div>
 						</div>
@@ -415,7 +415,7 @@
 														<img src="uploads/<?php echo $product['c_file'];  ?>" class="img-fluid rounded-circle" alt="" >
 													</div>
 													<h4 class="custom-card-style-1-title text-color-secondary font-weight-bold mb-2"><?php echo $product['c_name'];?></h4>
-													<p class="custom-card-style-1-description"><?php echo $product['c_details'];?> </p>
+													<p class="custom-card-style-1-description text-justify"><?php echo $product['c_details'];?> </p>
 													<span class="custom-card-style-1-link font-weight-bold">VIEW MORE</span>
 												</div>
 											</div>
@@ -738,12 +738,12 @@
 					</div>	
 				</section>
 
-			
 
 			
 			</div>
 
 			<?php include "includes/footer.php" ?>
+
 		</div>
 
 		<!-- Vendor -->

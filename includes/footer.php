@@ -87,5 +87,7 @@
 					</div>
 				</div>
 			</footer>
+			<a href="https://wa.me/491606767001" class="" target="_blank" ><img src="img/invictus/whatsapp-icon.png" alt="WhatsApp" class="" style="width:100px;height:100px;border:0;position:fixed; z-index: 1;bottom:70px;right: 10px;"></a>
+
 		   </div>
 		</body>

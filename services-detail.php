@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 	<head>
 
 		<!-- Basic -->
@@ -113,9 +113,9 @@
 										<h2 class="text-color-secondary font-weight-bold text-6 line-height-1 pb-2 mb-4">All Services</h2>
 										<ul class="list list-unstyled custom-nav-list-effect-1 mb-0">
 											<li class="active pb-1 mb-3"><a href="services-detail.php" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold custom-font-size-3">Office Cleaning</a></li>
-											<li class="pb-1 mb-3"><a href="demo-cleaning-services-services-detail.html" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold custom-font-size-3">Post Construction</a></li>
-											<li class="pb-1 mb-3"><a href="demo-cleaning-services-services-detail.html" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold custom-font-size-3">Office Cleaning</a></li>
-											<li class="mb-0"><a href="demo-cleaning-services-services-detail.html" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold custom-font-size-3">Residential Cleaning</a></li>
+											<li class="pb-1 mb-3"><a href="services-detail.php?cat_id=<?php echo $_GET['cat_id']; ?>" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold custom-font-size-3">Post Construction</a></li>
+											<li class="pb-1 mb-3"><a href="services.php?cat_id=<?php echo $_GET['cat_id']; ?>" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold custom-font-size-3">Office Cleaning</a></li>
+											<li class="mb-0"><a href="services.php?cat_id=<?php echo $_GET['cat_id']; ?>" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold custom-font-size-3">Residential Cleaning</a></li>
 										</ul>
 									</div>
 								</div>
