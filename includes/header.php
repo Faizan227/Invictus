@@ -103,7 +103,7 @@ function dropdown_menu(){
 								<div class="header-row">
 									<div class="header-logo">
 										<a href="index.php">
-											<img src="img/invictus/logo-1.png" class="img-fluid" width="150" height="50" alt="" />
+											<img src="images/invictus/logo.jpeg" class="img-fluid" width="150" height="50" alt="" />
 										</a>
 									</div>
 								</div>
