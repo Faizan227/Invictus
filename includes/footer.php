@@ -5,8 +5,8 @@
 					<div class="row py-5">
 						<div class="col-md-4 col-lg-3 mb-4 mb-lg-0">
 							<div class="mb-3 mb-lg-0">
-							<a href="demo-cleaning-services.html">
-								<img alt="Porto" width="115" height="30" src="img/demos/cleaning-services/logo-light.png">
+							<a href="index.php">
+								<img alt="Porto" width="115" height="30" src="Images/invictus/logo-1.png">
 							</a>
 							</div>
 							<p class="text-3-5 pe-lg-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque rutrum pellentesqu. </p>
@@ -76,7 +76,7 @@
 					</div>
 				</div>
 			</footer>
-			<a href="https://wa.me/491606767001" class="" target="_blank" ><img src="img/invictus/whatsapp-logo.png" alt="WhatsApp" class="" style="width:100px;height:100px;border:0;position:fixed; z-index: 1;bottom:70px;right: 10px;"></a>
+			<a href="https://wa.me/491606767001" class="" target="_blank" ><img src="images/invictus/whatsapp-logo.png" alt="WhatsApp" class="" style="width:100px;height:100px;border:0;position:fixed; z-index: 1;bottom:70px;right: 10px;"></a>
 
 		   
 		
