@@ -398,4 +398,67 @@ function cus_login(){
 
     }
 }
+// function use in services-detail page start
+function display_cat_link(){
+    include "connection.php";
+    $q="SELECT * FROM categories";
+    $q_run =  mysqli_query($con, $q);
+    while($data = mysqli_fetch_array($q_run)){
+    ?>  
+    <li class="pb-1 mb-3"><a href="services-detail.php?id=<?php echo $data['c_id']?>" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold custom-font-size-3"><?php echo $data['c_name']; ?></a></li>
+    
+    <?php
+    }  
+}
+function display_product_cat_wise(){
+$categories = $_GET['id'];
+include "connection.php";
+    $q="SELECT * FROM products WHERE p_category = '$categories'";
+    $q_run =  mysqli_query($con, $q);
+    while($data = mysqli_fetch_array($q_run)){
+    ?>  
+    <div class="row">
+    <div class="col-6 col-md-3">
+    <h3><?php echo $data['p_code']; ?></h3>
+    </div>
+    <div class="col-6 col-md-3">
+    <h3><?php echo $data['p_name']; ?></h3>
+    </div>	
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+        <img src="uploads/<?php echo $data['p_file']; ?>" class="img-fluid float-start custom-max-width-1 my-3 me-4" alt="" />
+
+        </div>
+
+    </div> <?php
+}
+}
+function display_header_name(){
+    $categories = $_GET['id'];
+    include "connection.php";
+        $q="SELECT * FROM categories WHERE c_id = '$categories'";
+        $q_run =  mysqli_query($con, $q);
+        while($data = mysqli_fetch_array($q_run)){
+            ?>
+            <h1 class="font-weight-bold text-10"><?php echo $data['c_name'];?></h1>
+            <?php
+        }
+
+}
+// function use in services-detail page end
+function display_footer_link(){
+    include "connection.php";
+    $q="SELECT * FROM categories";
+    $q_run =  mysqli_query($con, $q);
+    while($data = mysqli_fetch_array($q_run)){
+    ?>  
+    <li class="mb-1">
+	<a href="services-detail.php?id=<?php echo $data['c_id']?>"><?php echo $data['c_name']; ?></a>
+	</li>
+    <?php
+    }  
+}
+
 ?>
+

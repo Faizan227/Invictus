@@ -41,19 +41,9 @@
 						<div class="col-md-4 col-lg-2 mb-4 mb-md-0">
 							<h4 class="font-weight-bold ls-0">Our Services</h4>
 							<ul class="list-unstyled mb-0">
-								<li class="mb-1">
-									<a href="demo-cleaning-services-services-detail.html">Building Services</a>
-								</li>
-								<li class="mb-1">
-									<a href="demo-cleaning-services-services-detail.html">Post Construction</a>
-								</li>
-								<li class="mb-0">
-									<a href="demo-cleaning-services-services-detail.html">Office Cleaning</a>
-								</li>
+								<?php display_footer_link(); ?>
 							</ul>
-							<a href="demo-cleaning-services-services.html" class="btn btn-link font-weight-bold text-decoration-none ps-0">VIEW MORE</a>
 						</div>
-						
 						<div class="col-md-4 col-lg-2">
 							<h4 class="font-weight-bold ls-0">Follow Us</h4>
 							<ul class="social-icons social-icons-clean social-icons-medium">

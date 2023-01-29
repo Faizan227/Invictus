@@ -14,7 +14,7 @@
 					<div class="container my-3">
 						<div class="row">
 							<div class="col-md-12 align-self-center p-static order-2 text-center">
-								<h1 class="font-weight-bold text-10">Office Cleaning</h1>
+								<?php display_header_name();?>
 							</div>
 							<div class="col-md-12 align-self-center order-1">
 								<ul class="breadcrumb breadcrumb-light d-block text-center">
@@ -29,93 +29,21 @@
 				<section class="section border-0 pb-0 pb-lg-5 m-0">
 					<div class="container my-lg-4">
 						<div class="row">
-							<div class="col-lg-8 order-lg-2 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
-								<p class="custom-font-secondary text-4 mb-4">Get reliable & affordable cleaning services for your facility with a 100% satisfaction guaranteed! </p>
-								<div class="row">
-								<div class="col-6 col-md-3">
-								<h3>IN22101</h3>
-								</div>
-								<div class="col-6 col-md-3">
-								<h3>Premium PKD Schleifteller</h3>
-								</div>	
-								</div>
-								<div class="row">
-									<div class="col-md-3">
-									<img src="img/invictus/home-bg-1.png" class="img-fluid float-start custom-max-width-1 my-3 me-4" alt="" />
-
-									</div>
-
-								</div>
-								
-								
-								<p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ultricies nunc, eu interdum enim convallis pretium. Quisque eu neque augue. Aliquam egestas. </p>
-								<p>Praesent mauris eros, tincidunt id enim sodales, rhoncus malesuada ligula. Vivamus quis purus nec sapien pellentesque imperdiet. Nullam porttitor augue mi, sit amet luctus est tincidunt sed. Donec tempus bibendum ex. </p>
-								<img src="img/demos/cleaning-services/portfolio/portfolio-2.jpg" class="img-fluid float-end custom-max-width-1 my-3 ms-4" alt="" />
-								<p class="pt-3 mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ultricies nunc, eu interdum enim convallis pretium. </p>
-								<ul class="list list-icons list-icons-style-2 list-icons-lg custom-list-icons-icon-size pb-1 mb-0">
-									<li class="font-weight-semibold text-color-dark mb-3"><i class="fas fa-check text-color-dark border-color-grey-1 top-7"></i> Pellentesque ultricies nibh</li>
-									<li class="font-weight-semibold text-color-dark mb-3"><i class="fas fa-check text-color-dark border-color-grey-1 top-7"></i> Ultricies nibh pellen</li>
-									<li class="font-weight-semibold text-color-dark mb-3"><i class="fas fa-check text-color-dark border-color-grey-1 top-7"></i> Ultricies nibh pellen</li>
-									<li class="font-weight-semibold text-color-dark mb-3"><i class="fas fa-check text-color-dark border-color-grey-1 top-7"></i> Pellentesque ultricies nibh</li>
-								</ul>
-								<p class="pt-3 mt-xl-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ultricies nunc, eu interdum enim convallis pretium. Quisque eu neque augue. Aliquam egestas nunc at efficitur faucibus. Praesent mauris eros, tincidunt id enim sodales, rhoncus malesuada ligula. Vivamus quis purus nec sapien pellentesque imperdiet. Nullam porttitor augue mi, sit amet luctus est tincidunt. </p>
+							<div class="col-lg-9 order-lg-2 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
+							<p class="custom-font-secondary text-4 mb-4">Get reliable & affordable cleaning services for your facility with a 100% satisfaction guaranteed!</p>	
+							<?php display_product_cat_wise(); ?>
+							
 							</div>
-							<div class="col-lg-4 order-lg-1">
+							<div class="col-lg-3 order-lg-1">
 								<div class="card custom-border-radius-1 box-shadow-1 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
 									<div class="card-body py-5">
 										<h2 class="text-color-secondary font-weight-bold text-6 line-height-1 pb-2 mb-4">All Services</h2>
 										<ul class="list list-unstyled custom-nav-list-effect-1 mb-0">
-											<li class="active pb-1 mb-3"><a href="services-detail.php" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold custom-font-size-3">Office Cleaning</a></li>
-											<li class="pb-1 mb-3"><a href="services-detail.php?cat_id=<?php echo $_GET['cat_id']; ?>" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold custom-font-size-3">Post Construction</a></li>
-											<li class="pb-1 mb-3"><a href="services.php?cat_id=<?php echo $_GET['cat_id']; ?>" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold custom-font-size-3">Office Cleaning</a></li>
-											<li class="mb-0"><a href="services.php?cat_id=<?php echo $_GET['cat_id']; ?>" class="text-decoration-none text-color-dark text-color-hover-primary font-weight-bold custom-font-size-3">Residential Cleaning</a></li>
+											<?php display_cat_link(); ?>
 										</ul>
 									</div>
 								</div>
-								<div class="card custom-border-radius-1 box-shadow-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
-									<div class="card-body py-5">
-										<h2 class="text-color-secondary font-weight-bold text-6 line-height-1 pb-1 mb-2">Request a Callback</h2>
-										<p class="custom-font-secondary text-4 pb-1 mb-4">Enter your details in the form and we will call you back.</p>
-										<form class="contact-form custom-form-style-1" action="php/contact-form.php" method="POST">
-											<div class="contact-form-success alert alert-success d-none mt-4">
-												<strong>Success!</strong> Your request has been sent to us.
-											</div>
-
-											<div class="contact-form-error alert alert-danger d-none mt-4">
-												<strong>Error!</strong> There was an error sending your request.
-												<span class="mail-error-message text-1 d-block"></span>
-											</div>
-
-											<div class="row">
-												<div class="form-group col pb-1 mb-3">
-													<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" placeholder="Your Name" required>
-												</div>
-											</div>
-											<div class="row">
-												<div class="form-group col pb-1 mb-3">
-													<input type="text" value="" data-msg-required="Please enter your phone number." maxlength="100" class="form-control" name="phone" placeholder="Your Phone Number" required>
-												</div>
-											</div>
-											<div class="row">
-												<div class="form-group col pb-1 mb-3">
-													<div class="custom-select-1">
-														<select data-msg-required="Please select a service." class="form-control" name="service" required>
-															<option value="" selected>Select Service</option>
-															<option value="Build Services">Building Services</option>
-															<option value="Post Construction">Post Construction</option>
-															<option value="Office Cleaning">Office Cleaning</option>
-														</select>
-													</div>
-												</div>
-											</div>
-											<div class="row">
-												<div class="form-group col">
-													<button type="submit" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3" data-loading-text="Loading...">CALL ME BACK</button>
-												</div>
-											</div>
-										</form>
-									</div>
-								</div>
+								
 							</div>
 						</div>
 					</div>

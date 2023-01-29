@@ -2,6 +2,20 @@
 if(!isset($_SESSION)){
     session_start();
 }
+function dropdown_menu(){
+	include "connection.php";
+    $q="SELECT * FROM categories";
+    $q_run =  mysqli_query($con, $q);
+    while($data = mysqli_fetch_array($q_run)){
+    ?>  
+       <li>
+		<a href="services-detail.php?id=<?php echo $data['c_id']?>" class="dropdown-item"><?php echo $data['c_name']; ?></a>
+		</li>
+    <?php
+    }  
+}
+
+
 ?>
 <?php include "includes/function.php"; ?>
 <head>
@@ -106,17 +120,10 @@ if(!isset($_SESSION)){
 														<a class="nav-link dropdown-toggle" href="services-detail.php">
 														 Products
 														</a>
-														<!-- <ul class="dropdown-menu">
-															<li>
-																<a href="demo-cleaning-services-services-detail.html" class="dropdown-item">Diamond Cutting Discs</a>
-															</li>
-															<li>
-																<a href="#" class="dropdown-item">Diamond Drill Bits</a>
-															</li>
-															<li>
-																<a href="#" class="dropdown-item">Grinding Technology</a>
-															</li>
-														</ul> -->
+														<ul class="dropdown-menu">
+															<?php dropdown_menu(); ?>
+															
+														</ul>
 													</li>
 													<li><a href="contact.php" class="nav-link">Contact</a></li>
 												</ul>
