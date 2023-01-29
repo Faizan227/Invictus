@@ -37,6 +37,8 @@
                         <li><a class="dropdown-item" href="view-users.php">Users</a></li>
                         <li><a class="dropdown-item" href="view-query.php">Queries</a></li>
                         <li><a class="dropdown-item" href="view-orders.php">Orders</a></li>
+                        <li><a class="dropdown-item" href="view-testimonial.php">Testimonial</a></li>
+                        <li><a class="dropdown-item" href="view-team-member.php">Team Meamber</a></li>
 
                     </ul>
                 </li>

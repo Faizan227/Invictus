@@ -227,6 +227,39 @@ function create_team_member(){
         }//else
     }//isset
 }
+function display_team_member(){
+    include "connection.php";
+    $q="SELECT * FROM team_member";
+    $q_run =  mysqli_query($con, $q);
+    $sr=1;
+    while($data = mysqli_fetch_array($q_run)){
+        ?>
+        <tr>
+            <th scope="row"><?php echo $sr; $sr++; ?> </th>
+            <td ><img src="../uploads/<?php echo $data['m_image']; ?>" title="<?php echo $data['m_name']; ?>" alt="<?php echo $data['m_name']; ?>" style="max-width: 150px;"> </td>
+            <td ><?php echo $data['m_name']; ?> </td>
+            <td ><?php echo $data['m_post']; ?> </td>
+            <td><a href="?del_member=<?php echo $data['m_id']; ?>" class="btn btn-danger">Delete Member</a></td>
+            <!-- <td><a href="post.php?edit_post=<?php //echo $data['p_id']; ?>" class="btn btn-primary">Edit</a></td> -->
+        </tr>
+        <?php
+    } 
+}
+function del_team_member(){
+    if(isset($_REQUEST['del_member'])){
+        $id=$_REQUEST['del_member'];
+        include "connection.php";
+        $q="DELETE from team_member WHERE m_id=".$id;
+        $q_run =  mysqli_query($con, $q);
+    if($q_run){
+        ?>
+        <script>
+            setTimeout(function(){window.location="view-team-member.php";},1000);
+        </script>
+        <?php
+                }
+    }
+}
 function create_testimonial(){
     if(isset($_REQUEST['create_testimonial'])){
         $name=$_REQUEST['cl_name'];
@@ -255,6 +288,40 @@ function create_testimonial(){
             <?php
         }//else
     }//isset
+}
+function display_testimonial(){
+    include "connection.php";
+    $q="SELECT * FROM testimonial";
+    $q_run =  mysqli_query($con, $q);
+    $sr=1;
+    while($data = mysqli_fetch_array($q_run)){
+        ?>
+        <tr>
+            <th scope="row"><?php echo $sr; $sr++; ?> </th>
+            <td colspan="4"><?php echo $data['cl_name']; ?> </td>
+            <td colspan="4"><?php echo $data['cl_city']; ?> </td>
+            <td><?php echo $data['cl_review'] ; ?></td>
+            
+            <td><a href="?del_testi=<?php echo $data['cl_id']; ?>" class="btn btn-danger">Delete Testimonial</a></td>
+            <!-- <td><a href="post.php?edit_post=<?php //echo $data['p_id']; ?>" class="btn btn-primary">Edit</a></td> -->
+        </tr>
+        <?php
+    }
+}
+function del_testimonial(){
+    if(isset($_REQUEST['del_testi'])){
+        $id=$_REQUEST['del_testi'];
+        include "connection.php";
+        $q="DELETE from testimonial WHERE cl_id=".$id;
+        $q_run =  mysqli_query($con, $q);
+    if($q_run){
+        ?>
+        <script>
+            setTimeout(function(){window.location="view-testimonial.php";},1000);
+        </script>
+        <?php
+                }
+    }
 }
 function del_cat(){
     if(isset($_REQUEST['del_cat'])){
@@ -356,9 +423,9 @@ function edit_cat(){
                     $title=$_REQUEST['cat_title'];
                     $details=$_REQUEST['cat_details'];
                     $oldimage=$_REQUEST['old_file'];
-
-                    $file_name = cat_update_file_uploading($file);
-                     
+                    $file = $_FILES['new_file']['name'];
+                   
+                    
                     if(empty($_REQUEST['cat_title'])||empty($_REQUEST['cat_details']))
 		            {
                         ?>
@@ -369,7 +436,14 @@ function edit_cat(){
 
                     }
                     else
-                        {    
+                        { 
+                            if($file != '')
+                            {
+                               $file_name = cat_update_file_uploading($file);
+                            }else{
+                               $file_name = $oldimage;
+                            }    
+                            
                     
                     
                     $q="UPDATE categories SET c_name='$title', c_details = '$details', c_file='$file_name' WHERE c_id='$id'";
@@ -405,7 +479,7 @@ function cat_update_file_uploading($file_name){
 
     $temp = explode(".", $file_name);
     $newfilename = round(microtime(true)) . '.' . end($temp);
-    move_uploaded_file($_FILES["c_file"]["tmp_name"], $folder . $newfilename);
+    move_uploaded_file($_FILES["new_file"]["tmp_name"], $folder . $newfilename);
     return $newfilename;
 }
 
@@ -430,24 +504,24 @@ function edit_post(){
                         <!-------------form ------------->
                         <form class="row g-3" method="post" enctype="multipart/form-data">
                         <div class="col-md-3">
-                                <label for="price" class="form-label">Code</label>
+                                <label for="price" class="form-label">Code *</label>
                                 <input type="text" name="p_code" class="form-control" value="<?php echo $data['p_code']; ?>" id="code">
                             </div>    
                         <div class="col-md-6">
-                                <label for="title" class="form-label">Title</label>
+                                <label for="title" class="form-label">Title *</label>
                                 <input type="text" name="p_title" value="<?php echo $data['p_name']; ?>" class="form-control" id="title">
                             </div>
                            
                             <div class="col-md-6">
-                                <label for="price" class="form-label">Characteristics</label>
+                                <label for="price" class="form-label">Characteristics *</label>
                                 <textarea  class="form-control" id="details" name="p_details" rows="5"><?php echo $data['p_details']; ?></textarea>
                             </div>
                             <div class="col-md-6">
-                                <label for="price" class="form-label">Scope</label>
+                                <label for="price" class="form-label">Scope *</label>
                                 <textarea  class="form-control" id="scope" name="p_scope"  rows="5"><?php echo $data['p_scope']; ?></textarea>
                             </div>
                             <div class="col-md-6">
-                                <label for="price" class="form-label">Dimension</label>
+                                <label for="price" class="form-label">Dimension *</label>
                                 <textarea  class="form-control" id="dimension" name="p_dimension"  rows="5"><?php echo $data['p_dimension']; ?></textarea>
                             </div>
                             <div class="col-md-3">
@@ -457,11 +531,12 @@ function edit_post(){
                             </div>
                             <div class="col-md-3">
                                 <label for="file" class="form-label">Select Image</label>
-                                <input type="file" name="p_file" value="" class="form-control"  id="file">
+                                <input type="file" name="new_p_file" value="" class="form-control"  id="file">
+                                <input type="hidden" name="old_file" value="<?php echo $data['p_file']; ?>" class="form-control"  id="file">
                             </div>
 
                             <div class="col-md-12">
-                                <label for="inputState" class="form-label">Category</label>
+                                <label for="inputState" class="form-label">Category *</label>
                                 <select id="inputState" class="form-select" name="p_cat">
                                     <option value="0" selected>Choose...</option>
                                     <?php display_cat_single(); ?>
@@ -486,9 +561,25 @@ function edit_post(){
                     $scope=$_REQUEST['p_scope'];
                     $dimension=$_REQUEST['p_dimension'];
                     $cat=$_REQUEST['p_cat'];
+                    $oldfile=$_REQUEST['old_file'];
                     //file uploading
-                   $file=$_FILES['p_file']['name'];
-                  $file_name = update_file_uploading($file);
+                   $file=$_FILES['new_p_file']['name'];
+                   if(empty($_REQUEST['p_title'])||empty($_REQUEST['p_details'])||empty($_REQUEST['p_scope'])||empty($_REQUEST['p_cat']))
+                   {
+                       ?>
+                       <div class="alert alert-danger">
+                           All Field Required
+                       </div>
+                       <?php
+
+                   }
+                   else{
+                    if($file != '')
+                    {
+                       $file_name = pro_update_file_uploading($file);
+                    }else{
+                       $file_name = $oldfile;
+                    }   
                     include "connection.php";
                     $q="UPDATE products SET p_code='$code', p_name='$title', p_category='$cat', p_details='$details', p_scope='$scope' , p_dimension='$dimension' ,p_file='$file_name' WHERE p_id=".$id;
                     $q_run =  mysqli_query($con, $q);
@@ -510,13 +601,21 @@ function edit_post(){
                         <?php
                     }//else
                 }
-                
+            }
 
                 ?>
             </div>
         </div>
         <?php
     }
+}
+function pro_update_file_uploading($file_name){
+    $folder="../uploads/";
+
+    $temp = explode(".", $file_name);
+    $newfilename = round(microtime(true)) . '.' . end($temp);
+    move_uploaded_file($_FILES["new_p_file"]["tmp_name"], $folder . $newfilename);
+    return $newfilename;
 }
 function update_file_uploading($file_name){
     $folder="../uploads/";

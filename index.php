@@ -14,7 +14,7 @@
 					<div class="owl-stage">
 							<!-- slide-1 -->
 						 <div class="owl-item position-relative overflow-hidden">
-							<section class="section section-with-shape-divider section-parallax bg-tertiary border-0 m-0 " data-plugin-parallax data-plugin-options="{'speed': 1.5, 'parallaxHeight': '110%', 'fadeIn': true}" data-image-src="img/invictus/slide-bg-1.png">
+							<section class="section section-with-shape-divider section-parallax bg-tertiary border-0 m-0 " data-plugin-parallax data-plugin-options="{'speed': 1.5, 'parallaxHeight': '110%', 'fadeIn': true}" data-image-src="Images/DSC03051.jpg">
 					           <div class="shape-divider shape-divider-bottom" style="height: 576px;">
 						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 576" preserveAspectRatio="xMinYMin">
 							<path class="custom-svg-fill-color-tertiary" d="M-12,66c13.35,40.03,28.35,72.62,41,97c12.78,24.63,30.56,58.44,62,97c19.57,24,36.66,40.31,49,52
@@ -61,9 +61,9 @@
 						</div>
 						<div class="row justify-content-center justify-content-lg-start pb-5 mb-5">
 							<div class="col-md-10 col-lg-6 text-center text-lg-end pe-lg-4 pb-5 mb-5">
-								<h1 class="text-color-light font-weight-medium line-height-4 text-10 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">High Quality <span class="font-weight-extra-bold custom-highlight-1 ws-nowrap p-1 customHighlightAnim customHighlightAnimDelay">Cleaning Services</span> for all type of facilities</h1>
+								<h1 class="text-color-dark font-weight-medium line-height-4 text-10 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">High Quality <span class="font-weight-extra-bold custom-highlight-1 ws-nowrap p-1 customHighlightAnim customHighlightAnimDelay">Cleaning Services</span> for all type of facilities</h1>
 								<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
-									<p class="custom-font-secondary font-weight-light custom-font-size-1 text-color-light opacity-6 mb-4">Our Staff is trained to clean everything you need</p>
+									<p class="custom-font-secondary font-weight-bold custom-font-size-2 text-color-dark opacity-6 mb-4">Our Staff is trained to clean everything you need</p>
 								</div>
 								<a href="#whoweare" data-hash data-hash-offset="0" data-hash-offset-lg="150" class="btn btn-secondary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">LEARN MORE</a>
 								<div class="spacer pt-5 my-5"></div>
