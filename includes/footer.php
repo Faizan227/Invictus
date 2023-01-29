@@ -1,6 +1,5 @@
 
-    <body>
-        <div class="body">
+    
 		<footer id="footer" class="footer bg-color-secondary border-0 mt-0">
 				<div class="container container-xl-custom pt-4 pb-3">
 					<div class="row py-5">
@@ -89,5 +88,5 @@
 			</footer>
 			<a href="https://wa.me/491606767001" class="" target="_blank" ><img src="img/invictus/whatsapp-logo.png" alt="WhatsApp" class="" style="width:100px;height:100px;border:0;position:fixed; z-index: 1;bottom:70px;right: 10px;"></a>
 
-		   </div>
-		</body>
+		   
+		
