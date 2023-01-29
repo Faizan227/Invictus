@@ -28,6 +28,8 @@
                         <li><a class="dropdown-item" href="categories.php">Categories</a></li>
                         <li><a class="dropdown-item" href="post.php">Products</a></li>
                         <li><a class="dropdown-item" href="user.php">User</a></li>
+                        <li><a class="dropdown-item" href="team-member.php">Team Member</a></li>
+                        <li><a class="dropdown-item" href="add-testimonial.php">Add Testimonial</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item disabled" href="#">View</a></li>
                         <li><a class="dropdown-item" href="view-categories.php">Categories</a></li>

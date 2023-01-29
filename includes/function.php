@@ -398,6 +398,57 @@ function cus_login(){
 
     }
 }
+// testimonial display
+function display_testimonial(){
+    include "connection.php";
+    $q="SELECT * FROM testimonial";
+    $q_run =  mysqli_query($con, $q);
+    while($data = mysqli_fetch_array($q_run)){
+    ?> 
+    <div>
+		<div class="testimonial testimonial-style-3 custom-testimonial-style-1">
+			<blockquote>
+				<p class="mb-0"><?php echo $data['cl_review']; ?></p>
+			</blockquote>
+			<div class="testimonial-author">
+				<!-- <div class="testimonial-author-thumbnail">
+					<img src="img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
+				</div> -->
+				<p><strong class="text-color-light font-weight-semibold text-4 mb-1"><?php echo $data['cl_name']; ?></strong><span class="text-color-light text-2"><?php echo $data['cl_city']; ?></span></p>
+			</div>
+		</div>
+	</div>
+    <?php
+}    
+}
+// display team member
+function display_team_member(){
+    include "connection.php";
+    $q="SELECT * FROM team_member";
+    $q_run =  mysqli_query($con, $q);
+    while($data = mysqli_fetch_array($q_run)){
+    ?>
+    <div>
+	<div class="card custom-card-style-1 custom-card-style-1-variation">
+		<div class="card-body text-center bg-color-light-scale-1 py-5">
+			<div class="custom-card-style-1-image-wrapper bg-primary rounded-circle d-inline-block mb-3">
+				
+					<img src="uploads/<?php echo $data['m_image']; ?>" class="img-fluid rounded-circle" alt="" />
+				
+			</div>
+			<h4 class="text-color-secondary font-weight-bold line-height-1 text-5 mb-0"><a href="#" class="text-color-secondary text-color-hover-primary text-decoration-none"><?php echo $data['m_name']; ?></a></h4>
+			<p class="text-2 pb-1 mb-2"><?php echo $data['m_post']; ?></p>
+			<ul class="social-icons custom-social-icons social-icons-big">
+				<li class="social-icons-instagram"><a href="http://www.instagram.com/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+				<li class="social-icons-twitter mx-2"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+				<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+			</ul>
+		</div>
+	</div>
+    </div>
+    <?php } 
+}
+
 // function use in services-detail page start
 function display_cat_link(){
     include "connection.php";

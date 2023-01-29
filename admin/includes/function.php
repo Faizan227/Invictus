@@ -198,7 +198,64 @@ function display_user(){
         <?php
     }
 }
-
+function create_team_member(){
+    if(isset($_REQUEST['create_member'])){
+        $name=$_REQUEST['m_name'];
+        $position=$_REQUEST['m_position'];
+        $file=$_FILES['p_file']['name'];
+        $file_name = file_uploading($file);
+        include "connection.php";
+        $q="INSERT INTO team_member (m_name, m_post, m_image ) VALUES 
+                            ('$name','$position','$file_name')";
+        $q_run =  mysqli_query($con, $q);
+        echo mysqli_error($con);
+        if($q_run){
+            ?>
+            <div class="alert alert-success">
+                Team Member Created
+            </div>
+            <script>
+                setTimeout(function(){window.location="team-member.php";},2000);
+            </script>
+            <?php
+        }else{
+            ?>
+            <div class="alert alert-danger">
+                Error please Try Again
+            </div>
+            <?php
+        }//else
+    }//isset
+}
+function create_testimonial(){
+    if(isset($_REQUEST['create_testimonial'])){
+        $name=$_REQUEST['cl_name'];
+        $address=$_REQUEST['cl_address'];
+        $review=$_REQUEST['cl_review'];
+        
+        include "connection.php";
+        $q="INSERT INTO testimonial (cl_name, cl_city, cl_review ) VALUES 
+                            ('$name','$address','$review')";
+        $q_run =  mysqli_query($con, $q);
+        echo mysqli_error($con);
+        if($q_run){
+            ?>
+            <div class="alert alert-success">
+                Testimonial Created
+            </div>
+            <script>
+                setTimeout(function(){window.location="add-testimonial.php";},2000);
+            </script>
+            <?php
+        }else{
+            ?>
+            <div class="alert alert-danger">
+                Error please Try Again
+            </div>
+            <?php
+        }//else
+    }//isset
+}
 function del_cat(){
     if(isset($_REQUEST['del_cat'])){
         $id=$_REQUEST['del_cat'];
@@ -280,7 +337,8 @@ function edit_cat(){
                             </div>
                             <div class="col-md-3">
                                 <label for="file" class="form-label">Select Image</label>
-                                <input type="file" name="c_file" value="<?php echo $data['c_name']; ?>" class="form-control"  id="file">
+                                <input type="file" name="new_file"  class="form-control"  id="file">
+                                <input type="hidden" name="old_file" value="<?php echo $data['c_file']; ?>" class="form-control"  id="file">
                             </div>
 
                             <div class="col-12">
@@ -297,6 +355,10 @@ function edit_cat(){
                 if(isset($_REQUEST['update_cat'])){
                     $title=$_REQUEST['cat_title'];
                     $details=$_REQUEST['cat_details'];
+                    $oldimage=$_REQUEST['old_file'];
+
+                    $file_name = cat_update_file_uploading($file);
+                     
                     if(empty($_REQUEST['cat_title'])||empty($_REQUEST['cat_details']))
 		            {
                         ?>
@@ -308,8 +370,7 @@ function edit_cat(){
                     }
                     else
                         {    
-                    $file=$_FILES['c_file']['name'];
-                    $file_name = cat_update_file_uploading($file);
+                    
                     
                     $q="UPDATE categories SET c_name='$title', c_details = '$details', c_file='$file_name' WHERE c_id='$id'";
                     $q_run =  mysqli_query($con, $q);
