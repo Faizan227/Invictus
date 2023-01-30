@@ -38,7 +38,26 @@
 									<a href="tel:+49201433 95 601" class="text-uppercase text-color-light text-color-hover-secondary text-decoration-none text-5 font-weight-bold pb-0">+49201433 95 601</a>
 								</div>
 							</div>
-							<a href="demo-cleaning-services-contact.html" class="btn btn-primary font-weight-bold px-5 py-3 mb-2">BOOK NOW</a>
+							<div class="feature-box feature-box-style-2 align-items-center mb-3">
+								<div class="feature-box-icon">
+									<img class="icon-animated" width="45" src="Images/invictus/phone.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
+								</div>
+								<div class="feature-box-info ps-2">
+									<p class="text-uppercase font-weight-semibold line-height-1 text-2 pb-0 mb-0">CALL US NOW</p>
+									<a href="tel: +4920185151751" class="text-uppercase text-color-light text-color-hover-secondary text-decoration-none text-5 font-weight-bold pb-0"> +4920185151751</a>
+								</div>
+							</div>
+							<div class="feature-box feature-box-style-2 align-items-center mb-3">
+								<div class="feature-box-icon">
+									<img class="icon-animated" width="45" src="Images/invictus/envelope-regular.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
+								</div>
+								<div class="feature-box-info ps-2">
+									<p class="text-uppercase font-weight-semibold line-height-1 text-2 pb-0 mb-0">Send Email Now</p>
+									<a href="mailto:info@invictus-diamantinstrumente.de" class="text-uppercase text-color-light text-color-hover-secondary text-decoration-none text-5 font-weight-bold pb-0">info@invictus-diamantinstrumente.de</a>
+								</div>
+							</div>
+							
+							<!-- <a href="demo-cleaning-services-contact.html" class="btn btn-primary font-weight-bold px-5 py-3 mb-2">BOOK NOW</a> -->
 						</div>
 						<div class="col-md-4 col-lg-2 mb-4 mb-md-0">
 							<h4 class="font-weight-bold ls-0">Our Services</h4>
@@ -72,7 +91,7 @@
 						<div class="row py-4 mt-2">
 							
 							<div class="col-lg-12 text-center text-lg-end">
-								<p class="text-3 mb-0">Porto Cleaning Services. © 2022. All Rights Reserved</p>
+								<p class="text-3 mb-0">INVICTUS - Diamant Werkzeuge © 2023. All Rights Reserved</p>
 							</div>
 						</div>
 					</div>

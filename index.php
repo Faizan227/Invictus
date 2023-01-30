@@ -8,7 +8,7 @@
 		<div class="body">
 			<?php include "includes/header.php";?>
 
-		<div role="main" class="main">
+		 <div role="main" class="main">
 			<div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center show-dots-hover show-dots-xs nav-style-1 nav-arrows-thin nav-inside nav-inside-plus nav-dark nav-lg nav-font-size-lg show-nav-hover mb-0" data-plugin-options="{'autoplay': true, 'autoplayTimeout': 7000}" style="height: 1000px;">
 				<div class="owl-stage-outer">
 					<div class="owl-stage">
@@ -61,7 +61,7 @@
 						</div>
 						<div class="row justify-content-center justify-content-lg-start pb-5 mb-5">
 							<div class="col-md-10 col-lg-6 text-center text-lg-end pe-lg-4 pb-5 mb-5">
-								<h1 class="text-color-light font-weight-medium line-height-4 text-10 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">High Quality <span class="font-weight-extra-bold custom-highlight-1  ws-nowrap p-1 customHighlightAnim customHighlightAnimDelay">Cleaning Services</span> for all type of facilities</h1>
+								<h1 class="text-color-light font-weight-medium line-height-4 text-10 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">High Quality <span class="font-weight-extra-bold custom-highlight-1  ws-nowrap p-1 customHighlightAnim customHighlightAnimDelay">Diamant Werkzeuge</span> for all type of facilities</h1>
 								<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 									<p class="custom-font-secondary font-weight-bold custom-font-size-2 text-color-light opacity-6 mb-4">Our Staff is trained to clean everything you need</p>
 								</div>
@@ -123,7 +123,7 @@
 						</div>
 						<div class="row justify-content-center justify-content-lg-start pb-5 mb-5">
 							<div class="col-md-10 col-lg-6 text-center text-lg-end pe-lg-4 pb-5 mb-5">
-								<h1 class="text-color-light font-weight-medium line-height-4 text-10 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">High Quality <span class="font-weight-extra-bold custom-highlight-1 ws-nowrap p-1 customHighlightAnim customHighlightAnimDelay">Cleaning Services</span> for all type of facilities</h1>
+								<h1 class="text-color-light font-weight-medium line-height-4 text-10 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">High Quality <span class="font-weight-extra-bold custom-highlight-1 ws-nowrap p-1 customHighlightAnim customHighlightAnimDelay">Diamant Werkzeuge</span> for all type of facilities</h1>
 								<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 									<p class="custom-font-secondary font-weight-light custom-font-size-1 text-color-light opacity-6 mb-4">Our Staff is trained to clean everything you need</p>
 								</div>
@@ -244,8 +244,8 @@
 									<span class="text-1 d-block">Diamant Werkzeuge Essen</span>
 								</h3>
 								<p class="custom-font-secondary text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Get reliable & affordable diamond cutting tools for your facility with a 100% satisfaction guaranteed!</p>
-								<p class="pb-1 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600"> INVICTUS diamond tools Essen is your experienced partner for diamond tools  throughout Europe. When it comes to  diamond cutting discs , diamond drill bits ,  grinding technology and diamond tools , our  selection is almost limitless . A selection of our extensive range can be found on our website. Talk to us if you are looking for a specific item and trust in our many years of   professional experience.  Our extensive supplier network and our flexibility . We offer youDiamond tools of the best quality at fair prices , binding advice ,  individual ideas and solutions for your day-to-day business and your individual requirements . From Essen we can also come to you in Dortmund , Bochum , Münster , Recklinghausen , Gelsenkirchen , Gladbeck , Bottrop , Duisburg , Moers , Krefeld , Düsseldorf , Mönchengladbach ,Neuss , Dormagen , Cologne , Leverkusen , Wuppertal , Solingen , Lüdenscheid or Hagen , in the Bergisches Land , in the Sauerland , in the Münsterland or on the Lower Rhine . We are where you need us - from North Rhine-Westphalia to the whole of Europe.</p>
-								<a href="demo-cleaning-services-about.html" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1800">VIEW MORE</a>
+								<p class="pb-1 mb-3 appear-animation text-justify" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600">  INVICTUS Diamantwerkzeuge Essen ist Ihr erfahrener Partner für Diamantwerkzeuge in ganz Europa. Rund um Diamanttrennscheiben, Diamantbohrkronen, Schleiftechnik und Diamantwerkzeuge ist unsere Auswahl geradezu grenzenlos. Eine Auswahl unseres umfangreichen Angebotes finden Sie bereits auf unserer Seite. Sprechen Sie uns an, wenn Sie einen bestimmten Artikel suchen und vertrauen Sie auf langjährige  Berufserfahrung. Unser umfangreiches Lieferanten-Netzwerk und unsere Flexibilität. Wir bieten Ihnen Diamantwerkzeuge in bester Qualität zu fairen Preisen, eine verbindliche Beratung, individuelle Ideen und Lösungen für Ihr Tagesgeschäft sowie Ihre individuellen Anforderungen. Von Essen aus kommen wir auch zu Ihnen nach Dortmund, Bochum, Münster, Recklinghausen, Gelsenkirchen, Gladbeck, Bottrop, Duisburg, Moers, Krefeld, Düsseldorf, Mönchengladbach, Neuss, Dormagen, Köln, Leverkusen, Wuppertal, Solingen, Lüdenscheid oder Hagen, ins Bergische Land, ins Sauerland, ins Münsterland oder an den Niederrhein. Wir sind da, wo Sie uns brauchen - von NRW bis ganz Europa.</p>
+								<a href="about.php" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1800">VIEW MORE</a>
 							</div>
 							<div class="col-sm-10 col-lg-6 offset-sm-1 ps-sm-5 ps-lg-0">
 								<div class="position-relative">
@@ -317,7 +317,7 @@
 				</section>
 	   <!-- main-services end -->	
 
-				<section class="section section-with-shape-divider section-height-3 overlay overlay-show overlay-color-tertiary border-0 m-0" style="background-image: url(img/demos/cleaning-services/backgrounds/background-2.jpg); background-size: cover; background-position: center;">
+				<section class="section section-with-shape-divider section-height-3 overlay overlay-show overlay-color-tertiary border-0 m-0" style="background-image: url(); background-size: cover; background-position: center;">
 					<div class="shape-divider" style="height: 116px;">
 						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 116" preserveAspectRatio="xMinYMin">
 							<path class="custom-svg-fill-color-tertiary-darken" d="M0,24c2.86,0.42,7.41,1.1,13,2c6.13,0.98,10.67,1.77,12,2c11.67,2.01,42.24,7.05,68,11
@@ -347,7 +347,7 @@
 							</div>
 							<div class="col-xl-3 text-center text-xl-end">
 								<div class="position-relative">
-									<a href="demo-cleaning-services-contact.html" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="550">BOOK NOW IN 60 SECONDS</a>
+									<a href="#booknow" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="550">BOOK NOW IN 60 SECONDS</a>
 								</div>
 							</div>
 						</div>
