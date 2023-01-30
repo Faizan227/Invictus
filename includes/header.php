@@ -117,7 +117,7 @@ function dropdown_menu(){
 													<li><a href="index.php" class="nav-link active">Home</a></li>
 													<li><a href="about.php" class="nav-link">About</a></li>
 													<li class="dropdown">
-														<a class="nav-link dropdown-toggle" href="services-detail.php">
+														<a class="nav-link dropdown-toggle" href="">
 														 Products
 														</a>
 														<ul class="dropdown-menu">
