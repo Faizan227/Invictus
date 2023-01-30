@@ -468,55 +468,59 @@ include "connection.php";
     $q_run =  mysqli_query($con, $q);
     while($data = mysqli_fetch_array($q_run)){
     ?>
-    <table class="p-4 mb-3 table border-bottom bg-light">
+    <table class="p-4 mb-3 table table-hover border-bottom bg-light">
       <tbody>
-      <tr >
-      <td><img src="uploads/<?php echo $data['p_file']; ?>" class="img-fluid float-start custom-max-width-1 w-50 my-3 me-4" alt="" /></td>
+        
+      <tr scope="col">
+      <td><img src="uploads/<?php echo $data['p_file']; ?>" class="img-fluid float-start custom-max-width-1 w-75 my-3 me-4" alt="" /></td>
       <td colspan="" ><h3 class="mt-5 text-color-primary"><?php echo $data['p_code']; ?>
       <h3><?php echo $data['p_name']; ?></h3>
       </td>
-      <td> </td>
+      <td >      
+         <div class="d-flex align-items-start mt-5 me-4">
+           <ul class="social-icons social-icons-medium social-icons-clean-with-border social-icons-clean-with-border-border-grey social-icons-clean-with-border-icon-dark me-3 mb-0">
+           <!-- Facebook -->
+           <li class="social-icons-whatsapp pb-2">
+           <a href="https://wa.me/491606767001?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body=I Saw <?php echo $data['p_name']; ?> on your website.I want to get price" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Whatsapp">
+           <i class="fab fa-whatsapp"></i>
+           </a>
+           </li>
+           <!-- I%20saw%20this%20and%20thought%20of%20you!%20-->
+           <!-- Email -->
+           <li class="social-icons-email">
+           <a href="mailto:Husnainmushtaq325@gmail.com?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body=I Saw <?php echo $data['p_name']; ?> on your website.I want to get price" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
+           <i class="far fa-envelope"></i>
+           </a>
+           </li>
+           </ul>
+											
+         </div> 
+        </td>
       </tr>
-      <tr >
-      <td class="text-bold ps-3">characteristics</td>
-      <td><p class="text-justify pe-5"><?php echo $data['p_details']; ?></p></td>
+      <tr scope="col">
+      <td class="text-bold ps-3">characteristics:</td>
+      <td colspan="2"><p class="text-justify pe-5"><?php echo $data['p_details']; ?></p></td>
       </tr>
-      <tr>
+      <tr scope="col">
       <td class="text-bold ps-3">Scope of application:</td>
-      <td><p class="text-justify pe-5"><?php echo $data['p_scope']; ?></p></td>
+      <td colspan="2"><p class="text-justify pe-5"><?php echo $data['p_scope']; ?></p></td>
       </tr>
+      
       <tr>
-      <tr>
-       <td class="text-bold ps-3">Machine</td>
-       <td class="text-justify pe-5">angle grinder</td>
+       <td class="text-bold ps-3">Machine:</td>
+       <td colspan="2" class="text-justify pe-5"><?php echo $data['machine']; ?></td>
        </tr>
-      <td class="text-bold ps-3">Dimension in mm</td>
-      <td><p class="text-justify pe-5"><?php echo $data['p_dimension']; ?></p></td>
+       <tr>
+      <td class="text-bold ps-3">Dimension in mm:</td>
+      <td colspan="2"><p class="text-justify pe-5"><?php echo $data['p_dimension']; ?></p></td>
       </tr>
        
        <tr>
-       <td colspan="" class="text-bold p-3"> "All tools meet the latest EN13236 standard!!!!
+       <td colspan="2" scope="col" class="row-col-12 text-bold p-3"> "All tools meet the latest EN13236 standard!!!!
 
        Price on request"</td>
        <td>
-       <div class="d-flex align-items-center">
-<ul class="social-icons social-icons-medium social-icons-clean-with-border social-icons-clean-with-border-border-grey social-icons-clean-with-border-icon-dark me-3 mb-0">
-<!-- Facebook -->
-<li class="social-icons-whatsapp">
-<a href="http://www.facebook.com/sharer.php?u=https://www.okler.net" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Whatsapp">
-<i class="fab fa-facebook-f"></i>
-</a>
-</li>
-												
-<!-- Email -->
-<li class="social-icons-email">
-<a href="mailto:?Subject=Share This Page&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://www.okler.net" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
-<i class="far fa-envelope"></i>
-</a>
-</li>
-</ul>
-											
-</div>
+
        </td>
        </tr>
        

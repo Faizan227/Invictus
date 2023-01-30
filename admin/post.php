@@ -41,15 +41,19 @@
                             
                             <div class="col-md-6">
                                 <label for="details" class="form-label">characteristics </label>
-                                <textarea  class="form-control" id="details" name="p_details" placeholder="Details etc.." rows="5"></textarea>
+                                <textarea  class="form-control" id="details" name="p_details" placeholder="Characteristics etc.." rows="5"></textarea>
                             </div>
                             <div class="col-md-6">
                                 <label for="price" class="form-label">Scope of application:</label>
-                                <textarea  class="form-control" id="scope" name="p_scope" placeholder="Details etc.." rows="5"></textarea>
+                                <textarea  class="form-control" id="scope" name="p_scope" placeholder="Scope ..." rows="5"></textarea>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-6">
+                                <label for="machine" class="form-label">Machine:</label>
+                                <textarea  class="form-control" id="machine" name="machine" placeholder="Machine ..." rows="5"></textarea>
+                            </div>
+                            <div class="col-md-6">
                                 <label for="price" class="form-label">Dimension in mm</label>
-                                <textarea  class="form-control" id="dimension" name="p_dimension" placeholder="Details etc.." rows="5"></textarea>
+                                <textarea  class="form-control" id="dimension" name="p_dimension" placeholder="Dimension ..." rows="5"></textarea>
                             </div>
                             <div class="col-md-12">
                                 <label for="file" class="form-label">Picture</label>

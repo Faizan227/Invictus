@@ -47,6 +47,7 @@ function create_post(){
         
         $details=$_REQUEST['p_details'];
         $scope=$_REQUEST['p_scope'];
+        $machine = $_REQUEST['machine'];
         $dimension=$_REQUEST['p_dimension'];
         $cat=$_REQUEST['p_cat'];
         //file uploading
@@ -64,8 +65,8 @@ function create_post(){
         //     $feature=0;
         // }
         include "connection.php";
-        $q="INSERT INTO products (p_code,p_name, p_category, p_details, p_dimension,p_scope,p_file) VALUES 
-                                                        ('$code','$title','$cat','$details','$dimension','$scope','$file_name')";
+        $q="INSERT INTO products (p_code,p_name, p_category, p_details, p_dimension,p_scope,machine,p_file) VALUES 
+                                                        ('$code','$title','$cat','$details','$dimension','$scope','$machine','$file_name')";
         $q_run =  mysqli_query($con, $q);
         echo mysqli_error($con);
         if($q_run){
@@ -133,12 +134,15 @@ function display_pro(){
     while($data = mysqli_fetch_array($q_run)){
         ?>
         <tr>
-            <th scope="row"><?php echo $sr; $sr++; ?> </th>
-            <td ><img src="../uploads/<?php echo $data['p_file']; ?>" title="<?php echo $data['p_name']; ?>" alt="<?php echo $data['p_name']; ?>" style="max-width: 150px;"> </td>
+            <!-- <th scope="row"><?php // echo $sr; $sr++; ?> </th> -->
             <td ><?php echo $data['p_code']; ?> </td>
+            <td ><img src="../uploads/<?php echo $data['p_file']; ?>" title="<?php echo $data['p_name']; ?>" alt="<?php echo $data['p_name']; ?>" style="max-width: 150px;"> </td>
+            
             <td ><?php echo $data['p_name']; ?> </td>
-            <td><?php echo $data['p_details'] ; ?>/-</td>
+            
+            <td><?php echo $data['p_details'] ; ?></td>
             <td><?php echo $data['p_scope'] ; ?></td>
+            <td ><?php echo $data['machine']; ?> </td>
             <td><?php echo substr( $data['p_dimension'] ,0,20 ); ?></td>
             <td><a href="?del_post=<?php echo $data['p_id']; ?>" class="btn btn-danger">Delete</a></td>
             <td><a href="post.php?edit_post=<?php echo $data['p_id']; ?>" class="btn btn-primary">Edit</a></td>
@@ -507,11 +511,20 @@ function edit_post(){
                                 <label for="price" class="form-label">Code *</label>
                                 <input type="text" name="p_code" class="form-control" value="<?php echo $data['p_code']; ?>" id="code">
                             </div>    
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                                 <label for="title" class="form-label">Title *</label>
                                 <input type="text" name="p_title" value="<?php echo $data['p_name']; ?>" class="form-control" id="title">
                             </div>
+                            <div class="col-md-4">
+                                <!-- <label for="price" class="form-label">Images</label> -->
+                                <img src="../uploads/<?php echo $data['p_file']; ?>" title="<?php echo $data['p_name']; ?>" alt="<?php echo $data['p_name']; ?>" style="max-width: 150px;"> 
+                                
                            
+                                <label for="file" class="form-label">Select other Image</label>
+                                <input type="file" name="new_p_file" value="" class="form-control"  id="file">
+                                <input type="hidden" name="old_file" value="<?php echo $data['p_file']; ?>" class="form-control"  id="file">
+                            </div>
+
                             <div class="col-md-6">
                                 <label for="price" class="form-label">Characteristics *</label>
                                 <textarea  class="form-control" id="details" name="p_details" rows="5"><?php echo $data['p_details']; ?></textarea>
@@ -521,20 +534,14 @@ function edit_post(){
                                 <textarea  class="form-control" id="scope" name="p_scope"  rows="5"><?php echo $data['p_scope']; ?></textarea>
                             </div>
                             <div class="col-md-6">
+                                <label for="machine" class="form-label">Machine *</label>
+                                <textarea  class="form-control" id="machine" name="machine"  rows="5"><?php echo $data['machine']; ?></textarea>
+                            </div>
+                            <div class="col-md-6">
                                 <label for="price" class="form-label">Dimension *</label>
                                 <textarea  class="form-control" id="dimension" name="p_dimension"  rows="5"><?php echo $data['p_dimension']; ?></textarea>
                             </div>
-                            <div class="col-md-3">
-                                <label for="price" class="form-label">Images</label>
-                                <img src="../uploads/<?php echo $data['p_file']; ?>" title="<?php echo $data['p_name']; ?>" alt="<?php echo $data['p_name']; ?>" style="max-width: 150px;"> 
-                                
-                            </div>
-                            <div class="col-md-3">
-                                <label for="file" class="form-label">Select Image</label>
-                                <input type="file" name="new_p_file" value="" class="form-control"  id="file">
-                                <input type="hidden" name="old_file" value="<?php echo $data['p_file']; ?>" class="form-control"  id="file">
-                            </div>
-
+                           
                             <div class="col-md-12">
                                 <label for="inputState" class="form-label">Category *</label>
                                 <select id="inputState" class="form-select" name="p_cat">
@@ -559,6 +566,7 @@ function edit_post(){
                     $title=$_REQUEST['p_title'];
                     $details=$_REQUEST['p_details'];
                     $scope=$_REQUEST['p_scope'];
+                    $machine=$_REQUEST['machine'];
                     $dimension=$_REQUEST['p_dimension'];
                     $cat=$_REQUEST['p_cat'];
                     $oldfile=$_REQUEST['old_file'];
@@ -581,7 +589,7 @@ function edit_post(){
                        $file_name = $oldfile;
                     }   
                     include "connection.php";
-                    $q="UPDATE products SET p_code='$code', p_name='$title', p_category='$cat', p_details='$details', p_scope='$scope' , p_dimension='$dimension' ,p_file='$file_name' WHERE p_id=".$id;
+                    $q="UPDATE products SET p_code='$code', p_name='$title', p_category='$cat', p_details='$details', p_scope='$scope' , machine='$machine' , p_dimension='$dimension' ,p_file='$file_name' WHERE p_id=".$id;
                     $q_run =  mysqli_query($con, $q);
                     echo mysqli_error($con);
                     if($q_run){

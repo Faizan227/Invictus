@@ -22,14 +22,16 @@
                 <table class="table">
                     <thead>
                     <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Image</th>
                         <th scope="col">code</th>
+                        <th scope="col">Image</th>
+                        
                         <th scope="col">Title</th>
+                        
                         <th scope="col">characteristics</th>
                         <th scope="col">Scope</th>
+                        <th scope="col">Machine</th>
                         <th scope="col">Dimension</th>
-                        <th colspan="2"></th>
+                        <th colspan="2">Action</th>
                     </tr>
                     </thead>
                     <tbody>
