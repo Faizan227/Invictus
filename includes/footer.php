@@ -13,13 +13,15 @@
 							<h4 class="font-weight-bold ls-0">Our Address</h4>
 							<ul class="list list-unstyled mb-0">
 								<li class="mb-1">
-									12345  Porto Blvd.
+								Vogelheimer Strasse 92,
+
+
 								</li>
 								<li class="mb-1">
-									Suite 1500
+								45329 food
 								</li>
 								<li class="mb-0">
-									Los Angeles, California 90000
+									Essen, Germany
 								</li>
 							</ul>
 							
@@ -29,11 +31,11 @@
 							<h4 class="font-weight-bold ls-0">Our Contacts</h4>
 							<div class="feature-box feature-box-style-2 align-items-center mb-3">
 								<div class="feature-box-icon">
-									<img class="icon-animated" width="45" src="img/demos/cleaning-services/icons/phone.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
+									<img class="icon-animated" width="45" src="Images/invictus/phone.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
 								</div>
 								<div class="feature-box-info ps-2">
 									<p class="text-uppercase font-weight-semibold line-height-1 text-2 pb-0 mb-0">CALL US NOW</p>
-									<a href="tel:+1234567890" class="text-uppercase text-color-light text-color-hover-secondary text-decoration-none text-5 font-weight-bold pb-0">800-123-4567</a>
+									<a href="tel:+49201433 95 601" class="text-uppercase text-color-light text-color-hover-secondary text-decoration-none text-5 font-weight-bold pb-0">+49201433 95 601</a>
 								</div>
 							</div>
 							<a href="demo-cleaning-services-contact.html" class="btn btn-primary font-weight-bold px-5 py-3 mb-2">BOOK NOW</a>

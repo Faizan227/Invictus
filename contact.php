@@ -63,12 +63,12 @@ if(isset($_REQUEST['send-message'])){
 									<div class="col-md-6">
 										<h2 class="font-weight-bold text-color-secondary text-6 text-lg-5 text-xl-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Get In Touch</h2>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
-											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Work Inquiries</h3>
-											<a href="tel:+1234567890" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4">(800) 123-4567</a>
+											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Owner S. Kirli</h3>
+											<a href="tel:+49201433 95 601" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4">+49201433 95 601</a>
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
-											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Careers & Press</h3>
-											<a href="tel:+1234567890" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4">(800) 123-4567</a>										
+											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Sales Manager</h3>
+											<a href="tel: +4920185151751" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4"> +4920185151751</a>										
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Assistance Hours</h3>
@@ -79,11 +79,11 @@ if(isset($_REQUEST['send-message'])){
 										<h2 class="font-weight-bold text-color-secondary text-6 text-lg-5 text-xl-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">Post Address and Mail</h2>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1300">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Address</h3>
-											<p>12345 Porto Blvd. <br>Suite 1500 <br>Los Angeles, California 90000</p>
+											<p>Vogelheimer Strasse 92, <br>45329 food <br>Essen, Germany</p>
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Email</h3>
-											<a href="mailto:mail@example.com" class="text-color-default text-color-hover-primary text-decoration-underline mb-4">mail@example.com</a>
+											<a href="mailto:info@invictus-diamantinstrumente.de" class="text-color-default text-color-hover-primary text-decoration-underline mb-4">info@invictus-diamantinstrumente.de</a>
 										</div>
 									</div>
 								</div>

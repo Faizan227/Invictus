@@ -488,7 +488,7 @@ include "connection.php";
            <!-- I%20saw%20this%20and%20thought%20of%20you!%20-->
            <!-- Email -->
            <li class="social-icons-email">
-           <a href="mailto:Husnainmushtaq325@gmail.com?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body=I Saw <?php echo $data['p_name']; ?> on your website.I want to get price" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
+           <a href="mailto:info@invictus-diamantinstrumente.de?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body=I Saw <?php  echo  $data['p_name'];  ?> on your website.I want to get price" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
            <i class="far fa-envelope"></i>
            </a>
            </li>

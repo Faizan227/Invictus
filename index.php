@@ -196,7 +196,7 @@
 									<span class="d-flex align-items-center justify-content-end justify-content-lg-end flex-column flex-lg-row font-weight-medium text-4 text-lg-3 text-xl-4">
 										SCHEDULE AN APPOINTMENT: 
 										<strong class="text-7 mt-2 mt-lg-0 ms-lg-3">
-											<a href="tel:+1234567890" class="text-color-secondary text-color-hover-primary text-decoration-none">800-123-4567</a>
+											<a href="tel:+49201433 95 601" class="text-color-secondary text-color-hover-primary text-decoration-none">+49201433 95 601</a>
 										</strong>
 									</span>
 								</li>
@@ -204,7 +204,7 @@
 									<span class="d-flex align-items-center justify-content-end justify-content-lg-end flex-column flex-lg-row font-weight-medium text-4 text-lg-3 text-xl-4">
 										SEND AN EMAIL: 
 										<strong class="text-3 ms-lg-3">
-											<a href="mailto:mail@domain.com" class="text-color-tertiary text-color-hover-primary text-decoration-underline">cleanservice@domain.com</a>
+											<a href="mailto:info@invictus-diamantinstrumente.de" class="text-color-tertiary text-color-hover-primary text-decoration-underline">info@invictus-diamantinstrumente.de</a>
 										</strong>
 									</span>
 								</li>
@@ -374,7 +374,7 @@
 									<div class="featured-box featured-box-primary featured-box-effect-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
 										<div class="box-content text-center">
 											<div class="custom-featured-icon-wrapper bg-secondary mb-4">
-												<img src="img/demos/cleaning-services/icons/handshake-regular.svg" class="img-fluid icon-featured" alt="" />
+												<img src="Images/invictus/icon-1.png" class="img-fluid icon-featured" alt="" />
 											</div>
 											<h3 class="text-transform-none font-weight-bold custom-font-size-1 mb-3">Book Online</h3>
 											<p class="px-3 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor.</p>
@@ -385,7 +385,7 @@
 									<div class="featured-box featured-box-primary featured-box-effect-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 										<div class="box-content text-center">
 											<div class="custom-featured-icon-wrapper bg-secondary mb-4">
-												<img src="img/demos/cleaning-services/icons/icon-2.png" class="img-fluid icon-featured" alt="" />
+												<img src="Images/invictus/icon-2.png" class="img-fluid icon-featured" alt="" />
 											</div>
 											<h3 class="text-transform-none font-weight-bold custom-font-size-1 mb-3">We Clean</h3>
 											<p class="px-3 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor.</p>
@@ -396,7 +396,7 @@
 									<div class="featured-box featured-box-primary featured-box-effect-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
 										<div class="box-content text-center">
 											<div class="custom-featured-icon-wrapper bg-secondary mb-4">
-												<img src="img/demos/cleaning-services/icons/icon-3.png" class="img-fluid icon-featured" alt="" />
+												<img src="Images/invictus/icon-3.png" class="img-fluid icon-featured" alt="" />
 											</div>
 											<h3 class="text-transform-none font-weight-bold custom-font-size-1 mb-3">You Relax</h3>
 											<p class="px-3 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor.</p>
