@@ -510,6 +510,16 @@ function display_footer_link(){
     <?php
     }  
 }
+function display_cat_name(){
+    include "connection.php";
+    $q="SELECT * FROM categories";
+    $q_run =  mysqli_query($con, $q);
+    while($data = mysqli_fetch_array($q_run)){
+    ?> 
+    <option value="<?php echo $data['c_id']; ?>"><?php echo $data['c_name']; ?></option>  <?php
+    }
+}
+
 
 ?>
 

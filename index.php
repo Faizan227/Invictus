@@ -68,81 +68,12 @@
 								<a href="#whoweare" data-hash data-hash-offset="0" data-hash-offset-lg="150" class="btn btn-secondary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">LEARN MORE</a>
 								<div class="spacer pt-5 my-5"></div>
 							</div>
-						</div>
+						 </div>
 					           </div>
 				            </section>
 
-				            <div id="booknow" class="container position-relative z-index-1" style="margin-top: -388px;">
-					           <div class="row align-items-end pb-4 mb-4 mb-lg-5">
-						<div class="col-lg-6 pe-lg-4 mb-5 mb-lg-0">
-							<div  class="card border-0 custom-border-radius-1 box-shadow-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
-								<div class="card-body p-5">
-									<h2 class="text-color-secondary font-weight-bold text-7 line-height-1 mb-1">Request a Callback</h2>
-									<p class="custom-font-secondary text-4 pb-1 mb-4">Enter your details in the form and we will call you back.</p>
-									<form class="contact-form custom-form-style-1" action="php/contact-form.php" method="POST">
-										<div class="contact-form-success alert alert-success d-none mt-4">
-											<strong>Success!</strong> Your request has been sent to us.
-										</div>
-
-										<div class="contact-form-error alert alert-danger d-none mt-4">
-											<strong>Error!</strong> There was an error sending your request.
-											<span class="mail-error-message text-1 d-block"></span>
-										</div>
-
-										<div class="row">
-											<div class="form-group col pb-1 mb-3">
-												<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" placeholder="Your Name" required>
-											</div>
-										</div>
-										<div class="row">
-											<div class="form-group col pb-1 mb-3">
-												<input type="text" value="" data-msg-required="Please enter your phone number." maxlength="100" class="form-control" name="phone" placeholder="Your Phone Number" required>
-											</div>
-										</div>
-										<div class="row">
-											<div class="form-group col pb-1 mb-3">
-												<div class="custom-select-1">
-													<select data-msg-required="Please select a service." class="form-control" name="service" required>
-														<option value="" selected>Select Service</option>
-														<option value="Build Services">Building Services</option>
-														<option value="Post Construction">Post Construction</option>
-														<option value="Office Cleaning">Office Cleaning</option>
-													</select>
-												</div>
-											</div>
-										</div>
-										<div class="row">
-											<div class="form-group col">
-												<button type="submit" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3" data-loading-text="Loading...">CALL ME BACK</button>
-											</div>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 pb-lg-5">
-							<ul class="list list-unstyled mb-0">
-								<li class="mb-4 mb-lg-2">
-									<span class="d-flex align-items-center justify-content-end justify-content-lg-end flex-column flex-lg-row font-weight-medium text-4 text-lg-3 text-xl-4">
-										SCHEDULE AN APPOINTMENT: 
-										<strong class="text-7 mt-2 mt-lg-0 ms-lg-3">
-											<a href="tel:+1234567890" class="text-color-secondary text-color-hover-primary text-decoration-none">800-123-4567</a>
-										</strong>
-									</span>
-								</li>
-								<li class="mb-0">
-									<span class="d-flex align-items-center justify-content-end justify-content-lg-end flex-column flex-lg-row font-weight-medium text-4 text-lg-3 text-xl-4">
-										SEND AN EMAIL: 
-										<strong class="text-3 ms-lg-3">
-											<a href="mailto:mail@domain.com" class="text-color-tertiary text-color-hover-primary text-decoration-underline">cleanservice@domain.com</a>
-										</strong>
-									</span>
-								</li>
-							</ul>
-						</div>
-					           </div>
-				            </div>
-				         </div>
+				        
+				        </div>
 						 <!-- slide-2 -->
 						 <div class="owl-item position-relative overflow-hidden">
 							<section class="section section-with-shape-divider section-parallax bg-tertiary border-0 m-0 overlay overlay-show overlay-color-secondary overlay-op-8" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'parallaxHeight': '110%', 'fadeIn': true}" data-image-src="Images/DSC03051.jpg">
@@ -202,55 +133,63 @@
 						</div>
 					           </div>
 				            </section>
-
-				            <div  class="container position-relative z-index-1" style="margin-top: -388px;">
+						 </div>
+				            
+				    </div>
+				</div>
+				<div class="owl-nav">
+					<button type="button" role="presentation" class="owl-prev"></button>
+					<button type="button" role="presentation" class="owl-next"></button>
+				</div>
+				
+				</div>
+		</div>
+			 <div id="booknow" class="container position-relative z-index-1" style="margin-top: -500px;">
 					           <div class="row align-items-end pb-4 mb-4 mb-lg-5">
-						<div class="col-lg-6 pe-lg-4 mb-5 mb-lg-0">
-							<div class="card border-0 custom-border-radius-1 box-shadow-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
-								<div id="booknow" class="card-body p-5">
+						     <div class="col-lg-6 pe-lg-4 mb-5 mb-lg-0">
+							  <div  class="card border-0 custom-border-radius-1 box-shadow-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
+								<div  class="card-body p-5">
 									<h2 class="text-color-secondary font-weight-bold text-7 line-height-1 mb-1">Request a Callback</h2>
 									<p class="custom-font-secondary text-4 pb-1 mb-4">Enter your details in the form and we will call you back.</p>
-									<form class="contact-form custom-form-style-1" action="php/contact-form.php" method="POST">
-										<div class="contact-form-success alert alert-success d-none mt-4">
+									<form class=" custom-form-style-2" action="" method="get">
+										<!-- <div class="contact-form-success alert alert-success d-none mt-4">
 											<strong>Success!</strong> Your request has been sent to us.
 										</div>
 
 										<div class="contact-form-error alert alert-danger d-none mt-4">
 											<strong>Error!</strong> There was an error sending your request.
 											<span class="mail-error-message text-1 d-block"></span>
-										</div>
+										</div> -->
 
 										<div class="row">
 											<div class="form-group col pb-1 mb-3">
-												<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" placeholder="Your Name" required>
+												<input type="text" value=""  maxlength="100" class="form-control" name="name" placeholder="Your Name" required>
 											</div>
 										</div>
 										<div class="row">
 											<div class="form-group col pb-1 mb-3">
-												<input type="text" value="" data-msg-required="Please enter your phone number." maxlength="100" class="form-control" name="phone" placeholder="Your Phone Number" required>
+												<input type="text" value=""  maxlength="100" class="form-control" name="phone" placeholder="Your Phone Number" required>
 											</div>
 										</div>
 										<div class="row">
 											<div class="form-group col pb-1 mb-3">
 												<div class="custom-select-1">
-													<select data-msg-required="Please select a service." class="form-control" name="service" required>
+													<select  class="form-control" name="service" required>
 														<option value="" selected>Select Service</option>
-														<option value="Build Services">Building Services</option>
-														<option value="Post Construction">Post Construction</option>
-														<option value="Office Cleaning">Office Cleaning</option>
+														<?php display_cat_name(); ?>
 													</select>
 												</div>
 											</div>
 										</div>
 										<div class="row">
 											<div class="form-group col">
-												<button type="submit" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3" data-loading-text="Loading...">CALL ME BACK</button>
+												<button type="submit" name="send_request" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3" data-loading-text="Loading...">CALL ME BACK</button>
 											</div>
 										</div>
 									</form>
 								</div>
-							</div>
-						</div>
+							  </div>
+						     </div>
 						<div class="col-lg-6 pb-lg-5">
 							<ul class="list list-unstyled mb-0">
 								<li class="mb-4 mb-lg-2">
@@ -272,16 +211,9 @@
 							</ul>
 						</div>
 					           </div>
-				            </div>
-				         </div>
-				    </div>
-				</div>
-				<div class="owl-nav">
-					<button type="button" role="presentation" class="owl-prev"></button>
-					<button type="button" role="presentation" class="owl-next"></button>
-				</div>
-				
 			</div>
+			 
+		
 
 				
 				

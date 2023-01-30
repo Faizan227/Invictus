@@ -121,21 +121,21 @@ if(isset($_REQUEST['send-message'])){
 
                                 <div class="row row-gutter-sm">
                                     <div class="form-group col-lg-6 mb-4">
-                                        <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required placeholder="Your Name">
+                                        <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required placeholder="Your Name *">
                                     </div>
 									<div class="form-group col-lg-6 mb-4">
-                                        <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required placeholder="Your E-mail">
+                                        <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required placeholder="Your E-mail *">
                                     </div>
                                 </div>
                                 <div class="row row-gutter-sm">
                                     
 									<div class="form-group col-lg-6 mb-4">
-                                        <input type="text" value="" data-msg-required="Please enter your phone number." maxlength="100" class="form-control" name="phone" id="phone"  placeholder="Phone Number">
+                                        <input type="text" value="" data-msg-required="Please enter your phone number." maxlength="100" class="form-control" name="phone" id="phone"  placeholder="Phone Number *">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-group col mb-4">
-                                        <textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message" required placeholder="Your Message"></textarea>
+                                        <textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message" required placeholder="Your Message *"></textarea>
                                     </div>
                                 </div>
                                 <div class="row">
