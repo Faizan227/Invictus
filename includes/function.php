@@ -498,27 +498,27 @@ include "connection.php";
         </td>
       </tr>
       <tr scope="col">
-      <td class="text-bold ps-3">characteristics:</td>
+      <td class="text-bold ps-3">Eigenschaften:</td>
       <td colspan="2"><p class="text-justify pe-5"><?php echo $data['p_details']; ?></p></td>
       </tr>
       <tr scope="col">
-      <td class="text-bold ps-3">Scope of application:</td>
+      <td class="text-bold ps-3">Geltungsbereich:</td>
       <td colspan="2"><p class="text-justify pe-5"><?php echo $data['p_scope']; ?></p></td>
       </tr>
       
       <tr>
-       <td class="text-bold ps-3">Machine:</td>
+       <td class="text-bold ps-3">Maschine:</td>
        <td colspan="2" class="text-justify pe-5"><?php echo $data['machine']; ?></td>
        </tr>
        <tr>
-      <td class="text-bold ps-3">Dimension in mm:</td>
+      <td class="text-bold ps-3">Abmessung in mm:</td>
       <td colspan="2"><p class="text-justify pe-5"><?php echo $data['p_dimension']; ?></p></td>
       </tr>
        
        <tr>
-       <td colspan="2" scope="col" class="row-col-12 text-bold p-3"> "All tools meet the latest EN13236 standard!!!!
+       <td colspan="2" scope="col" class="row-col-12 text-bold p-3"> "Alle Werkzeuge entsprechen der neusten Norm EN13236 !
 
-       Price on request"</td>
+       Preis auf Anfrage"</td>
        <td>
 
        </td>

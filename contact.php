@@ -43,12 +43,12 @@ if(isset($_REQUEST['send-message'])){
 					<div class="container my-3">
 						<div class="row">
 							<div class="col-md-12 align-self-center p-static order-2 text-center">
-								<h1 class="font-weight-bold text-10">Contact</h1>
+								<h1 class="font-weight-bold text-10">Kontakt</h1>
 							</div>
 							<div class="col-md-12 align-self-center order-1">
 								<ul class="breadcrumb breadcrumb-light d-block text-center">
-									<li><a href="index.php">Home</a></li>
-									<li class="active">Contact</li>
+									<li><a href="index.php">STARTSEITE</a></li>
+									<li class="active">Kontakt</li>
 								</ul>
 							</div>
 						</div>
@@ -61,24 +61,24 @@ if(isset($_REQUEST['send-message'])){
 							<div class="col-lg-7">
 								<div class="row py-5 my-5">
 									<div class="col-md-6">
-										<h2 class="font-weight-bold text-color-secondary text-6 text-lg-5 text-xl-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Get In Touch</h2>
+										<h2 class="font-weight-bold text-color-secondary text-6 text-lg-5 text-xl-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">In Kontakt kommen</h2>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Owner S. Kirli</h3>
 											<a href="tel:+49201433 95 601" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4">+49201433 95 601</a>
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
-											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Sales Manager</h3>
+											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Verkaufsleiter</h3>
 											<a href="tel: +4920185151751" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4"> +4920185151751</a>										
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
-											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Assistance Hours</h3>
+											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Assistenzzeiten</h3>
 											<p>Mon - Sat 9:00am - 8:00pm<br> Sunday - CLOSED</p>
 										</div>
 									</div>
 									<div class="col-md-6">
-										<h2 class="font-weight-bold text-color-secondary text-6 text-lg-5 text-xl-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">Post Address and Mail</h2>
+										<h2 class="font-weight-bold text-color-secondary text-6 text-lg-5 text-xl-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">Postanschrift und Post</h2>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1300">
-											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Address</h3>
+											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Die Anschrift</h3>
 											<p>Vogelheimer Strasse 92, <br>45329 food <br>Essen, Germany</p>
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500">
@@ -106,10 +106,10 @@ if(isset($_REQUEST['send-message'])){
 							<div class="d-flex align-items-center mb-2">
 								<span class="custom-line appear-animation" data-appear-animation="customLineAnimation" appear-animation-duration="1s"></span>
 								<div class="overflow-hidden ms-3">
-									<h2 class="text-color-primary font-weight-semibold line-height-3 text-4 mb-0 appear-animation" data-appear-animation="maskRight" data-appear-animation-delay="1000">GET IN TOUCH</h2>
+									<h2 class="text-color-primary font-weight-semibold line-height-3 text-4 mb-0 appear-animation" data-appear-animation="maskRight" data-appear-animation-delay="1000">IN KONTAKT KOMMEN</h2>
 								</div>
 							</div>
-							<h3 class="text-color-secondary font-weight-bold text-transform-none line-height-2 text-8 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">Send Us a Message</h3>
+							<h3 class="text-color-secondary font-weight-bold text-transform-none line-height-2 text-8 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">Schick uns eine Nachricht</h3>
 						</div>
 					</div>
 					<div class="row pb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">
@@ -121,26 +121,26 @@ if(isset($_REQUEST['send-message'])){
 
                                 <div class="row row-gutter-sm">
                                     <div class="form-group col-lg-6 mb-4">
-                                        <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required placeholder="Your Name *">
+                                        <input type="text" value="" data-msg-required="Bitte geben Sie Ihren Namen ein." maxlength="100" class="form-control" name="name" id="name" required placeholder="Dein Name *">
                                     </div>
 									<div class="form-group col-lg-6 mb-4">
-                                        <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required placeholder="Your E-mail *">
+                                        <input type="email" value="" data-msg-required="Geben Sie bitte Ihre Email-Adresse ein." data-msg-email="Bitte geben Sie eine gültige E-Mail-Adresse ein." maxlength="100" class="form-control" name="email" id="email" required placeholder="Deine E-Mail *">
                                     </div>
                                 </div>
                                 <div class="row row-gutter-sm">
                                     
 									<div class="form-group col-lg-6 mb-4">
-                                        <input type="text" value="" data-msg-required="Please enter your phone number." maxlength="100" class="form-control" name="phone" id="phone"  placeholder="Phone Number *">
+                                        <input type="text" value="" data-msg-required="Bitte gib deine Telefonnummer ein." maxlength="100" class="form-control" name="phone" id="phone"  placeholder="Telefonnummer *">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-group col mb-4">
-                                        <textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message" required placeholder="Your Message *"></textarea>
+                                        <textarea maxlength="5000" data-msg-required="Bitte gib deine Nachricht ein." rows="10" class="form-control" name="message" id="message" required placeholder="Ihre Nachricht *"></textarea>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-group col mb-0">
-                                        <button type="submit" name="send-message" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3" data-loading-text="Loading...">SEND MESSAGE</button>
+                                        <button type="submit" name="send-message" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3" data-loading-text="Loading...">NACHRICHT SENDEN</button>
                                     </div>
                                 </div>
 								

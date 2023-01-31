@@ -16,12 +16,12 @@
 					<div class="container my-3">
 						<div class="row">
 							<div class="col-md-12 align-self-center p-static order-2 text-center">
-								<h1 class="font-weight-bold text-10">About Us</h1>
+								<h1 class="font-weight-bold text-10">Über uns</h1>
 							</div>
 							<div class="col-md-12 align-self-center order-1">
 								<ul class="breadcrumb breadcrumb-light d-block text-center">
-									<li><a href="index.php">Home</a></li>
-									<li class="active">About Us</li>
+									<li><a href="index.php">Startseite</a></li>
+									<li class="active">Über uns</li>
 								</ul>
 							</div>
 						</div>
@@ -41,7 +41,7 @@
 									INVICTUS<br> 
 									<span class="text-1 d-block">Diamant Werkzeuge Essen</span>
 								</h3>
-								<p class="custom-font-secondary text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Get reliable & affordable diamond cutting tools for your facility with a 100% satisfaction guaranteed!</p>
+								<p class="custom-font-secondary text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Holen Sie sich zuverlässige und erschwingliche Diamantschneidwerkzeuge für Ihre Einrichtung mit 100 % Zufriedenheitsgarantie!</p>
 								<p class="pb-1 mb-3 appear-animation text-justify" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600">  INVICTUS Diamantwerkzeuge Essen ist Ihr erfahrener Partner für Diamantwerkzeuge in ganz Europa. Rund um Diamanttrennscheiben, Diamantbohrkronen, Schleiftechnik und Diamantwerkzeuge ist unsere Auswahl geradezu grenzenlos. Eine Auswahl unseres umfangreichen Angebotes finden Sie bereits auf unserer Seite. Sprechen Sie uns an, wenn Sie einen bestimmten Artikel suchen und vertrauen Sie auf langjährige  Berufserfahrung. Unser umfangreiches Lieferanten-Netzwerk und unsere Flexibilität. Wir bieten Ihnen Diamantwerkzeuge in bester Qualität zu fairen Preisen, eine verbindliche Beratung, individuelle Ideen und Lösungen für Ihr Tagesgeschäft sowie Ihre individuellen Anforderungen. Von Essen aus kommen wir auch zu Ihnen nach Dortmund, Bochum, Münster, Recklinghausen, Gelsenkirchen, Gladbeck, Bottrop, Duisburg, Moers, Krefeld, Düsseldorf, Mönchengladbach, Neuss, Dormagen, Köln, Leverkusen, Wuppertal, Solingen, Lüdenscheid oder Hagen, ins Bergische Land, ins Sauerland, ins Münsterland oder an den Niederrhein. Wir sind da, wo Sie uns brauchen - von NRW bis ganz Europa.</p>
 							<!-- <p class="mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="3000">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin. Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. </p> -->
 						</div>
@@ -62,8 +62,8 @@
 				<div class="container pb-2 mb-5">
 					<div class="row justify-content-center pb-2 mb-3">
 						<div class="col-md-9 col-lg-12 text-center">
-							<h2 class="text-color-secondary font-weight-bold line-height-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">Our History</h2>
-							<p class="custom-font-secondary text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultri.</p>
+							<h2 class="text-color-secondary font-weight-bold line-height-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">Unsere Geschichte</h2>
+							<p class="custom-font-secondary text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">"Unser Unternehmen hat eine reiche Geschichte, die von Jahren des Wachstums, der Innovation und der Verpflichtung zu Exzellenz geprägt ist."</p>
 						</div>
 					</div>
 					<div class="row appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
@@ -112,8 +112,8 @@
 				<div class="container mb-5">
 					<div class="row justify-content-center pb-2 mb-3">
 						<div class="col-md-9 col-lg-12 text-center">
-							<h2 class="text-color-secondary font-weight-bold line-height-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">Our Team</h2>
-							<p class="custom-font-secondary text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultri.</p>
+							<h2 class="text-color-secondary font-weight-bold line-height-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">Unser Team</h2>
+							<p class="custom-font-secondary text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Wir sind stolz darauf, ein talentiertes und engagiertes Teammitglied zu haben, das kontinuierlich zum Erfolg unseres Unternehmens beiträgt.</p>
 						</div>
 					</div>
 					<div class="row appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
@@ -141,12 +141,12 @@
 					<div class="container pt-4 pb-3 mt-5">
 						<div class="row align-items-center justify-content-center pt-3">
 							<div class="col-md-9 col-lg-7 col-xl-9 text-center text-xl-start mb-4 mb-xl-0">
-								<h2 class="text-color-light font-weight-medium line-height-4 text-9 negative-ls-1 mb-2">For <span class="font-weight-extra-bold custom-highlight-1 p-1 appear-animation" data-appear-animation="customHighlightAnim" data-appear-animation-delay="300">Residential and Commercial</span> Cleaning</h2>
-								<p class="custom-font-secondary custom-font-size-1 font-weight-light text-color-light opacity-8 mb-0">Our Staff is trained to clean everything you need!</p>
+								<h2 class="text-color-light font-weight-medium line-height-4 text-9 negative-ls-1 mb-2">Für <span class="font-weight-extra-bold custom-highlight-1 p-1 appear-animation" data-appear-animation="customHighlightAnim" data-appear-animation-delay="300">Gewerbe und Wohnen</span> Gebraucht</h2>
+								<p class="custom-font-secondary custom-font-size-1 font-weight-light text-color-light opacity-8 mb-0">"Buchen Sie Ihr Produkt noch heute, um sich Ihren Platz zu sichern und die Qualität und den Komfort zu erleben, die wir anbieten."</p>
 							</div>
 							<div class="col-xl-3 text-center text-xl-end">
 								<div class="position-relative">
-									<a href="index.php?#booknow" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3">BOOK NOW IN 60 SECONDS</a>
+									<a href="index.php?#booknow" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3">JETZT IN 60 SEKUNDEN BUCHEN</a>
 								</div>
 							</div>
 						</div>

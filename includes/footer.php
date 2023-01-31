@@ -9,8 +9,8 @@
 								<img alt="Porto" width="115" height="30" src="Images/invictus/logo-1.png">
 							</a>
 							</div>
-							<p class="text-3-5 pe-lg-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque rutrum pellentesqu. </p>
-							<h4 class="font-weight-bold ls-0">Our Address</h4>
+							<p class="text-3-5 pe-lg-2 text-justify">INVICTUS Diamantwerkzeuge Essen ist Ihr erfahrener Partner für Diamantwerkzeuge in ganz Europa. </p>
+							<h4 class="font-weight-bold ls-0">Unsere Adresse</h4>
 							<ul class="list list-unstyled mb-0">
 								<li class="mb-1">
 								Vogelheimer Strasse 92,
@@ -28,7 +28,7 @@
 						</div>
 						
 						<div class="col-md-4 col-lg-3 mb-4 mb-lg-0">
-							<h4 class="font-weight-bold ls-0">Our Contacts</h4>
+							<h4 class="font-weight-bold ls-0">Unsere Kontakte</h4>
 							<div class="feature-box feature-box-style-2 align-items-center mb-3">
 								<div class="feature-box-icon">
 									<img class="icon-animated" width="45" src="Images/invictus/phone.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
@@ -60,13 +60,13 @@
 							<!-- <a href="demo-cleaning-services-contact.html" class="btn btn-primary font-weight-bold px-5 py-3 mb-2">BOOK NOW</a> -->
 						</div>
 						<div class="col-md-4 col-lg-2 mb-4 mb-md-0">
-							<h4 class="font-weight-bold ls-0">Our Services</h4>
+							<h4 class="font-weight-bold ls-0">Unsere Produkte</h4>
 							<ul class="list-unstyled mb-0">
 								<?php display_footer_link(); ?>
 							</ul>
 						</div>
 						<div class="col-md-4 col-lg-2">
-							<h4 class="font-weight-bold ls-0">Follow Us</h4>
+							<h4 class="font-weight-bold ls-0">Folgen Sie uns</h4>
 							<ul class="social-icons social-icons-clean social-icons-medium">
 								<li>
 									<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
@@ -91,7 +91,7 @@
 						<div class="row py-4 mt-2">
 							
 							<div class="col-lg-12 text-center text-lg-end">
-								<p class="text-3 mb-0">INVICTUS - Diamant Werkzeuge © 2023. All Rights Reserved</p>
+								<p class="text-3 mb-0">INVICTUS - Diamant Werkzeuge © 2023. Alle Rechte vorbehalten</p>
 							</div>
 						</div>
 					</div>

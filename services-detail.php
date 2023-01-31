@@ -18,8 +18,8 @@
 							</div>
 							<div class="col-md-12 align-self-center order-1">
 								<ul class="breadcrumb breadcrumb-light d-block text-center">
-									<li><a href="index.php">Home</a></li>
-									<li class="active">Services</li>
+									<li><a href="index.php">Startseite</a></li>
+									<li class="active">Produkte</li>
 								</ul>
 							</div>
 						</div>
@@ -30,14 +30,14 @@
 					<div class="container my-lg-4">
 						<div class="row">
 							<div class="col-lg-9 order-lg-2 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
-							<p class="custom-font-secondary text-4 mb-4">Get reliable & affordable cleaning services for your facility with a 100% satisfaction guaranteed!</p>	
+							<p class="custom-font-secondary text-4 mb-4">Holen Sie sich zuverlässige und erschwingliche Diamantschneidwerkzeuge für Ihre Einrichtung mit 100 % Zufriedenheitsgarantie!</p>	
 							<?php display_product_cat_wise(); ?>
 							
 							</div>
 							<div class="col-lg-3 order-lg-1">
 								<div class="card custom-border-radius-1 box-shadow-1 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
 									<div class="card-body py-5">
-										<h2 class="text-color-secondary font-weight-bold text-6 line-height-1 pb-2 mb-4">All Services</h2>
+										<h2 class="text-color-secondary font-weight-bold text-6 line-height-1 pb-2 mb-4">Alle Produkte</h2>
 										<ul class="list list-unstyled custom-nav-list-effect-1 mb-0">
 											<?php display_cat_link(); ?>
 										</ul>
@@ -65,12 +65,12 @@
 					<div class="container pt-4 pb-3 mt-5">
 						<div class="row align-items-center justify-content-center pt-3">
 							<div class="col-md-9 col-lg-7 col-xl-9 text-center text-xl-start mb-4 mb-xl-0">
-								<h2 class="text-color-light font-weight-medium line-height-4 text-9 negative-ls-1 mb-2">For <span class="font-weight-extra-bold custom-highlight-1 p-1 appear-animation" data-appear-animation="customHighlightAnim" data-appear-animation-delay="300">Residential and Commercial</span> Cleaning</h2>
-								<p class="custom-font-secondary custom-font-size-1 font-weight-light text-color-light opacity-8 mb-0">Our Staff is trained to clean everything you need!</p>
+								<h2 class="text-color-light font-weight-medium line-height-4 text-9 negative-ls-1 mb-2">Für <span class="font-weight-extra-bold custom-highlight-1 p-1 appear-animation" data-appear-animation="customHighlightAnim" data-appear-animation-delay="300">Gewerbe und Wohnen</span> Gebraucht</h2>
+								<p class="custom-font-secondary custom-font-size-1 font-weight-light text-color-light opacity-8 mb-0">"Buchen Sie Ihr Produkt noch heute, um sich Ihren Platz zu sichern und die Qualität und den Komfort zu erleben, die wir anbieten."</p>
 							</div>
 							<div class="col-xl-3 text-center text-xl-end">
 								<div class="position-relative">
-									<a href="demo-cleaning-services-contact.html" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3">BOOK NOW IN 60 SECONDS</a>
+									<a href="index.php?id=#booknow" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3">JETZT IN 60 SEKUNDEN BUCHEN</a>
 								</div>
 							</div>
 						</div>

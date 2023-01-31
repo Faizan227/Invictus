@@ -65,7 +65,7 @@
 								<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 									<p class="custom-font-secondary font-weight-bold custom-font-size-2 text-color-light opacity-6 mb-4">Our Staff is trained to clean everything you need</p>
 								</div>
-								<a href="#whoweare" data-hash data-hash-offset="0" data-hash-offset-lg="150" class="btn btn-secondary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">LEARN MORE</a>
+								<a href="#whoweare" data-hash data-hash-offset="0" data-hash-offset-lg="150" class="btn btn-secondary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">Mehr sehen</a>
 								<div class="spacer pt-5 my-5"></div>
 							</div>
 						 </div>
@@ -127,7 +127,7 @@
 								<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 									<p class="custom-font-secondary font-weight-light custom-font-size-1 text-color-light opacity-6 mb-4">Our Staff is trained to clean everything you need</p>
 								</div>
-								<a href="#whoweare" data-hash data-hash-offset="0" data-hash-offset-lg="150" class="btn btn-secondary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">LEARN MORE</a>
+								<a href="#whoweare" data-hash data-hash-offset="0" data-hash-offset-lg="150" class="btn btn-secondary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">Mehr sehen</a>
 								<div class="spacer pt-5 my-5"></div>
 							</div>
 						</div>
@@ -149,8 +149,8 @@
 						     <div class="col-lg-6 pe-lg-4 mb-5 mb-lg-0">
 							  <div  class="card border-0 custom-border-radius-1 box-shadow-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
 								<div  class="card-body p-5">
-									<h2 class="text-color-secondary font-weight-bold text-7 line-height-1 mb-1">Request a Callback</h2>
-									<p class="custom-font-secondary text-4 pb-1 mb-4">Enter your details in the form and we will call you back.</p>
+									<h2 class="text-color-secondary font-weight-bold text-7 line-height-1 mb-1">Fordern Sie einen Rückruf an</h2>
+									<p class="custom-font-secondary text-4 pb-1 mb-4">Tragen Sie Ihre Daten in das Formular ein und wir rufen Sie zurück.</p>
 									<form class=" custom-form-style-2" action="" method="get">
 										<!-- <div class="contact-form-success alert alert-success d-none mt-4">
 											<strong>Success!</strong> Your request has been sent to us.
@@ -175,7 +175,7 @@
 											<div class="form-group col pb-1 mb-3">
 												<div class="custom-select-1">
 													<select  class="form-control" name="service" required>
-														<option value="" selected>Select Service</option>
+														<option value="" selected>Ausgewähltes Produkt</option>
 														<?php display_cat_name(); ?>
 													</select>
 												</div>
@@ -183,7 +183,7 @@
 										</div>
 										<div class="row">
 											<div class="form-group col">
-												<button type="submit" name="send_request" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3" data-loading-text="Loading...">CALL ME BACK</button>
+												<button type="submit" name="send_request" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3" data-loading-text="Loading...">Ruf mich zurück</button>
 											</div>
 										</div>
 									</form>
@@ -194,7 +194,7 @@
 							<ul class="list list-unstyled mb-0">
 								<li class="mb-4 mb-lg-2">
 									<span class="d-flex align-items-center justify-content-end justify-content-lg-end flex-column flex-lg-row font-weight-medium text-4 text-lg-3 text-xl-4">
-										SCHEDULE AN APPOINTMENT: 
+									EINEN TERMIN VEREINBAREN: 
 										<strong class="text-7 mt-2 mt-lg-0 ms-lg-3">
 											<a href="tel:+49201433 95 601" class="text-color-secondary text-color-hover-primary text-decoration-none">+49201433 95 601</a>
 										</strong>
@@ -202,7 +202,7 @@
 								</li>
 								<li class="mb-0">
 									<span class="d-flex align-items-center justify-content-end justify-content-lg-end flex-column flex-lg-row font-weight-medium text-4 text-lg-3 text-xl-4">
-										SEND AN EMAIL: 
+									EINE E-MAIL SENDEN: 
 										<strong class="text-3 ms-lg-3">
 											<a href="mailto:info@invictus-diamantinstrumente.de" class="text-color-tertiary text-color-hover-primary text-decoration-underline">info@invictus-diamantinstrumente.de</a>
 										</strong>
@@ -236,16 +236,16 @@
 								<div class="d-flex align-items-center mb-2">
 									<span class="custom-line appear-animation" data-appear-animation="customLineAnimation" appear-animation-duration="1s"></span>
 									<div class="overflow-hidden ms-3">
-										<h2 class="text-color-primary font-weight-semibold line-height-3 text-4 mb-0 appear-animation" data-appear-animation="maskRight" data-appear-animation-delay="1000">WHO WE ARE</h2>
+										<h2 class="text-color-primary font-weight-semibold line-height-3 text-4 mb-0 appear-animation" data-appear-animation="maskRight" data-appear-animation-delay="1000">WER WIR SIND</h2>
 									</div>
 								</div>
 								<h3 class="text-color-secondary font-weight-bold text-transform-none line-height-2 text-10 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">
 									INVICTUS<br> 
 									<span class="text-1 d-block">Diamant Werkzeuge Essen</span>
 								</h3>
-								<p class="custom-font-secondary text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Get reliable & affordable diamond cutting tools for your facility with a 100% satisfaction guaranteed!</p>
+								<p class="custom-font-secondary text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Holen Sie sich zuverlässige und erschwingliche Diamantschneidwerkzeuge für Ihre Einrichtung mit 100 % Zufriedenheitsgarantie!</p>
 								<p class="pb-1 mb-3 appear-animation text-justify" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600">  INVICTUS Diamantwerkzeuge Essen ist Ihr erfahrener Partner für Diamantwerkzeuge in ganz Europa. Rund um Diamanttrennscheiben, Diamantbohrkronen, Schleiftechnik und Diamantwerkzeuge ist unsere Auswahl geradezu grenzenlos. Eine Auswahl unseres umfangreichen Angebotes finden Sie bereits auf unserer Seite. Sprechen Sie uns an, wenn Sie einen bestimmten Artikel suchen und vertrauen Sie auf langjährige  Berufserfahrung. Unser umfangreiches Lieferanten-Netzwerk und unsere Flexibilität. Wir bieten Ihnen Diamantwerkzeuge in bester Qualität zu fairen Preisen, eine verbindliche Beratung, individuelle Ideen und Lösungen für Ihr Tagesgeschäft sowie Ihre individuellen Anforderungen. Von Essen aus kommen wir auch zu Ihnen nach Dortmund, Bochum, Münster, Recklinghausen, Gelsenkirchen, Gladbeck, Bottrop, Duisburg, Moers, Krefeld, Düsseldorf, Mönchengladbach, Neuss, Dormagen, Köln, Leverkusen, Wuppertal, Solingen, Lüdenscheid oder Hagen, ins Bergische Land, ins Sauerland, ins Münsterland oder an den Niederrhein. Wir sind da, wo Sie uns brauchen - von NRW bis ganz Europa.</p>
-								<a href="about.php" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1800">VIEW MORE</a>
+								<a href="about.php" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1800">mehr sehen</a>
 							</div>
 							<div class="col-sm-10 col-lg-6 offset-sm-1 ps-sm-5 ps-lg-0">
 								<div class="position-relative">
@@ -271,16 +271,16 @@
 								<div class="d-flex align-items-center mb-2">
 									<span class="custom-line appear-animation" data-appear-animation="customLineAnimation" appear-animation-duration="1s"></span>
 									<div class="overflow-hidden ms-3">
-										<h2 class="text-color-primary font-weight-semibold line-height-3 text-4 mb-0 appear-animation" data-appear-animation="maskRight" data-appear-animation-delay="1000">WHAT WE DO</h2>
+										<h2 class="text-color-primary font-weight-semibold line-height-3 text-4 mb-0 appear-animation" data-appear-animation="maskRight" data-appear-animation-delay="1000">WAS WIR TUN</h2>
 									</div>
 								</div>
-								<h3 class="text-color-secondary font-weight-bold text-transform-none text-8 mb-3 pb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">Our Services</h3>
-								<p class="mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin. Integer aliquet ullamcorper dolor, quis sollicitudin.</p>
+								<h3 class="text-color-secondary font-weight-bold text-transform-none text-8 mb-3 pb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">Unsere Produkte</h3>
+								<p class="mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Wir bieten eine Reihe hochwertiger Produkte, die den Bedürfnissen unserer Kunden gerecht werden. Unsere Produkte sind so konzipiert, dass sie die höchsten Qualitäts- und Zuverlässigkeitsstandards erfüllen.</p>
 							</div>
 							<div class="col-lg-5 col-xl-4">
 								<div class="d-flex justify-content-lg-end">
-									<a href="services.php" class="btn btn-primary btn-modern font-weight-bold text-3 btn-px-4 py-3 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1800">VIEW ALL SERVICES</a>
-									<a href="#booknow" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3 ms-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1600">BOOK NOW</a>
+									<!-- <a href="services.php" class="btn btn-primary btn-modern font-weight-bold text-3 btn-px-4 py-3 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1800">VIEW ALL SERVICES</a> -->
+									<a href="#booknow" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3 ms-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1600">BUCHEN SIE JETZT</a>
 								</div>
 							</div>
 						</div>
@@ -301,7 +301,7 @@
 													</div>
 													<h4 class="custom-card-style-1-title text-color-secondary font-weight-bold mb-2"><?php echo $product['c_name'];?></h4>
 													<p class="custom-card-style-1-description text-justify"><?php echo $product['c_details'];?> </p>
-													<span class="custom-card-style-1-link font-weight-bold">VIEW MORE</span>
+													<span class="custom-card-style-1-link font-weight-bold">mehr sehen</span>
 												</div>
 											</div>
 										</a>
@@ -342,12 +342,12 @@
 					<div class="container py-5 my-5">
 						<div class="row align-items-center justify-content-center pt-3">
 							<div class="col-md-9 col-lg-7 col-xl-9 text-center text-xl-start mb-4 mb-xl-0">
-								<h2 class="text-color-light font-weight-medium line-height-4 text-9 negative-ls-1 mb-2">For <span class="font-weight-extra-bold custom-highlight-1 p-1 appear-animation" data-appear-animation="customHighlightAnim" data-appear-animation-delay="300">Residential and Commercial</span> Cleaning</h2>
-								<p class="custom-font-secondary custom-font-size-1 font-weight-light text-color-light opacity-8 mb-0">Our Staff is trained to clean everything you need!</p>
+								<h2 class="text-color-light font-weight-medium line-height-4 text-9 negative-ls-1 mb-2">Für <span class="font-weight-extra-bold custom-highlight-1 p-1 appear-animation" data-appear-animation="customHighlightAnim" data-appear-animation-delay="300">Gewerbe und Wohnen</span> Gebraucht</h2>
+								<p class="custom-font-secondary custom-font-size-1 font-weight-light text-color-light opacity-8 mb-0">"Buchen Sie Ihr Produkt noch heute, um sich Ihren Platz zu sichern und die Qualität und den Komfort zu erleben, die wir anbieten."</p>
 							</div>
 							<div class="col-xl-3 text-center text-xl-end">
 								<div class="position-relative">
-									<a href="#booknow" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="550">BOOK NOW IN 60 SECONDS</a>
+									<a href="#booknow" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="550">JETZT IN 60 SEKUNDEN BUCHEN</a>
 								</div>
 							</div>
 						</div>
@@ -361,10 +361,10 @@
 								<div class="d-flex align-items-center mb-2">
 									<span class="custom-line appear-animation" data-appear-animation="customLineAnimation" appear-animation-duration="1s"></span>
 									<div class="overflow-hidden ms-3">
-										<h2 class="text-color-primary font-weight-semibold line-height-3 text-4 mb-0 appear-animation" data-appear-animation="maskRight" data-appear-animation-delay="1000">WHY CHOOSE US</h2>
+										<h2 class="text-color-primary font-weight-semibold line-height-3 text-4 mb-0 appear-animation" data-appear-animation="maskRight" data-appear-animation-delay="1000">WARUM UNS WÄHLEN</h2>
 									</div>
 								</div>
-								<h3 class="text-color-secondary font-weight-bold text-transform-none text-8 mb-3 pb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">Our Benefits</h3>
+								<h3 class="text-color-secondary font-weight-bold text-transform-none text-8 mb-3 pb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">Unsere Vorteile</h3>
 								<p class="mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin. Integer aliquet ullamcorper dolor, quis sollicitudin.</p>
 							</div>
 						</div>
@@ -425,8 +425,8 @@
 					<div class="container pt-5 mt-5">
 						<div class="row justify-content-center pb-2 mb-3">
 							<div class="col-md-9 col-lg-12 text-center">
-								<h2 class="text-color-secondary font-weight-bold line-height-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">Our Team</h2>
-								<p class="custom-font-secondary text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultri.</p>
+								<h2 class="text-color-secondary font-weight-bold line-height-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">Unser Team</h2>
+								<p class="custom-font-secondary text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Wir sind stolz darauf, ein talentiertes und engagiertes Teammitglied zu haben, das kontinuierlich zum Erfolg unseres Unternehmens beiträgt.</p>
 							</div>
 						</div>
 						<div class="row appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
@@ -465,8 +465,8 @@
 					<div class="container pt-5 pb-3 mt-4">
 						<div class="row mt-5 mb-5">
 							<div class="col-lg-4 pe-lg-0 mb-4 mb-lg-0">
-								<h2 class="text-color-light font-weight-bold line-height-6 text-8 mb-3">Our Happy Clients</h2>
-								<p class="text-color-light opacity-7 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Sed imperdiet libero id nisi euismod, sed porta est consectetur.</p>
+								<h2 class="text-color-light font-weight-bold line-height-6 text-8 mb-3">Unsere zufriedenen Kunden</h2>
+								<p class="text-color-light opacity-7 mb-0">Ein zufriedener Kunde ist ein wertvolles Gut für jedes Unternehmen.Kundenbewertungen sind eine wertvolle Quelle für Feedback und können einem Unternehmen helfen, sich zu verbessern und zu wachsen.Der Aufbau einer starken Beziehung zu den Kunden durch regelmäßiges Einchecken und Behandeln von Bedenken kann ebenfalls zu ihrer Zufriedenheit beitragen.</p>
 							</div>
 							<div class="col-lg-8 ps-lg-4">
 								<div class="owl-carousel dots-light dots-align-left" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '979': {'items': 2}, '1199': {'items': 2}}, 'margin': 20, 'loop': true, 'dots': true, 'dotsEach': 1, 'nav': false, 'autoplay': true, 'autoplayTimeout': 5000}">
