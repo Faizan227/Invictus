@@ -61,9 +61,9 @@
 						</div>
 						<div class="row justify-content-center justify-content-lg-start pb-5 mb-5">
 							<div class="col-md-10 col-lg-6 text-center text-lg-end pe-lg-4 pb-5 mb-5">
-								<h1 class="text-color-light font-weight-medium line-height-4 text-10 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">High Quality <span class="font-weight-extra-bold custom-highlight-1  ws-nowrap p-1 customHighlightAnim customHighlightAnimDelay">Diamant Werkzeuge</span> for all type of facilities</h1>
+								<h1 class="text-color-light font-weight-medium line-height-4 text-10 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Hochwertige <span class="font-weight-extra-bold custom-highlight-1  ws-nowrap p-1 customHighlightAnim customHighlightAnimDelay">Diamant-Schneidwerkzeuge</span> für jeden Schneidbedarf</h1>
 								<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
-									<p class="custom-font-secondary font-weight-bold custom-font-size-2 text-color-light opacity-6 mb-4">Our Staff is trained to clean everything you need</p>
+									<p class="custom-font-secondary font-weight-bold custom-font-size-2 text-color-light text-justify opacity-6 mb-4">Finden Sie die besten Diamantschneidwerkzeuge zum besten Preis, nur bei uns</p>
 								</div>
 								<a href="#whoweare" data-hash data-hash-offset="0" data-hash-offset-lg="150" class="btn btn-secondary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">Mehr sehen</a>
 								<div class="spacer pt-5 my-5"></div>
@@ -123,9 +123,9 @@
 						</div>
 						<div class="row justify-content-center justify-content-lg-start pb-5 mb-5">
 							<div class="col-md-10 col-lg-6 text-center text-lg-end pe-lg-4 pb-5 mb-5">
-								<h1 class="text-color-light font-weight-medium line-height-4 text-10 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">High Quality <span class="font-weight-extra-bold custom-highlight-1 ws-nowrap p-1 customHighlightAnim customHighlightAnimDelay">Diamant Werkzeuge</span> for all type of facilities</h1>
+								<h1 class="text-color-light font-weight-medium line-height-4 text-10 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Innovative <span class="font-weight-extra-bold custom-highlight-1 ws-nowrap p-1 customHighlightAnim customHighlightAnimDelay">Diamant-Schneidwerkzeuge</span> für maximale Leistung</h1>
 								<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
-									<p class="custom-font-secondary font-weight-light custom-font-size-1 text-color-light opacity-6 mb-4">Our Staff is trained to clean everything you need</p>
+									<p class="custom-font-secondary font-weight-light custom-font-size-1 text-color-light opacity-6 text-justify mb-4">Erleben Sie unübertroffene Präzision mit unseren Diamantschneidwerkzeugen</p>
 								</div>
 								<a href="#whoweare" data-hash data-hash-offset="0" data-hash-offset-lg="150" class="btn btn-secondary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">Mehr sehen</a>
 								<div class="spacer pt-5 my-5"></div>
@@ -365,7 +365,7 @@
 									</div>
 								</div>
 								<h3 class="text-color-secondary font-weight-bold text-transform-none text-8 mb-3 pb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">Unsere Vorteile</h3>
-								<p class="mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin. Integer aliquet ullamcorper dolor, quis sollicitudin.</p>
+								<p class="mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Unsere Hauptaufgabe besteht darin, unseren Kunden den größtmöglichen Nutzen zu bieten. Kunden wählen unser Unternehmen wegen der unübertroffenen Präzision und Qualität beim Schneiden, die unsere Werkzeuge bieten.</p>
 							</div>
 						</div>
 						<div class="featured-boxes featured-boxes-style-4 custom-featured-boxes-style-1">
@@ -376,8 +376,8 @@
 											<div class="custom-featured-icon-wrapper bg-secondary mb-4">
 												<img src="Images/invictus/icon-1.png" class="img-fluid icon-featured" alt="" />
 											</div>
-											<h3 class="text-transform-none font-weight-bold custom-font-size-1 mb-3">Book Online</h3>
-											<p class="px-3 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor.</p>
+											<h3 class="text-transform-none font-weight-bold custom-font-size-1 mb-3">Hochwertige Materialien und Beschichtungen</h3>
+											<p class="px-3 mb-0 text-justify">Die Verwendung hochwertiger Materialien und Beschichtungen trägt auch dazu bei, die Lebensdauer der Werkzeuge zu verlängern, was den Kunden eine wertvolle Rendite für ihre Investition bietet.</p>
 										</div>
 									</div>
 								</div>
@@ -387,8 +387,8 @@
 											<div class="custom-featured-icon-wrapper bg-secondary mb-4">
 												<img src="Images/invictus/icon-2.png" class="img-fluid icon-featured" alt="" />
 											</div>
-											<h3 class="text-transform-none font-weight-bold custom-font-size-1 mb-3">We Clean</h3>
-											<p class="px-3 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor.</p>
+											<h3 class="text-transform-none font-weight-bold custom-font-size-1 mb-3">Kostengünstige Lösungen</h3>
+											<p class="px-3 mb-0 text-justify">Indem wir Produkte anbieten, die sowohl qualitativ hochwertig als auch erschwinglich sind. Wir bieten eine Reihe von Produkten an, die eine hervorragende Leistung zu einem günstigeren Preis bieten. </p>
 										</div>
 									</div>
 								</div>
@@ -398,8 +398,8 @@
 											<div class="custom-featured-icon-wrapper bg-secondary mb-4">
 												<img src="Images/invictus/icon-3.png" class="img-fluid icon-featured" alt="" />
 											</div>
-											<h3 class="text-transform-none font-weight-bold custom-font-size-1 mb-3">You Relax</h3>
-											<p class="px-3 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor.</p>
+											<h3 class="text-transform-none font-weight-bold custom-font-size-1 mb-3">Zuverlässige und langlebige Produkte</h3>
+											<p class="px-3 mb-0 text-justify">Ob ein Kunde ein Werkzeug für eine bestimmte Schneidaufgabe oder für eine Reihe von Schneidanwendungen benötigt, die zuverlässigen und langlebigen Produkte des Unternehmens sind die perfekte Wahl. </p>
 										</div>
 									</div>
 								</div>
@@ -423,9 +423,9 @@
 						</svg>
 					</div>
 					<div class="container pt-5 mt-5">
-						<div class="row justify-content-center pb-2 mb-3">
-							<div class="col-md-9 col-lg-12 text-center">
-								<h2 class="text-color-secondary font-weight-bold line-height-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">Unser Team</h2>
+						<div class="row  pb-2 mb-3">
+							<div class="col-md-9 col-lg-8 ">
+							<h3 class="text-color-secondary font-weight-bold text-transform-none text-8 mb-3 pb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">Unser Team</h3>							
 								<p class="custom-font-secondary text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Wir sind stolz darauf, ein talentiertes und engagiertes Teammitglied zu haben, das kontinuierlich zum Erfolg unseres Unternehmens beiträgt.</p>
 							</div>
 						</div>

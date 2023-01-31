@@ -27,7 +27,16 @@
 						</div>
 					</div>
 				</section>
-
+				<section class="section section-with-shape-divider bg-transparent border-0 pb-4 m-0">
+				<div class="shape-divider shape-divider-bottom" style="height: 102px;">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 102" preserveAspectRatio="xMinYMin">
+							<path fill="#F7F7F7" d="M1895,78c-56.71-6.03-113.75-12.1-167-17c-75.42-6.94-133.81-10.66-171-13c-62.1-3.91-108.85-5.97-155-8
+								c-35.96-1.58-78.06-3.42-133-5c-59.81-1.72-103.18-2.23-172-3c-92.17-1.03-154.41-1.01-169-1c-69.05,0.05-115.16,0.67-137,1
+								c-43.08,0.65-76.21,1.48-97,2c-28.02,0.7-71.13,1.8-128,4c-16.64,0.64-57.72,2.28-111,5c-26.12,1.33-67.11,3.45-121,7
+								c-21.14,1.39-54.21,3.59-96,7c-19.93,1.63-39.22,3.32-47,4c-16.12,1.41-33.55,2.94-55,5c-26.48,2.54-19.07,2.04-77,8
+								c-19.39,1.99-36.94,3.77-60.59,7.46V103H1923V81C1916.55,80.3,1906.82,79.26,1895,78z"/>
+						</svg>
+					</div>
 				<div class="container my-5 pb-2">
 					<div class="row align-items-center mb-4">
 						<div class="col-lg-5 mb-5 mb-lg-0">
@@ -59,9 +68,11 @@
 						</div>
 					</div>
 				</div>
+				</section>
+				<section class="section border-0 py-4 m-0">
 				<div class="container pb-2 mb-5">
-					<div class="row justify-content-center pb-2 mb-3">
-						<div class="col-md-9 col-lg-12 text-center">
+					<div class="row  pb-2 mb-3">
+						<div class="col-md-9 col-lg-8 ">
 							<h2 class="text-color-secondary font-weight-bold line-height-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">Unsere Geschichte</h2>
 							<p class="custom-font-secondary text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">"Unser Unternehmen hat eine reiche Geschichte, die von Jahren des Wachstums, der Innovation und der Verpflichtung zu Exzellenz geprägt ist."</p>
 						</div>
@@ -71,7 +82,7 @@
 							<div class="owl-carousel nav-outside nav-arrows-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 2}, '979': {'items': 3}, '1199': {'items': 3}}, 'autoplay': false, 'autoplayTimeout': 5000, 'autoplayHoverPause': true, 'dots': false, 'nav': true, 'loop': false, 'margin': 20, 'stagePadding': '75'}">
 								<div>
 									<div class="card custom-card-style-1 custom-card-style-1-variation">
-										<div class="card-body text-center bg-color-light-scale-1 py-5">
+										<div class="card-body text-center bg-color-light py-5">
 											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">2010</h4>
 											<p class="custom-font-secondary text-4 mb-4">Foundation</p>
 											<p class="mb-0">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin.</p>
@@ -80,7 +91,7 @@
 								</div>
 								<div>
 									<div class="card custom-card-style-1 custom-card-style-1-variation">
-										<div class="card-body text-center bg-color-light-scale-1 py-5">
+										<div class="card-body text-center bg-color-light py-5">
 											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">2012</h4>
 											<p class="custom-font-secondary text-4 mb-4">30+ Employes</p>
 											<p class="mb-0">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin.</p>
@@ -89,7 +100,7 @@
 								</div>
 								<div>
 									<div class="card custom-card-style-1 custom-card-style-1-variation">
-										<div class="card-body text-center bg-color-light-scale-1 py-5">
+										<div class="card-body text-center bg-color-light py-5">
 											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">2018</h4>
 											<p class="custom-font-secondary text-4 mb-4">New Office</p>
 											<p class="mb-0">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin.</p>
@@ -98,7 +109,7 @@
 								</div>
 								<div>
 									<div class="card custom-card-style-1 custom-card-style-1-variation">
-										<div class="card-body text-center bg-color-light-scale-1 py-5">
+										<div class="card-body text-center bg-color-light py-5">
 											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">2020</h4>
 											<p class="custom-font-secondary text-4 mb-4">100+ Employes</p>
 											<p class="mb-0">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin.</p>
@@ -109,11 +120,24 @@
 						</div>
 					</div>
 				</div>
-				<div class="container mb-5">
-					<div class="row justify-content-center pb-2 mb-3">
-						<div class="col-md-9 col-lg-12 text-center">
-							<h2 class="text-color-secondary font-weight-bold line-height-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">Unser Team</h2>
-							<p class="custom-font-secondary text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Wir sind stolz darauf, ein talentiertes und engagiertes Teammitglied zu haben, das kontinuierlich zum Erfolg unseres Unternehmens beiträgt.</p>
+				</section>
+				<section class="section section-with-shape-divider bg-transparent border-0 pb-4 m-0">
+					<div class="shape-divider shape-divider-reverse-x" style="height: 102px;">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 102" preserveAspectRatio="xMinYMin">
+							<path fill="#F7F7F7" d="M1895,78c-56.71-6.03-113.75-12.1-167-17c-75.42-6.94-133.81-10.66-171-13c-62.1-3.91-108.85-5.97-155-8
+								c-35.96-1.58-78.06-3.42-133-5c-59.81-1.72-103.18-2.23-172-3c-92.17-1.03-154.41-1.01-169-1c-69.05,0.05-115.16,0.67-137,1
+								c-43.08,0.65-76.21,1.48-97,2c-28.02,0.7-71.13,1.8-128,4c-16.64,0.64-57.72,2.28-111,5c-26.12,1.33-67.11,3.45-121,7
+								c-21.14,1.39-54.21,3.59-96,7c-19.93,1.63-39.22,3.32-47,4c-16.12,1.41-33.55,2.94-55,5c-26.48,2.54-19.07,2.04-77,8
+								c-19.39,1.99-36.94,3.77-60.59,7.46V103H1923V81C1916.55,80.3,1906.82,79.26,1895,78z"/>
+						</svg>
+					</div>
+				<div class="container  pt-5 mt-5 mb-5">
+					<div class="row  pb-2 mb-3">
+					<div class="row  pb-2 mb-3">
+							<div class="col-md-9 col-lg-8 ">
+							<h3 class="text-color-secondary font-weight-bold text-transform-none text-8 mb-3 pb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">Unser Team</h3>							
+								<p class="custom-font-secondary text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Wir sind stolz darauf, ein talentiertes und engagiertes Teammitglied zu haben, das kontinuierlich zum Erfolg unseres Unternehmens beiträgt.</p>
+							</div>
 						</div>
 					</div>
 					<div class="row appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
@@ -124,6 +148,7 @@
 						</div>
 					</div>
 				</div>
+				</section>
 
 				<section class="section section-with-shape-divider section-height-3 bg-tertiary border-0 m-0">
 					<div class="shape-divider" style="height: 116px;">
