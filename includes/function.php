@@ -431,7 +431,7 @@ function display_team_member(){
     <div>
 	<div class="card custom-card-style-1 custom-card-style-1-variation">
 		<div class="card-body text-center bg-color-light-scale-1 py-5">
-			<div class="custom-card-style-1-image-wrapper bg-primary rounded-circle d-inline-block mb-3">
+			<div class="custom-card-style-1-image-wrapper bg-primary rounded-circle p-relative mb-3">
 				
 					<img src="uploads/<?php echo $data['m_image']; ?>" class="img-fluid rounded-circle" alt="" />
 				
