@@ -36,6 +36,18 @@
                                 <label for="m_position" class="form-label">Position *</label>
                                 <input type="text" name="m_position" class="form-control" id="m_position" required>
                             </div>
+                            <div class="col-md-6">
+                                <label for="facebook" class="form-label">Add Facebook Link *</label>
+                                <input type="text" name="facebook_link" class="form-control" id="facebook" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="twitter" class="form-label">Add Twitter Link *</label>
+                                <input type="text" name="twitter_link" class="form-control" id="twitter" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="instagram" class="form-label">Add Instagram Link *</label>
+                                <input type="text" name="instagram_link" class="form-control" id="instagram" required>
+                            </div>
                             <div class="col-md-4">
                                 <label for="p_file" class="form-label">Select Picture *</label>
                                 <input type="file" name="p_file" class="form-control" id="p_file" required>

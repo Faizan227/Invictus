@@ -292,11 +292,11 @@
 								<?php $data=display_simple("categories");
                        foreach ($data as $product){
                        ?>	
-								<div>
-										<a href="services-detail.php?id=<?php echo $product['c_id']; ?>" class="text-decoration-none">
-											<div class="card custom-card-style-1 p-relative ">
+								<div class="">
+										<a href="services-detail.php?id=<?php echo $product['c_id']; ?>" class="text-decoration-none ">
+											<div class="card custom-card-style-1   ">
 												<div class="card-body text-center py-5">
-													<div class="custom-card-style-1-image-wrapper bg-primary rounded-circle   mb-3">
+													<div class="custom-card-style-1-image-wrapper bg-primary rounded-circle d-inline-block  mb-3">
 														<img src="uploads/<?php echo $product['c_file'];  ?>" class="img-fluid  rounded-circle" alt="" >
 													</div>
 													<h4 class="custom-card-style-1-title text-color-secondary font-weight-bold mb-2"><?php echo $product['c_name'];?></h4>

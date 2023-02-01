@@ -3113,6 +3113,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 	padding: 32px;
 	padding: 2rem;
 	position: relative;
+	height: 100%;
 	
 	z-index: 1;
 }

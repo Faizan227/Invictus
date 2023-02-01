@@ -206,11 +206,14 @@ function create_team_member(){
     if(isset($_REQUEST['create_member'])){
         $name=$_REQUEST['m_name'];
         $position=$_REQUEST['m_position'];
+        $facebook=$_REQUEST['facebook_link'];
+        $twitter=$_REQUEST['twitter_link'];
+        $instagram=$_REQUEST['instagram_link'];
         $file=$_FILES['p_file']['name'];
         $file_name = file_uploading($file);
         include "connection.php";
-        $q="INSERT INTO team_member (m_name, m_post, m_image ) VALUES 
-                            ('$name','$position','$file_name')";
+        $q="INSERT INTO team_member (m_name, m_post, m_image ,facebook_link , twitter_link,instagram_link ) VALUES 
+                            ('$name','$position','$file_name','$facebook','$twitter','$instagram')";
         $q_run =  mysqli_query($con, $q);
         echo mysqli_error($con);
         if($q_run){
