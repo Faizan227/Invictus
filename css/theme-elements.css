@@ -3099,6 +3099,10 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 .card {
 	position: relative;
 	border: 1px solid rgba(0, 0, 0, 0.06);
+	/* height: max-content !important; */
+	
+
+    
 }
 
 .card-header {
@@ -3113,8 +3117,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 	padding: 32px;
 	padding: 2rem;
 	position: relative;
-	height: 100%;
-	
+	/* height: max-content !important; */
 	z-index: 1;
 }
 

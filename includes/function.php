@@ -406,7 +406,7 @@ function display_testimonial(){
     while($data = mysqli_fetch_array($q_run)){
     ?> 
     <div>
-		<div class="testimonial testimonial-style-3 custom-testimonial-style-1">
+		<div class="testimonial  testimonial-style-3 custom-testimonial-style-1">
 			<blockquote>
 				<p class="mb-0"><?php echo $data['cl_review']; ?></p>
 			</blockquote>
@@ -428,12 +428,12 @@ function display_team_member(){
     $q_run =  mysqli_query($con, $q);
     while($data = mysqli_fetch_array($q_run)){
     ?>
-    <div>
-	<div class="card  custom-card-style-1 custom-card-style-1-variation">
+    <div class="">
+	<div class="card custom-card-style-1  d-flex custom-card-style-1-variation" style="height: 500px;">
 		<div class="card-body  text-center bg-color-light-scale-1 py-5">
 			<div class="custom-card-style-1-image-wrapper bg-primary rounded-circle p-relative mb-3">
 				
-					<img src="uploads/<?php echo $data['m_image']; ?>" class="img-fluid rounded-circle" alt="" />
+					<img src="uploads/<?php echo $data['m_image']; ?>" class="img-fluid  rounded-circle" alt="" style="height: 250px;" />
 				
 			</div>
 			<h4 class="text-color-secondary font-weight-bold line-height-1 text-5 mb-0"><a href="#" class="text-color-secondary text-color-hover-primary text-decoration-none"><?php echo $data['m_name']; ?></a></h4>
@@ -526,33 +526,7 @@ include "connection.php";
        
        </tbody>
       </table>
-    <!-- <table>
-        <tr>
-          <th><h3><?php //echo $data['p_code']; ?></h3></th>
-          <th><?php //echo $data['p_name']; ?></th>
-          <th>Price</th>
-        </tr>
-        <tr>
-          <td><img src="uploads/<?php //echo $data['p_file']; ?>" class="img-fluid float-start custom-max-width-1 my-3 me-4" alt="" /></td>
-          <td><?php //echo $data['p_name']; ?></td>
-          <td><?php // echo $data['p_name']; ?></td>
-        </tr>
-   </table>   -->
-    <!-- <div class="row">
-    <div class="col-6 col-md-3">
-    
-    </div>
-    <div class="col-6 col-md-3">
-    <h3></h3>
-    </div>	
-    </div>
-    <div class="row">
-        <div class="col-md-3">
-        
 
-        </div>
-
-    </div> -->
      <?php
 }
 }
@@ -590,7 +564,9 @@ function display_cat_name(){
     <option value="<?php echo $data['c_id']; ?>"><?php echo $data['c_name']; ?></option>  <?php
     }
 }
+function send_request(){
 
+}
 
 ?>
 

@@ -9,12 +9,12 @@
 						$comapny=$_REQUEST['cname'];
 						$regno=$_REQUEST['regno'];
 						$pass=$_REQUEST['password'];
-						$address=$_REQUEST['address'];
+						// $request=$_REQUEST['request'];
 						
 						
 						include "includes/connection.php";
-						$q="INSERT INTO customer (cus_name, cus_email,cus_phone,company_name,com_reg_no, cus_password , cus_address) VALUES 
-												('$name','$email','$phone','$comapny','$regno',md5('$pass'),'$address')";
+						$q="INSERT INTO customer (cus_name, cus_email,cus_phone,company_name,com_reg_no, cus_password ) VALUES 
+												('$name','$email','$phone','$comapny','$regno',md5('$pass'))";
 						$q_run =  mysqli_query($con, $q);
 						echo mysqli_error($con);
 						if($q_run){
@@ -85,11 +85,11 @@
 							  <form action="" method="post">
                                  <div class="row">
 								  <div class="form-group col-sm-12">
-                                       <label for="exampleInputEmail1">User-Name</label>
+                                       <label for="exampleInputEmail1">User-Name *</label>
                                        <input class="form-control" type="text" name="username" id="example-text-input" placeholder="UserName" required > 
                                     </div>
 									<div class="form-group col-sm-6">
-                                       <label for="exampleInputEmail1">Email address</label>
+                                       <label for="exampleInputEmail1">Email address *</label>
                                        <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required> <small id="emailHelp" class="form-text text-muted">We"ll never share your email with anyone else.</small> 
                                     </div>
                                     <div class="form-group col-sm-6">
@@ -97,11 +97,11 @@
                                        <input class="form-control" type="number" name="phone" id="example-tel-input-3" placeholder="Phone" required> <small class="form-text text-muted">We"ll never share your number with anyone else.</small> 
                                     </div>
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputEmail1">Company Name</label>
+                                       <label for="exampleInputEmail1">Company Name *</label>
                                        <input class="form-control" type="text" name="cname" id="example-text-input" placeholder="Company Name..."> 
                                     </div>
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputEmail1">Company Register No.</label>
+                                       <label for="exampleInputEmail1">Company Register No. *</label>
                                        <input class="form-control" type="text" name="regno" id="example-text-input-2" placeholder="Comapny Registered Number..."> 
                                     </div>
                                     
@@ -110,11 +110,11 @@
                                        <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password" required> 
                                     </div>
                                    
-									 <div class="form-group col-sm-12">
+									 <!-- <div class="form-group col-sm-12">
                                        <label for="exampleTextarea">Address</label>
                                        <textarea class="form-control" id="exampleTextarea"  name="address" rows="3"></textarea>
                                     </div>
-                                   
+                                    -->
                                  </div>
                                 
                                  <div class="row">

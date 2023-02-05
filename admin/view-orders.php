@@ -69,7 +69,7 @@ if(isset($_REQUEST['delete'])){
                         <td><?php echo $row1['cus_name'] ?></td>
                         <td><?php echo $row1['cus_phone'] ?></td>
                         <td><a href="mailto:" class="text-decoration-none text-dark"><?php echo $row1['cus_email'] ?></a> </td>
-                        <td><?php echo $row1['cus_address'] ?></td>
+                        <td><?php echo $row1['cus_request'] ?></td>
                         <td><?php echo $row1['reg_date']; ?></td>
                         
                         <td ><a href="slip.php?order_id=<?php echo $row1['order_id'] ?>" class="btn btn-sm btn-info">View</a>

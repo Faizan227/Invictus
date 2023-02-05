@@ -163,19 +163,19 @@
 
 										<div class="row">
 											<div class="form-group col pb-1 mb-3">
-												<input type="text" value=""  maxlength="100" class="form-control" name="name" placeholder="Your Name" required>
+												<input type="email" value=""  maxlength="100" class="form-control" name="email" placeholder="Your Name" required>
 											</div>
 										</div>
 										<div class="row">
 											<div class="form-group col pb-1 mb-3">
-												<input type="text" value=""  maxlength="100" class="form-control" name="phone" placeholder="Your Phone Number" required>
+												<input type="password" value=""  maxlength="100" class="form-control" name="password" placeholder="password" required>
 											</div>
 										</div>
 										<div class="row">
 											<div class="form-group col pb-1 mb-3">
 												<div class="custom-select-1">
-													<select  class="form-control" name="service" required>
-														<option value="" selected>Ausgewähltes Produkt</option>
+													<select  class="form-control" name="request" required>
+														<option value="0" selected>Ausgewähltes Produkt</option>
 														<?php display_cat_name(); ?>
 													</select>
 												</div>
@@ -188,6 +188,7 @@
 										</div>
 									</form>
 								</div>
+								<?php //send_request(); ?>
 							  </div>
 						     </div>
 						<div class="col-lg-6 pb-lg-5">
@@ -294,10 +295,10 @@
                        ?>	
 								<div class="">
 										<a href="services-detail.php?id=<?php echo $product['c_id']; ?>" class="text-decoration-none ">
-											<div class="card custom-card-style-1   ">
+											<div class="card custom-card-style-1" style="min-height: 700px;" >
 												<div class="card-body text-center py-5">
 													<div class="custom-card-style-1-image-wrapper bg-primary rounded-circle d-inline-block  mb-3">
-														<img src="uploads/<?php echo $product['c_file'];  ?>" class="img-fluid  rounded-circle" alt="" >
+														<img src="uploads/<?php echo $product['c_file'];  ?>" class="img-fluid   rounded-circle" alt="" style="height: 300px;" >
 													</div>
 													<h4 class="custom-card-style-1-title text-color-secondary font-weight-bold mb-2"><?php echo $product['c_name'];?></h4>
 													<p class="custom-card-style-1-description text-justify"><?php echo $product['c_details'];?> </p>

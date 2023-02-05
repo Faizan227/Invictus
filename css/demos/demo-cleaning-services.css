@@ -72,6 +72,7 @@ body {
 .custom-card-style-1 .custom-card-style-1-image-wrapper img {
 		transform: translate3d(5px, -5px, 0);
 		transition: ease transform 300ms;
+		
 }
 
 .custom-card-style-1 .custom-card-style-1-title,
