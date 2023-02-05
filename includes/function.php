@@ -481,10 +481,15 @@ include "connection.php";
            <ul class="social-icons social-icons-medium social-icons-clean-with-border social-icons-clean-with-border-border-grey social-icons-clean-with-border-icon-dark me-3 mb-0">
            <!-- Facebook -->
            <li class="social-icons-whatsapp pb-2">
-           <a href="https://wa.me/491606767001?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body=I Saw <?php echo $data['p_name']; ?> on your website.I want to get price" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Whatsapp">
+           <a href="https://wa.me/491606767001?&text=Product Code: [ <?php echo $data['p_code']; ?> ] Product Name: [ <?php echo $data['p_name']; ?> ] 'we want to get Information in detail of this product.'" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Whatsapp">
            <i class="fab fa-whatsapp"></i>
            </a>
            </li>
+           <!-- <li class="social-icons-whatsapp pb-2">
+           <a href="https://wa.me/491606767001?Subject=Product Code :<?php //echo $data['p_code']; ?>&amp;Body=I Saw <?php //echo $data['p_name']; ?> on your website.I want to get price" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Whatsapp">
+           <i class="fab fa-whatsapp"></i>
+           </a>
+           </li> -->
            <!-- I%20saw%20this%20and%20thought%20of%20you!%20-->
            <!-- Email -->
            <li class="social-icons-email">
