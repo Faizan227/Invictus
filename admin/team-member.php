@@ -10,11 +10,7 @@
 <div class="container-fluid bg-dark p-1">
 </div>
 <!--------------main content area------------------->
-<?php
-    if(isset($_REQUEST['edit_post'])){
-        edit_post();
-    }else{
-        ?>
+
         <div class="container">
             <div class="row mt-3 mb-3">
                 <div class="col-md-12">
@@ -68,7 +64,7 @@
             </div>
         </div>
         <?php
-    }
+    
 ?>
 
 

@@ -5,8 +5,9 @@ if(isset($_REQUEST['send-message'])){
 	$email = $_REQUEST['email'];
 	$phone = $_REQUEST['phone'];
 	$message = $_REQUEST['message'];
+	$date = date("Y/m/d");
 	include "includes/connection.php";
-	$q = "INSERT INTO messages (sen_name,sen_email,sen_phone,message) VALUES ('$name','$email','$phone','$message') ";
+	$q = "INSERT INTO messages (sen_name,sen_email,sen_phone,message,date) VALUES ('$name','$email','$phone','$message','$date') ";
 	$q_run = mysqli_query($con, $q);
 	  
 	  echo mysqli_error($con);

@@ -41,11 +41,13 @@ if(isset($_REQUEST['delete'])){
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Name</th>
-                        <th scope="col">Mobile</th>
                         <th scope="col">Email</th>
-                        <th scope="col">Address</th>
+                        <th scope="col">Mobile</th>
+                        
+                        <th scope="col">Company Name</th>
+                        <th scope="col">Comapany Rg No.</th>
                         <th scope="col">Date</th>
-                        <th scope="col">Request For Service</th>
+                        
                         <!-- <th scope="col">Order</th> -->
                         
 
@@ -67,10 +69,13 @@ if(isset($_REQUEST['delete'])){
                         <!-- <td><?php // echo $sr++; ?></td> -->
                         <td><?php echo $row1['id'] ?></td>
                         <td><?php echo $row1['cus_name'] ?></td>
-                        <td><?php echo $row1['cus_phone'] ?></td>
                         <td><a href="mailto:" class="text-decoration-none text-dark"><?php echo $row1['cus_email'] ?></a> </td>
-                        <td><?php echo $row1['cus_request'] ?></td>
+
+                        <td><?php echo $row1['cus_phone'] ?></td>
+                        <td><?php echo $row1['company_name'] ?></td>
+                        <td><?php echo $row1['com_reg_no']; ?></td>
                         <td><?php echo $row1['reg_date']; ?></td>
+
                         
                         <td ><a href="slip.php?order_id=<?php echo $row1['order_id'] ?>" class="btn btn-sm btn-info">View</a>
 

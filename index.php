@@ -480,9 +480,16 @@
 				</section>
 
 				<section class="section border-0 pt-4 m-0">
-					<div class="container py-5 mt-4">
+					<div class="container py-2 ">
 						<div class="row align-items-center text-center">
-							<div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
+						<div class="owl-carousel owl-theme" data-plugin-options="{'items': 5, 'autoplay': true, 'autoplayTimeout': 3000}">
+						<!-- 'items': 5, -->
+						<?php display_brand(); ?>
+
+								
+							
+							</div>
+							<!-- <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
 								<img src="img/logos/logo-8.png" alt="" class="img-fluid" style="max-width: 90px;">
 							</div>
 							<div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
@@ -499,7 +506,7 @@
 							</div>
 							<div class="col-sm-4 col-lg-2">
 								<img src="img/logos/logo-13.png" alt="" class="img-fluid" style="max-width: 100px;">
-							</div>
+							</div> -->
 						</div>
 					</div>	
 				</section>

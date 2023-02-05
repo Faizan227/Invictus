@@ -9,12 +9,13 @@
 						$comapny=$_REQUEST['cname'];
 						$regno=$_REQUEST['regno'];
 						$pass=$_REQUEST['password'];
+						$date = date("Y/m/d");
 						// $request=$_REQUEST['request'];
 						
 						
 						include "includes/connection.php";
-						$q="INSERT INTO customer (cus_name, cus_email,cus_phone,company_name,com_reg_no, cus_password ) VALUES 
-												('$name','$email','$phone','$comapny','$regno',md5('$pass'))";
+						$q="INSERT INTO customer (cus_name, cus_email,cus_phone,company_name,com_reg_no, cus_password, reg_date ) VALUES 
+												('$name','$email','$phone','$comapny','$regno',md5('$pass'),$date)";
 						$q_run =  mysqli_query($con, $q);
 						echo mysqli_error($con);
 						if($q_run){

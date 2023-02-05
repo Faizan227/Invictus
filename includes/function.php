@@ -367,16 +367,16 @@ function cus_login(){
         $email = $_REQUEST['email'];
         $password = $_REQUEST['password'];
         if($email!="" && $password!=""){
-            include "includes/connection.php";
-            $query="SELECT * FROM customer WHERE cus_email='$email' AND cus_pass='$password'";
+            include "connection.php";
+            $query="SELECT * FROM customer WHERE cus_email='$email' AND cus_password=md5('$password')";
             $q_run = mysqli_query($con, $query);
-            $login_data = mysqli_fetch_array($q_run);
-            if($login_data['cus_email']==$email && $login_data['cus_pass']==$password ){
+            $login = mysqli_fetch_array($q_run);
+            if($login['cus_email']==$email && $login['cus_password']==md5($password)){
                 ?>
                 <div class="alert alert-success">Login successful! Please Wait...</div>
                 <?php
-                $_SESSION['id']=$login_data['cus_id'];
-                $_SESSION['email']=$login_data['cus_email'];
+                $_SESSION['id']=$login['id'];
+                $_SESSION['email']=$login['cus_email'];
                 ?>
                 <script>
                     setTimeout( function(){window.location="index.php" } ,3000);
@@ -490,6 +490,12 @@ include "connection.php";
            <li class="social-icons-email">
            <a href="mailto:info@invictus-diamantinstrumente.de?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body=I Saw <?php  echo  $data['p_name'];  ?> on your website.I want to get price" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
            <i class="far fa-envelope"></i>
+          <!-- <li class="social-icons-email">
+           <a href="?get_info=info" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
+           <i class="far fa-envelope"></i> -->
+           <!-- <li class="social-icons-email">
+           <button type="submit" name="get_info" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
+           <i class="far fa-envelope"></i> -->
            </a>
            </li>
            </ul>
@@ -530,6 +536,9 @@ include "connection.php";
      <?php
 }
 }
+function get_info(){
+    
+}
 function display_header_name(){
     $categories = $_GET['id'];
     include "connection.php";
@@ -567,6 +576,17 @@ function display_cat_name(){
 function send_request(){
 
 }
-
+function display_brand(){
+    include "connection.php";
+    $q="SELECT * FROM brand_logo";
+    $q_run =  mysqli_query($con, $q);
+    while($data = mysqli_fetch_array($q_run)){
+          ?> 
+		    <div class="col-12 ">
+			<img src="uploads/<?php echo $data['brand_pic']; ?>" alt="" class="img-fluid" style="max-width: 140px;">
+			</div>    
+             <?php
+            }
+        }
 ?>
 
