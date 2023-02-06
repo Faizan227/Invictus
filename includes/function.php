@@ -375,7 +375,7 @@ function cus_login(){
                 ?>
                 <div class="alert alert-success">Login successful! Please Wait...</div>
                 <?php
-                $_SESSION['id']=$login['id'];
+                $_SESSION['id']=$login['cus_id'];
                 $_SESSION['email']=$login['cus_email'];
                 ?>
                 <script>
@@ -479,26 +479,21 @@ include "connection.php";
       <td >      
          <div class="d-flex align-items-start mt-5 me-4">
            <ul class="social-icons social-icons-medium social-icons-clean-with-border social-icons-clean-with-border-border-grey social-icons-clean-with-border-icon-dark me-3 mb-0">
-           <!-- Facebook -->
+           <!-- whatsapp -->
            <li class="social-icons-whatsapp pb-2">
            <a href="https://wa.me/491606767001?&text=Product Code: [ <?php echo $data['p_code']; ?> ] Product Name: [ <?php echo $data['p_name']; ?> ] 'we want to get Information in detail of this product.'" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Whatsapp">
            <i class="fab fa-whatsapp"></i>
            </a>
            </li>
-           <!-- <li class="social-icons-whatsapp pb-2">
-           <a href="https://wa.me/491606767001?Subject=Product Code :<?php //echo $data['p_code']; ?>&amp;Body=I Saw <?php //echo $data['p_name']; ?> on your website.I want to get price" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Whatsapp">
-           <i class="fab fa-whatsapp"></i>
-           </a>
-           </li> -->
+           
            <!-- I%20saw%20this%20and%20thought%20of%20you!%20-->
            <!-- Email -->
            <!-- <li class="social-icons-email">
            <a href="mailto:info@invictus-diamantinstrumente.de?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body=I Saw <?php  echo  $data['p_name'];  ?> on your website.I want to get price" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
            <i class="far fa-envelope"></i> -->
           <li class="social-icons-email">
-           <!-- <a href="" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email"> -->
-           <a href="email_script.php?function=send_email&to=recipient@example.com&subject=Test&message=Hello" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
-
+           <a href="" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
+           <a href="email_script.php?function=send_email&to=Husnain325@gmail.com&subject=Test&message=Hello" onclick="<?php get_info(); ?>" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
            <i class="far fa-envelope"></i>
            <!-- <li class="social-icons-email">
            <button type="submit" name="get_info" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
@@ -546,8 +541,7 @@ include "connection.php";
 function get_info(){
    session_start();
 if (!isset($_SESSION['id'])) {
-    header("Location: registration.php");
-    exit;
+    
 }
 
 if (isset($_GET['send_email'])) {
@@ -593,7 +587,15 @@ function display_cat_name(){
     }
 }
 function send_request(){
+    if(isset($_REQUEST['send_request'])){
+        $email=$_REQUEST['email'];
+        $password=$_REQUEST['password'];
+        $request=$_REQUEST['request'];
+        
 
+       
+
+    }
 }
 function display_brand(){
     include "connection.php";
@@ -607,5 +609,6 @@ function display_brand(){
              <?php
             }
         }
+        session_destroy();
 ?>
 

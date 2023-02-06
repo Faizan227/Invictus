@@ -59,7 +59,7 @@ if(isset($_REQUEST['delete'])){
                     <?php
                    // $sr = 1;
                 //    $date=date("d:m:Y i:s");
-                    $sql1 = "SELECT * FROM customer ORDER BY id DESC";
+                    $sql1 = "SELECT * FROM customer ORDER BY cus_id DESC";
                     $result1 = mysqli_query($conn, $sql1);
                     while($row1 = mysqli_fetch_assoc($result1)){
 
@@ -67,7 +67,7 @@ if(isset($_REQUEST['delete'])){
 
                     <tr>
                         <!-- <td><?php // echo $sr++; ?></td> -->
-                        <td><?php echo $row1['id'] ?></td>
+                        <td><?php echo $row1['cus_id'] ?></td>
                         <td><?php echo $row1['cus_name'] ?></td>
                         <td><a href="mailto:" class="text-decoration-none text-dark"><?php echo $row1['cus_email'] ?></a> </td>
 

@@ -144,6 +144,13 @@
 				
 				</div>
 		</div>
+		<?php
+
+// $session_id = session_id();
+
+//  echo "The current session ID is: $session_id";
+?>
+
 			 <div id="booknow" class="container position-relative z-index-1" style="margin-top: -500px;">
 					           <div class="row align-items-end pb-4 mb-4 mb-lg-5">
 						     <div class="col-lg-6 pe-lg-4 mb-5 mb-lg-0">
@@ -188,7 +195,7 @@
 										</div>
 									</form>
 								</div>
-								<?php //send_request(); ?>
+								<?php send_request(); ?>
 							  </div>
 						     </div>
 						<div class="col-lg-6 pb-lg-5">
@@ -515,7 +522,8 @@
 			
 			</div>
 
-			<?php include "includes/footer.php" ?>
+			<?php include "includes/footer.php"; 
+			// session_destroy(); ?>
 
 		</div>
 
