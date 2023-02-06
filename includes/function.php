@@ -492,12 +492,14 @@ include "connection.php";
            </li> -->
            <!-- I%20saw%20this%20and%20thought%20of%20you!%20-->
            <!-- Email -->
-           <li class="social-icons-email">
+           <!-- <li class="social-icons-email">
            <a href="mailto:info@invictus-diamantinstrumente.de?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body=I Saw <?php  echo  $data['p_name'];  ?> on your website.I want to get price" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
-           <i class="far fa-envelope"></i>
-          <!-- <li class="social-icons-email">
-           <a href="?get_info=info" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
            <i class="far fa-envelope"></i> -->
+          <li class="social-icons-email">
+           <!-- <a href="" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email"> -->
+           <a href="email_script.php?function=send_email&to=recipient@example.com&subject=Test&message=Hello" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
+
+           <i class="far fa-envelope"></i>
            <!-- <li class="social-icons-email">
            <button type="submit" name="get_info" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
            <i class="far fa-envelope"></i> -->
@@ -542,7 +544,19 @@ include "connection.php";
 }
 }
 function get_info(){
-    
+   session_start();
+if (!isset($_SESSION['id'])) {
+    header("Location: registration.php");
+    exit;
+}
+
+if (isset($_GET['send_email'])) {
+    // Show email form
+    // ...
+    ?>
+    <a href="email_script.php?function=send_email&to=recipient@example.com&subject=Test&message=Hello" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
+    <?php
+} 
 }
 function display_header_name(){
     $categories = $_GET['id'];
