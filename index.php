@@ -203,8 +203,8 @@
 								<li class="mb-4 mb-lg-2">
 									<span class="d-flex align-items-center justify-content-end justify-content-lg-end flex-column flex-lg-row font-weight-medium text-4 text-lg-3 text-xl-4">
 									EINEN TERMIN VEREINBAREN: 
-										<strong class="text-7 mt-2 mt-lg-0 ms-lg-3">
-											<a href="tel:+49201433 95 601" class="text-color-secondary text-color-hover-primary text-decoration-none">+49201433 95 601</a>
+										<strong class="text-5 mt-2 mt-lg-0 ms-lg-3">
+											<a href="tel:+49201433 95 601" class="text-color-secondary text-color-hover-primary text-decoration-none">+49 201 43395601</a>
 										</strong>
 									</span>
 								</li>
@@ -258,9 +258,9 @@
 							<div class="col-sm-10 col-lg-6 offset-sm-1 ps-sm-5 ps-lg-0">
 								<div class="position-relative">
 									<div data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
-										<img src="Images/DSC02999.jpg" class="img-fluid rounded-circle custom-box-shadow-1 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1800" alt="" />
+										<img src="Images/DSC03027.jpg" class="img-fluid rounded-circle custom-box-shadow-1 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1800" alt="" />
 									</div>
-									<div class="position-absolute top-50pct left-50pct transform3dxy-n50" style="left: 25%;">
+									<div class="position-absolute top-48pct left-48pct transform3dxy-n50" style="left: 30%;">
 										<div data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
 											<img src="Images/DSC03046.jpg" class="img-fluid rounded-circle custom-box-shadow-1 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1400" alt="" />
 										</div>

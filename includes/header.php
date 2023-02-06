@@ -87,7 +87,7 @@ function dropdown_menu(){
 										</div>
 										<div class="feature-box-info ps-2">
 											<p class="font-weight-semibold line-height-1 text-2 pb-0 mb-1">RUF UNS JETZT AN</p>
-											<a href="tel:+49201433 95 601" class="text-color-tertiary text-color-hover-primary text-decoration-none font-weight-bold line-height-1 custom-font-size-1 pb-0">+49201433 95 601</a>
+											<a href="tel:+49201433 95 601" class="text-color-tertiary text-color-hover-primary text-decoration-none font-weight-bold line-height-1 custom-font-size-1 pb-0">+49 201 43395601</a>
 										</div>
 									</div>
 									<button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
