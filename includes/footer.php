@@ -6,7 +6,7 @@
 						<div class="col-md-4 col-lg-3 mb-4 mb-lg-0">
 							<div class="mb-3 mb-lg-0">
 							<a href="index.php">
-								<img alt="Porto" width="140" height="120" src="Images/invictus/logo-bg-remove.png">
+								<img alt="Porto" width="140" height="120" src="Images/invictus/logo.png">
 							</a>
 							</div>
 							<p class="text-3-5 pe-lg-2 text-justify">INVICTUS Diamantwerkzeuge Essen ist Ihr erfahrener Partner für Diamantwerkzeuge in ganz Europa. </p>

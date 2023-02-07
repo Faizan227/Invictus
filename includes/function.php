@@ -492,7 +492,7 @@ include "connection.php";
            <a href="mailto:info@invictus-diamantinstrumente.de?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body=I Saw <?php  echo  $data['p_name'];  ?> on your website.I want to get price" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
            <i class="far fa-envelope"></i> -->
           <li class="social-icons-email">
-           <a href="" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
+           <!-- <a href="" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email"> -->
            <a href="email_script.php?function=send_email&to=Husnain325@gmail.com&subject=Test&message=Hello" onclick="<?php get_info(); ?>" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
            <i class="far fa-envelope"></i>
            <!-- <li class="social-icons-email">

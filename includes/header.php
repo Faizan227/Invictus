@@ -54,7 +54,7 @@ function dropdown_menu(){
 								<div class="header-row">
 									<div class="header-logo">
 										<a href="index.php">
-											<img src="images/invictus/logo.png" class="img-fluid" width="195" height="75" alt="" />
+											<img src="images/invictus/logo.png" class="img-fluid" width="195" height="70" alt="" />
 										</a>
 									</div>
 								</div>
