@@ -206,11 +206,14 @@ function create_team_member(){
     if(isset($_REQUEST['create_member'])){
         $name=$_REQUEST['m_name'];
         $position=$_REQUEST['m_position'];
+        $facebook=$_REQUEST['facebook_link'];
+        $twitter=$_REQUEST['twitter_link'];
+        $instagram=$_REQUEST['instagram_link'];
         $file=$_FILES['p_file']['name'];
         $file_name = file_uploading($file);
         include "connection.php";
-        $q="INSERT INTO team_member (m_name, m_post, m_image ) VALUES 
-                            ('$name','$position','$file_name')";
+        $q="INSERT INTO team_member (m_name, m_post, m_image ,facebook_link , twitter_link,instagram_link ) VALUES 
+                            ('$name','$position','$file_name','$facebook','$twitter','$instagram')";
         $q_run =  mysqli_query($con, $q);
         echo mysqli_error($con);
         if($q_run){
@@ -785,7 +788,8 @@ function display_query(){
             <td ><?php echo $data['sen_name']; ?> </td>
             <td><?php echo $data['sen_email'] ; ?></td>
             <td><?php echo $data['sen_phone'] ; ?></td>
-            <td><?php echo $data['message']; ?></td>
+            <td><?php echo $data['date'] ; ?></td>
+            <td ><p class="text-justify"><?php echo $data['message']; ?></p></td>
 
             <td><a href="?del_query=<?php echo $data['msg_id']; ?>" class="btn btn-danger">Delete</a></td>
             <!--            <td><a href="?edit_query=--><?php //echo $data['q_id']; ?><!--" class="btn btn-primary">Edit</a></td>
@@ -809,5 +813,63 @@ function del_query(){
         }
     }
 }
-
-
+function create_company_brand(){
+    if(isset($_REQUEST['create_brand'])){
+        $file=$_FILES['p_file']['name'];
+        $file_name = file_uploading($file);
+        include "connection.php";
+        $q="INSERT INTO brand_logo (brand_pic) VALUES 
+                            ('$file_name')";
+        $q_run =  mysqli_query($con, $q);
+        echo mysqli_error($con);
+        if($q_run){
+            ?>
+            <div class="alert alert-success">
+                Brand Created
+            </div>
+            <script>
+                setTimeout(function(){window.location="add-company-logo.php";},2000);
+            </script>
+            <?php
+        }else{
+            ?>
+            <div class="alert alert-danger">
+                Error please Try Again
+            </div>
+            <?php
+        }//else
+    }//isset
+}
+function display_company_brand(){
+    include "connection.php";
+    $q="SELECT * FROM brand_logo";
+    $q_run =  mysqli_query($con, $q);
+    $sr=1;
+    while($data = mysqli_fetch_array($q_run)){
+        ?>
+         <tr>
+            <th scope="row"><?php echo $sr; $sr++; ?> </th>
+            <td ><img src="../uploads/<?php echo $data['brand_pic']; ?>" title="" alt="" style="max-width: 150px;"> </td>
+           
+            <td><a href="?del_brand=<?php echo $data['id']; ?>" class="btn btn-danger">Delete Company</a></td>
+            <!-- <td><a href="post.php?edit_post=<?php //echo $data['p_id']; ?>" class="btn btn-primary">Edit</a></td> -->
+        </tr>
+        <?php
+    } 
+}
+function del_company_brand(){
+    if(isset($_REQUEST['del_brand'])){
+        $id=$_REQUEST['del_brand'];
+        include "connection.php";
+        $q="DELETE from brand_logo WHERE id=".$id;
+        $q_run =  mysqli_query($con, $q);
+    if($q_run){
+        ?>
+        <script>
+            setTimeout(function(){window.location="view-company-brand.php";},1000);
+        </script>
+        <?php
+                }
+    }
+}
+?>
