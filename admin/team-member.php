@@ -10,11 +10,7 @@
 <div class="container-fluid bg-dark p-1">
 </div>
 <!--------------main content area------------------->
-<?php
-    if(isset($_REQUEST['edit_post'])){
-        edit_post();
-    }else{
-        ?>
+
         <div class="container">
             <div class="row mt-3 mb-3">
                 <div class="col-md-12">
@@ -36,6 +32,18 @@
                                 <label for="m_position" class="form-label">Position *</label>
                                 <input type="text" name="m_position" class="form-control" id="m_position" required>
                             </div>
+                            <div class="col-md-6">
+                                <label for="facebook" class="form-label">Add Facebook Link *</label>
+                                <input type="text" name="facebook_link" class="form-control" id="facebook" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="twitter" class="form-label">Add Twitter Link *</label>
+                                <input type="text" name="twitter_link" class="form-control" id="twitter" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="instagram" class="form-label">Add Instagram Link *</label>
+                                <input type="text" name="instagram_link" class="form-control" id="instagram" required>
+                            </div>
                             <div class="col-md-4">
                                 <label for="p_file" class="form-label">Select Picture *</label>
                                 <input type="file" name="p_file" class="form-control" id="p_file" required>
@@ -56,7 +64,7 @@
             </div>
         </div>
         <?php
-    }
+    
 ?>
 
 

@@ -25,6 +25,8 @@
                         <th scope="col">#</th>
                         <th scope="col">Name</th>
                         <th scope="col">Email</th>
+                        <th scope="col">Phone</th>
+                        <th scope="col">Date</th>
                         <th scope="col">Message</th>
 
                         <th colspan="1">operations</th>
