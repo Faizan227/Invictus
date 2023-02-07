@@ -144,6 +144,13 @@
 				
 				</div>
 		</div>
+		<?php
+
+// $session_id = session_id();
+
+//  echo "The current session ID is: $session_id";
+?>
+
 			 <div id="booknow" class="container position-relative z-index-1" style="margin-top: -500px;">
 					           <div class="row align-items-end pb-4 mb-4 mb-lg-5">
 						     <div class="col-lg-6 pe-lg-4 mb-5 mb-lg-0">
@@ -163,19 +170,19 @@
 
 										<div class="row">
 											<div class="form-group col pb-1 mb-3">
-												<input type="text" value=""  maxlength="100" class="form-control" name="name" placeholder="Your Name" required>
+												<input type="email" value=""  maxlength="100" class="form-control" name="email" placeholder="Your Name" required>
 											</div>
 										</div>
 										<div class="row">
 											<div class="form-group col pb-1 mb-3">
-												<input type="text" value=""  maxlength="100" class="form-control" name="phone" placeholder="Your Phone Number" required>
+												<input type="password" value=""  maxlength="100" class="form-control" name="password" placeholder="password" required>
 											</div>
 										</div>
 										<div class="row">
 											<div class="form-group col pb-1 mb-3">
 												<div class="custom-select-1">
-													<select  class="form-control" name="service" required>
-														<option value="" selected>Ausgewähltes Produkt</option>
+													<select  class="form-control" name="request" required>
+														<option value="0" selected>Ausgewähltes Produkt</option>
 														<?php display_cat_name(); ?>
 													</select>
 												</div>
@@ -188,6 +195,7 @@
 										</div>
 									</form>
 								</div>
+								<?php send_request(); ?>
 							  </div>
 						     </div>
 						<div class="col-lg-6 pb-lg-5">
@@ -195,8 +203,8 @@
 								<li class="mb-4 mb-lg-2">
 									<span class="d-flex align-items-center justify-content-end justify-content-lg-end flex-column flex-lg-row font-weight-medium text-4 text-lg-3 text-xl-4">
 									EINEN TERMIN VEREINBAREN: 
-										<strong class="text-7 mt-2 mt-lg-0 ms-lg-3">
-											<a href="tel:+49201433 95 601" class="text-color-secondary text-color-hover-primary text-decoration-none">+49201433 95 601</a>
+										<strong class="text-5 mt-2 mt-lg-0 ms-lg-3">
+											<a href="tel:+49201433 95 601" class="text-color-secondary text-color-hover-primary text-decoration-none">+49 201 43395601</a>
 										</strong>
 									</span>
 								</li>
@@ -250,9 +258,9 @@
 							<div class="col-sm-10 col-lg-6 offset-sm-1 ps-sm-5 ps-lg-0">
 								<div class="position-relative">
 									<div data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
-										<img src="Images/DSC02999.jpg" class="img-fluid rounded-circle custom-box-shadow-1 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1800" alt="" />
+										<img src="Images/DSC03027.jpg" class="img-fluid rounded-circle custom-box-shadow-1 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1800" alt="" />
 									</div>
-									<div class="position-absolute top-50pct left-50pct transform3dxy-n50" style="left: 25%;">
+									<div class="position-absolute top-48pct left-48pct transform3dxy-n50" style="left: 30%;">
 										<div data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
 											<img src="Images/DSC03046.jpg" class="img-fluid rounded-circle custom-box-shadow-1 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1400" alt="" />
 										</div>
@@ -292,12 +300,12 @@
 								<?php $data=display_simple("categories");
                        foreach ($data as $product){
                        ?>	
-								<div>
-										<a href="services.php" class="text-decoration-none">
-											<div class="card custom-card-style-1">
+								<div class="">
+										<a href="services-detail.php?id=<?php echo $product['c_id']; ?>" class="text-decoration-none ">
+											<div class="card custom-card-style-1" style="min-height: 700px;" >
 												<div class="card-body text-center py-5">
-													<div class="custom-card-style-1-image-wrapper bg-primary rounded-circle d-inline-block mb-3">
-														<img src="uploads/<?php echo $product['c_file'];  ?>" class="img-fluid rounded-circle" alt="" >
+													<div class="custom-card-style-1-image-wrapper bg-primary rounded-circle d-inline-block  mb-3">
+														<img src="uploads/<?php echo $product['c_file'];  ?>" class="img-fluid   rounded-circle" alt="" style="height: 300px;" >
 													</div>
 													<h4 class="custom-card-style-1-title text-color-secondary font-weight-bold mb-2"><?php echo $product['c_name'];?></h4>
 													<p class="custom-card-style-1-description text-justify"><?php echo $product['c_details'];?> </p>
@@ -479,9 +487,16 @@
 				</section>
 
 				<section class="section border-0 pt-4 m-0">
-					<div class="container py-5 mt-4">
+					<div class="container py-2 ">
 						<div class="row align-items-center text-center">
-							<div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
+						<div class="owl-carousel owl-theme" data-plugin-options="{'items': 5, 'autoplay': true, 'autoplayTimeout': 3000}">
+						<!-- 'items': 5, -->
+						<?php display_brand(); ?>
+
+								
+							
+							</div>
+							<!-- <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
 								<img src="img/logos/logo-8.png" alt="" class="img-fluid" style="max-width: 90px;">
 							</div>
 							<div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
@@ -498,7 +513,7 @@
 							</div>
 							<div class="col-sm-4 col-lg-2">
 								<img src="img/logos/logo-13.png" alt="" class="img-fluid" style="max-width: 100px;">
-							</div>
+							</div> -->
 						</div>
 					</div>	
 				</section>
@@ -507,7 +522,8 @@
 			
 			</div>
 
-			<?php include "includes/footer.php" ?>
+			<?php include "includes/footer.php"; 
+			// session_destroy(); ?>
 
 		</div>
 

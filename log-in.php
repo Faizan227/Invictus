@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -70,7 +71,7 @@
                                  <div class="row">
                                     <div class="col-4 col-md-6">
 
-                                       <p> <input type="submit" value="Register" name="submit" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3"> </p>
+                                       <p> <input type="submit" value="Login" name="login" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3"> </p>
                                     </div>
 									<div class="col-4 col-md-6 text-center  ">
                                  <p class=" fw-bold mt-2 pt-1 mb-0">If Don't have an account?Please first register <a href="registration.php" class="link-danger">Register</a></p>
@@ -78,7 +79,7 @@
                                  </div>
 								 
                               </form>
-                           
+                           <?php cus_login(); ?>
 						   </div>
                            <!-- end: Widget -->
                         </div>
