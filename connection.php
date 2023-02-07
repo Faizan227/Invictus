@@ -1,1 +1,0 @@
-<?php include "admin/includes/connection.php"; ?>
