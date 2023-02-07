@@ -6,7 +6,7 @@
 						<div class="col-md-4 col-lg-3 mb-4 mb-lg-0">
 							<div class="mb-3 mb-lg-0">
 							<a href="index.php">
-								<img alt="Porto" width="140" height="120" src="Images/invictus/logo-bg-remove.png">
+								<img alt="Porto" width="140" height="120" src="Images/invictus/logo.png">
 							</a>
 							</div>
 							<p class="text-3-5 pe-lg-2 text-justify">INVICTUS Diamantwerkzeuge Essen ist Ihr erfahrener Partner für Diamantwerkzeuge in ganz Europa. </p>
@@ -35,7 +35,7 @@
 								</div>
 								<div class="feature-box-info ps-2">
 									<p class="text-uppercase font-weight-semibold line-height-1 text-2 pb-0 mb-0">CALL US NOW</p>
-									<a href="tel:+49201433 95 601" class="text-uppercase text-color-light text-color-hover-secondary text-decoration-none text-5 font-weight-bold pb-0">+49201433 95 601</a>
+									<a href="tel:+49201433 95 601" class="text-uppercase text-color-light text-color-hover-secondary text-decoration-none text-4 pb-0">+49 201 43 39 56 01</a>
 								</div>
 							</div>
 							<div class="feature-box feature-box-style-2 align-items-center mb-3">
@@ -44,7 +44,7 @@
 								</div>
 								<div class="feature-box-info ps-2">
 									<p class="text-uppercase font-weight-semibold line-height-1 text-2 pb-0 mb-0">CALL US NOW</p>
-									<a href="tel: +4920185151751" class="text-uppercase text-color-light text-color-hover-secondary text-decoration-none text-5 font-weight-bold pb-0"> +4920185151751</a>
+									<a href="tel: +4920185151751" class="text-uppercase text-color-light text-color-hover-secondary text-decoration-none text-4  pb-0"> +49 201 85 15 17 51</a>
 								</div>
 							</div>
 							<div class="feature-box feature-box-style-2 align-items-center mb-3">
@@ -53,7 +53,7 @@
 								</div>
 								<div class="feature-box-info ps-2">
 									<p class="text-uppercase font-weight-semibold line-height-1 text-2 pb-0 mb-0">Send Email Now</p>
-									<a href="mailto:info@invictus-diamantinstrumente.de" class="text-uppercase text-color-light text-color-hover-secondary text-decoration-none text-5 font-weight-bold pb-0">info@invictus-diamantinstrumente.de</a>
+									<a href="mailto:info@invictus-diamantinstrumente.de" class="text-lowercase text-color-light text-color-hover-secondary text-decoration-none text-4 pb-0">info@invictus-diamantinstrumente.de</a>
 								</div>
 							</div>
 							

@@ -367,16 +367,16 @@ function cus_login(){
         $email = $_REQUEST['email'];
         $password = $_REQUEST['password'];
         if($email!="" && $password!=""){
-            include "includes/connection.php";
-            $query="SELECT * FROM customer WHERE cus_email='$email' AND cus_pass='$password'";
+            include "connection.php";
+            $query="SELECT * FROM customer WHERE cus_email='$email' AND cus_password=md5('$password')";
             $q_run = mysqli_query($con, $query);
-            $login_data = mysqli_fetch_array($q_run);
-            if($login_data['cus_email']==$email && $login_data['cus_pass']==$password ){
+            $login = mysqli_fetch_array($q_run);
+            if($login['cus_email']==$email && $login['cus_password']==md5($password)){
                 ?>
                 <div class="alert alert-success">Login successful! Please Wait...</div>
                 <?php
-                $_SESSION['id']=$login_data['cus_id'];
-                $_SESSION['email']=$login_data['cus_email'];
+                $_SESSION['id']=$login['cus_id'];
+                $_SESSION['email']=$login['cus_email'];
                 ?>
                 <script>
                     setTimeout( function(){window.location="index.php" } ,3000);
@@ -406,7 +406,7 @@ function display_testimonial(){
     while($data = mysqli_fetch_array($q_run)){
     ?> 
     <div>
-		<div class="testimonial testimonial-style-3 custom-testimonial-style-1">
+		<div class="testimonial  testimonial-style-3 custom-testimonial-style-1">
 			<blockquote>
 				<p class="mb-0"><?php echo $data['cl_review']; ?></p>
 			</blockquote>
@@ -428,20 +428,20 @@ function display_team_member(){
     $q_run =  mysqli_query($con, $q);
     while($data = mysqli_fetch_array($q_run)){
     ?>
-    <div>
-	<div class="card custom-card-style-1 custom-card-style-1-variation">
-		<div class="card-body text-center bg-color-light-scale-1 py-5">
-			<div class="custom-card-style-1-image-wrapper bg-primary rounded-circle d-inline-block mb-3">
+    <div class="">
+	<div class="card custom-card-style-1  d-flex custom-card-style-1-variation" style="height: 500px;">
+		<div class="card-body  text-center bg-color-light-scale-1 py-5">
+			<div class="custom-card-style-1-image-wrapper bg-primary rounded-circle p-relative mb-3">
 				
-					<img src="uploads/<?php echo $data['m_image']; ?>" class="img-fluid rounded-circle" alt="" />
+					<img src="uploads/<?php echo $data['m_image']; ?>" class="img-fluid  rounded-circle" alt="" style="height: 250px;" />
 				
 			</div>
 			<h4 class="text-color-secondary font-weight-bold line-height-1 text-5 mb-0"><a href="#" class="text-color-secondary text-color-hover-primary text-decoration-none"><?php echo $data['m_name']; ?></a></h4>
 			<p class="text-2 pb-1 mb-2"><?php echo $data['m_post']; ?></p>
 			<ul class="social-icons custom-social-icons social-icons-big">
-				<li class="social-icons-instagram"><a href="http://www.instagram.com/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-				<li class="social-icons-twitter mx-2"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-				<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+				<li class="social-icons-instagram"><a href="<?php echo $data['instagram_link']; ?>" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+				<li class="social-icons-twitter mx-2"><a href="<?php echo $data['twitter_link']; ?>" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+				<li class="social-icons-facebook"><a href="<?php echo $data['facebook_link']; ?>" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
 			</ul>
 		</div>
 	</div>
@@ -479,17 +479,25 @@ include "connection.php";
       <td >      
          <div class="d-flex align-items-start mt-5 me-4">
            <ul class="social-icons social-icons-medium social-icons-clean-with-border social-icons-clean-with-border-border-grey social-icons-clean-with-border-icon-dark me-3 mb-0">
-           <!-- Facebook -->
+           <!-- whatsapp -->
            <li class="social-icons-whatsapp pb-2">
-           <a href="https://wa.me/491606767001?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body=I Saw <?php echo $data['p_name']; ?> on your website.I want to get price" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Whatsapp">
+           <a href="https://wa.me/491606767001?&text=Product Code: [ <?php echo $data['p_code']; ?> ] Product Name: [ <?php echo $data['p_name']; ?> ] 'we want to get Information in detail of this product.'" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Whatsapp">
            <i class="fab fa-whatsapp"></i>
            </a>
            </li>
+           
            <!-- I%20saw%20this%20and%20thought%20of%20you!%20-->
            <!-- Email -->
-           <li class="social-icons-email">
+           <!-- <li class="social-icons-email">
            <a href="mailto:info@invictus-diamantinstrumente.de?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body=I Saw <?php  echo  $data['p_name'];  ?> on your website.I want to get price" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
+           <i class="far fa-envelope"></i> -->
+          <li class="social-icons-email">
+           <!-- <a href="" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email"> -->
+           <a href="email_script.php?function=send_email&to=Husnain325@gmail.com&subject=Test&message=Hello" onclick="<?php get_info(); ?>" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
            <i class="far fa-envelope"></i>
+           <!-- <li class="social-icons-email">
+           <button type="submit" name="get_info" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
+           <i class="far fa-envelope"></i> -->
            </a>
            </li>
            </ul>
@@ -526,35 +534,23 @@ include "connection.php";
        
        </tbody>
       </table>
-    <!-- <table>
-        <tr>
-          <th><h3><?php //echo $data['p_code']; ?></h3></th>
-          <th><?php //echo $data['p_name']; ?></th>
-          <th>Price</th>
-        </tr>
-        <tr>
-          <td><img src="uploads/<?php //echo $data['p_file']; ?>" class="img-fluid float-start custom-max-width-1 my-3 me-4" alt="" /></td>
-          <td><?php //echo $data['p_name']; ?></td>
-          <td><?php // echo $data['p_name']; ?></td>
-        </tr>
-   </table>   -->
-    <!-- <div class="row">
-    <div class="col-6 col-md-3">
-    
-    </div>
-    <div class="col-6 col-md-3">
-    <h3></h3>
-    </div>	
-    </div>
-    <div class="row">
-        <div class="col-md-3">
-        
 
-        </div>
-
-    </div> -->
      <?php
 }
+}
+function get_info(){
+   session_start();
+if (!isset($_SESSION['id'])) {
+    
+}
+
+if (isset($_GET['send_email'])) {
+    // Show email form
+    // ...
+    ?>
+    <a href="email_script.php?function=send_email&to=recipient@example.com&subject=Test&message=Hello" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
+    <?php
+} 
 }
 function display_header_name(){
     $categories = $_GET['id'];
@@ -590,7 +586,29 @@ function display_cat_name(){
     <option value="<?php echo $data['c_id']; ?>"><?php echo $data['c_name']; ?></option>  <?php
     }
 }
+function send_request(){
+    if(isset($_REQUEST['send_request'])){
+        $email=$_REQUEST['email'];
+        $password=$_REQUEST['password'];
+        $request=$_REQUEST['request'];
+        
 
+       
 
+    }
+}
+function display_brand(){
+    include "connection.php";
+    $q="SELECT * FROM brand_logo";
+    $q_run =  mysqli_query($con, $q);
+    while($data = mysqli_fetch_array($q_run)){
+          ?> 
+		    <div class="col-12 ">
+			<img src="uploads/<?php echo $data['brand_pic']; ?>" alt="" class="img-fluid" style="max-width: 140px;">
+			</div>    
+             <?php
+            }
+        }
+        session_destroy();
 ?>
 
