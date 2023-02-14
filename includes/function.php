@@ -375,8 +375,12 @@ function cus_login(){
                 ?>
                 <div class="alert alert-success">Login successful! Please Wait...</div>
                 <?php
-                $_SESSION['id']=$login['cus_id'];
-                $_SESSION['email']=$login['cus_email'];
+               
+                
+                $_SESSION['cus_id']= $login['cus_id'];
+                $_SESSION['email']= $login['cus_email'];
+
+                
                 ?>
                 <script>
                     setTimeout( function(){window.location="index.php" } ,3000);
@@ -492,8 +496,8 @@ include "connection.php";
            <a href="mailto:info@invictus-diamantinstrumente.de?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body=I Saw <?php  echo  $data['p_name'];  ?> on your website.I want to get price" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
            <i class="far fa-envelope"></i> -->
           <li class="social-icons-email">
-           <!-- <a href="" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email"> -->
-           <a href="email_script.php?function=send_email&to=Husnain325@gmail.com&subject=Test&message=Hello" onclick="<?php get_info(); ?>" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
+           <!-- <a href="mailto:Husnain325@gmail.com" onclick="<?php //get_info(); ?>" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email"> -->
+           <a href="email_script.php?product=<?php echo $data['p_id']?>" onclick="<?php //get_info(); ?>" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
            <i class="far fa-envelope"></i>
            <!-- <li class="social-icons-email">
            <button type="submit" name="get_info" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
@@ -540,17 +544,14 @@ include "connection.php";
 }
 function get_info(){
    session_start();
-if (!isset($_SESSION['id'])) {
-    
-}
-
-if (isset($_GET['send_email'])) {
-    // Show email form
-    // ...
+if (!isset($_SESSION['email'])) {
     ?>
-    <a href="email_script.php?function=send_email&to=recipient@example.com&subject=Test&message=Hello" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
-    <?php
-} 
+    <script>
+        setTimeout( function(){window.location="log-in.php" } ,2000);
+    </script>
+
+    <?php 
+}
 }
 function display_header_name(){
     $categories = $_GET['id'];
@@ -609,6 +610,6 @@ function display_brand(){
              <?php
             }
         }
-        session_destroy();
+        // session_destroy();
 ?>
 
