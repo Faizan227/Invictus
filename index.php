@@ -1,3 +1,8 @@
+<?php
+if(!isset($_SESSION)){
+    session_start();
+} 
+?>
 <!DOCTYPE html>
 <html lang="de">
 	<head>
@@ -6,7 +11,9 @@
 	<body>
 
 		<div class="body">
-			<?php include "includes/header.php";?>
+			<?php 
+			$page = 'home';
+			include "includes/header.php";?>
 
 		 <div role="main" class="main">
 			<div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center show-dots-hover show-dots-xs nav-style-1 nav-arrows-thin nav-inside nav-inside-plus nav-dark nav-lg nav-font-size-lg show-nav-hover mb-0" data-plugin-options="{'autoplay': true, 'autoplayTimeout': 7000}" style="height: 1000px;">
@@ -144,62 +151,20 @@
 				
 				</div>
 		</div>
-		<?php
+	
 
-// $session_id = session_id();
-
-//  echo "The current session ID is: $session_id";
-?>
-
-			 <div id="booknow" class="container position-relative z-index-1" style="margin-top: -500px;">
-					           <div class="row align-items-end pb-4 mb-4 mb-lg-5">
-						     <div class="col-lg-6 pe-lg-4 mb-5 mb-lg-0">
+			 <div id="booknow" class="container position-relative z-index-1" style="margin-top: -150px;">
+					           <div class="row align-items-end pb-2 ">
+						     <div class="col-lg-12 pe-lg-4  mb-lg-0">
 							  <div  class="card border-0 custom-border-radius-1 box-shadow-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
-								<div  class="card-body p-5">
+								<div  class="card-body  p-5">
+									<div class="row">
+										<div class="col-lg-5">
 									<h2 class="text-color-secondary font-weight-bold text-7 line-height-1 mb-1">Fordern Sie einen Rückruf an</h2>
 									<p class="custom-font-secondary text-4 pb-1 mb-4">Tragen Sie Ihre Daten in das Formular ein und wir rufen Sie zurück.</p>
-									<form class=" custom-form-style-2" action="" method="get">
-										<!-- <div class="contact-form-success alert alert-success d-none mt-4">
-											<strong>Success!</strong> Your request has been sent to us.
-										</div>
-
-										<div class="contact-form-error alert alert-danger d-none mt-4">
-											<strong>Error!</strong> There was an error sending your request.
-											<span class="mail-error-message text-1 d-block"></span>
-										</div> -->
-
-										<div class="row">
-											<div class="form-group col pb-1 mb-3">
-												<input type="email" value=""  maxlength="100" class="form-control" name="email" placeholder="Your Name" required>
-											</div>
-										</div>
-										<div class="row">
-											<div class="form-group col pb-1 mb-3">
-												<input type="password" value=""  maxlength="100" class="form-control" name="password" placeholder="password" required>
-											</div>
-										</div>
-										<div class="row">
-											<div class="form-group col pb-1 mb-3">
-												<div class="custom-select-1">
-													<select  class="form-control" name="request" required>
-														<option value="0" selected>Ausgewähltes Produkt</option>
-														<?php display_cat_name(); ?>
-													</select>
-												</div>
-											</div>
-										</div>
-										<div class="row">
-											<div class="form-group col">
-												<button type="submit" name="send_request" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3" data-loading-text="Loading...">Ruf mich zurück</button>
-											</div>
-										</div>
-									</form>
-								</div>
-								<?php send_request(); ?>
-							  </div>
-						     </div>
-						<div class="col-lg-6 pb-lg-5">
-							<ul class="list list-unstyled mb-0">
+									</div>
+									 <div class="col-lg-7">
+									<ul class="list list-unstyled mb-0">
 								<li class="mb-4 mb-lg-2">
 									<span class="d-flex align-items-center justify-content-end justify-content-lg-end flex-column flex-lg-row font-weight-medium text-4 text-lg-3 text-xl-4">
 									EINEN TERMIN VEREINBAREN: 
@@ -216,13 +181,61 @@
 										</strong>
 									</span>
 								</li>
-							</ul>
-						</div>
+							    </ul>
+								</div>
+									</div>
+									<!-- <form class=" custom-form-style-2" action="" method="get">
+										<div class="contact-form-success alert alert-success d-none mt-4">
+											<strong>Success!</strong> Your request has been sent to us.
+										</div>
+
+										<div class="contact-form-error alert alert-danger d-none mt-4">
+											<strong>Error!</strong> There was an error sending your request.
+											<span class="mail-error-message text-1 d-block"></span>
+										</div>
+
+										<div class="row">
+											<div class="form-group col pb-1 mb-3">
+												<input type="email" value=""  maxlength="100" class="form-control" name="email" placeholder="Your Name" required>
+											</div>
+										</div>
+										<div class="row">
+											<div class="form-group col pb-1 mb-3">
+												<input type="password" value=""  maxlength="100" class="form-control" name="password" placeholder="password" required>
+											</div>
+										</div>
+										<div class="row">
+											<div class="form-group col pb-1 mb-3">
+												<div class="custom-select-1">
+													<select  class="form-control" name="request" required>
+														<option value="0" selected>Ausgewähltes Produkt</option>
+														<?php //display_cat_name(); ?>
+													</select>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="form-group col">
+												<button type="submit" name="send_request" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3" data-loading-text="Loading...">Ruf mich zurück</button>
+											</div>
+										</div>
+									</form> -->
+								</div>
+								<?php //send_request(); ?>
+							  </div>
+						     </div>
+						<!-- <div class="col-lg-6 pb-lg-5">
+							
+						</div> -->
 					           </div>
 			</div>
 			 
 		
+			<?php
+// $session_id = $_SESSION['email'];
+// echo $session_id ;
 
+?>
 				
 				
 				
@@ -258,11 +271,11 @@
 							<div class="col-sm-10 col-lg-6 offset-sm-1 ps-sm-5 ps-lg-0">
 								<div class="position-relative">
 									<div data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
-										<img src="Images/DSC03027.jpg" class="img-fluid rounded-circle custom-box-shadow-1 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1800" alt="" />
+										<img src="Images/DSC03101.jpg" class="img-fluid rounded-circle custom-box-shadow-1 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1800" alt="" />
 									</div>
-									<div class="position-absolute top-48pct left-48pct transform3dxy-n50" style="left: 30%;">
+									<div class="position-absolute top-50pct left-50pct transform3dxy-n50" style="left: 30%;">
 										<div data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
-											<img src="Images/DSC03046.jpg" class="img-fluid rounded-circle custom-box-shadow-1 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1400" alt="" />
+											<img src="Images/DSC03275.jpg" class="img-fluid rounded-circle custom-box-shadow-1 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1400" alt="" />
 										</div>
 									</div>
 								</div>
@@ -355,7 +368,7 @@
 							</div>
 							<div class="col-xl-3 text-center text-xl-end">
 								<div class="position-relative">
-									<a href="#booknow" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="550">JETZT IN 60 SEKUNDEN BUCHEN</a>
+									<a href="contact.php" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="550">JETZT IN 60 SEKUNDEN BUCHEN</a>
 								</div>
 							</div>
 						</div>
@@ -523,7 +536,7 @@
 			</div>
 
 			<?php include "includes/footer.php"; 
-			// session_destroy(); ?>
+			 ?>
 
 		</div>
 

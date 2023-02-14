@@ -85,10 +85,10 @@
                               
 							  <form action="" method="post">
                                  <div class="row">
-								  <div class="form-group col-sm-12">
+								  <!-- <div class="form-group col-sm-12">
                                        <label for="exampleInputEmail1">User-Name *</label>
                                        <input class="form-control" type="text" name="username" id="example-text-input" placeholder="UserName" required > 
-                                    </div>
+                                    </div> -->
 									<div class="form-group col-sm-6">
                                        <label for="exampleInputEmail1">Email address *</label>
                                        <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required> <small id="emailHelp" class="form-text text-muted">We"ll never share your email with anyone else.</small> 
