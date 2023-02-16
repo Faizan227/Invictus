@@ -91,17 +91,12 @@
 										<div class="card-body text-center py-5">
 										
 											<h4 class="custom-card-style-1-title text-color-secondary font-weight-bold mb-2">Building Services</h4>
-											<ul class="list-unstyled mb-0">
-								            <li>
-											<p class="custom-card-style-1-description text-justify">Safety instructions for handling our products </p>
-											</li>
-											<li>
-											<p class="custom-card-style-1-description text-justify">Safety instructions for handling our products </p>
-											</li>
-											<li>
-											<p class="custom-card-style-1-description text-justify">Safety instructions for handling our products </p>
-											</li>
- 							                </ul>
+											
+								            
+											<p class="custom-card-style-1-description text-justify">Safety instructions for handling our products Safety instructions for handling our products Safety instructions for handling our products </p>
+											
+											
+ 							               
 										</div>
 									</div>
 								</a>
