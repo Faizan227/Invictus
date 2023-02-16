@@ -67,23 +67,8 @@
 
                                 </select>
                             </div>
-                            <div class="col-1">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="1" name="p_publish" id="gridCheck">
-                                    <label class="form-check-label" for="gridCheck">
-                                        Publish
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="1" name="p_feature" id="gridCheck">
-                                    <label class="form-check-label" for="gridCheck">
-                                        Feature Product
-                                    </label>
-                                </div>
-                                <div class="col-9"></div>
-                            </div>
+                            
+                            
                             <div class="col-12">
                                 <button type="submit" name="create_post" class="btn btn-primary">Create</button>
                             </div>

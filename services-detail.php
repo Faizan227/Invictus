@@ -6,7 +6,9 @@
 	<body>
 
 		<div class="body">
-		<?php include "includes/header.php";?>
+		<?php 
+		$page = 'product';
+		include "includes/header.php";?>
 
 			<div role="main" class="main">
 
@@ -72,7 +74,7 @@
 							</div>
 							<div class="col-xl-3 text-center text-xl-end">
 								<div class="position-relative">
-									<a href="index.php?id=#booknow" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3">JETZT IN 60 SEKUNDEN BUCHEN</a>
+									<a href="contact.php" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3">JETZT IN 60 SEKUNDEN BUCHEN</a>
 								</div>
 							</div>
 						</div>
