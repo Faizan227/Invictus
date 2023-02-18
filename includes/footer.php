@@ -1,8 +1,8 @@
 
     
 		<footer id="footer" class="footer bg-color-secondary border-0 mt-0">
-				<div class="container container-xl-custom align-item-center pt-4 pb-3">
-					<div class="row py-5">
+				<div class="container container-xl-custom  align-item-center pt-4 pb-3">
+					<div class="row py-5 ">
 						<div class="col-md-3 col-lg-3 mb-4 mb-lg-0">
 							<div class="mb-3 mb-lg-0">
 							<a href="index.php">
@@ -67,7 +67,7 @@
 								<?php display_footer_link(); ?>
 							</ul>
 						</div>
-						<div class="col-md-4 col-lg-4">
+						<div class="col-md-4 col-lg-4 ">
 							<h4 class="font-weight-bold ls-0">Folgen Sie uns</h4>
 							<ul class="social-icons pb-3 social-icons-clean social-icons-medium">
 								<li>
@@ -81,21 +81,21 @@
 								</li>
 							</ul>
 							
-							<h5 class="text-4 text-color-light mb-3">SUBSCRIBE NEWSLETTER</h5>
-							<p class="mb-2">Get all the latest information on products, sales and offers. Sign up for newsletter:</p>
+							<h5 class="text-4 text-color-light mb-3">ABONNIERE DEN NEWSLETTER</h5>
+							<p class="mb-2">Erhalten Sie die neuesten Informationen zu Produkten, Verkäufen und Angeboten. Melden Sie sich für den Newsletter an:</p>
 							<div class="alert alert-success d-none" id="newsletterSuccess">
-								<strong>Success!</strong> You've been added to our email list.
+								<strong>Erfolg!</strong> Sie wurden zu unserer E-Mail-Liste hinzugefügt.
 							</div>
 							<div class="alert alert-danger d-none" id="newsletterError"></div>
 							<form id="newsletterForm" class="form-style-5 opacity-10" action="php/newsletter-subscribe.php" method="POST">
 								<div class="row">
 									<div class="form-group col">
-										<input class="form-control" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text" />
+										<input class="form-control" placeholder="E-Mail-Addresse" name="newsletterEmail" id="newsletterEmail" type="text" />
 									</div>
 								</div>
 								<div class="row">
 									<div class="form-group col">
-										<button class="btn btn-primary btn-rounded btn-px-4 btn-py-2 font-weight-bold" type="submit">SUBSCRIBE</button>
+										<button class="btn btn-primary btn-rounded btn-px-4 btn-py-2 font-weight-bold" type="submit">ABONNIEREN</button>
 									</div>
 								</div>
 							</form>
@@ -111,8 +111,25 @@
 							</div>
 						</div>
 						<div class="row py-4 mt-2">
-							
-							<div class="col-lg-12 text-center text-lg-end">
+						<div class="col-lg-6 d-flex align-items-center justify-content-center ">
+                                <nav id="sub-menu">
+                                    <ul>
+                                        <li class="border-right">
+                                            
+                                            <a href="imprint.php" class="ms-1 text-decoration-none">Impressum</a>
+                                        </li>
+                                        <li class="">
+                                            
+                                            <a href="data-protection.php" class="ms-1 text-decoration-none">Datenschutz</a>
+                                        </li>
+                                        <!-- <li>
+                                            
+                                            <a href="#" class="ms-1 text-decoration-none">Cookie-Richtlinie</a>
+                                        </li> -->
+                                    </ul>
+                                </nav>
+                            </div>
+							<div class="col-lg-6 text-center text-lg-end">
 								<p class="text-3 mb-0"><a href="index.php" class="text-decoration-none"> INVICTUS - Diamant Werkzeuge </a> © 2023. Alle Rechte vorbehalten</p>
 							</div>
 						</div>
