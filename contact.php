@@ -96,7 +96,7 @@ if(isset($_REQUEST['send-message'])){
 
 									<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
 									<div class="google-map h-100 m-0" style="min-height: 450px;">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4968.179879218837!2d6.997201!3d51.493217!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8e83f018ef855%3A0xa35ad87a2b76ddc9!2sVogelheimer%20Str.%2092%2C%2045329%20Essen%2C%20Germany!5e0!3m2!1sen!2sus!4v1675943672125!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4968.179879218837!2d6.997201!3d51.493217!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8e83f018ef855%3A0xa35ad87a2b76ddc9!2sVogelheimer%20Str.%2092%2C%2045329%20Essen%2C%20Germany!5e0!3m2!1sen!2sus!4v1675943672125!5m2!1sen!2sus" width="100%"  height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 								</div>
 
 								</div>

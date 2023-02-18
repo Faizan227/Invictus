@@ -373,7 +373,7 @@ function cus_login(){
             $login = mysqli_fetch_array($q_run);
             if($login['cus_email']==$email && $login['cus_password']==md5($password)){
                 ?>
-                <div class="alert alert-success">Login successful! Please Wait...</div>
+                <div class="alert alert-success">Anmeldung erfolgreich! Warten Sie mal...</div>
                 <?php
                
                 
@@ -389,14 +389,14 @@ function cus_login(){
                 <?php
             }else{
                 ?>
-                <div class="alert alert-danger">Invalid Email or Password</div>
+                <div class="alert alert-danger">Ungültige E-Mail oder Passwort</div>
                 <?php
             }
 
 
         }else{
             ?>
-            <div class="alert alert-danger">Please Enter Email or Password</div>
+            <div class="alert alert-danger">Bitte E-Mail oder Passwort eingeben</div>
             <?php
         }
 
@@ -485,7 +485,7 @@ include "connection.php";
            <ul class="social-icons social-icons-medium social-icons-clean-with-border social-icons-clean-with-border-border-grey social-icons-clean-with-border-icon-dark me-3 mb-0">
            <!-- whatsapp -->
            <li class="social-icons-whatsapp pb-2">
-           <a href="https://wa.me/491606767001?&text=Product Code: [ <?php echo $data['p_code']; ?> ] Product Name: [ <?php echo $data['p_name']; ?> ] 'we want to get Information in detail of this product.'" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Whatsapp">
+           <a href="https://wa.me/491606767001?&text=Product Code: [ <?php echo $data['p_code']; ?> ] Product Name: [ <?php echo $data['p_name']; ?> ] 'Wir möchten detaillierte Preisinformationen zu diesem Produkt erhalten.'" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Erhalten Sie Informationen per WhatsApp">
            <i class="fab fa-whatsapp"></i>
            </a>
            </li>
@@ -496,8 +496,8 @@ include "connection.php";
            <a href="mailto:info@invictus-diamantinstrumente.de?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body=I Saw <?php  echo  $data['p_name'];  ?> on your website.I want to get price" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
            <i class="far fa-envelope"></i> -->
           <li class="social-icons-email">
-           <!-- <a href="mailto:Husnain325@gmail.com" onclick="<?php //get_info(); ?>" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email"> -->
-           <a href="email_script.php?product=<?php echo $data['p_id']?>" onclick="<?php //get_info(); ?>" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
+           <!-- <a href="mailto:H@gmail.com" onclick="<?php //get_info(); ?>" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email"> -->
+           <a href="email_script.php?product=<?php echo $data['p_id']?>" onclick="<?php //get_info(); ?>" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Erhalten Sie Informationen per E-Mail">
            <i class="far fa-envelope"></i>
            <!-- <li class="social-icons-email">
            <button type="submit" name="get_info" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">

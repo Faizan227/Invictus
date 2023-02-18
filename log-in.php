@@ -15,12 +15,12 @@
 					<div class="container my-3">
 						<div class="row">
 							<div class="col-md-12 align-self-center p-static order-2 text-center">
-								<h1 class="font-weight-bold text-10">Login Form</h1>
+								<h1 class="font-weight-bold text-10">Login Formular</h1>
 							</div>
 							<div class="col-md-12 align-self-center order-1">
 								<ul class="breadcrumb breadcrumb-light d-block text-center">
-									<li><a href="index.php">Home</a></li>
-									<li class="active">Services</li>
+									<li><a href="index.php">Startseite</a></li>
+									<li class="active">Login Formular</li>
 								</ul>
 							</div>
 						</div>
@@ -48,21 +48,21 @@
                                  <div class="row">
 								  
 									<div class="form-group ">
-                                       <label for="exampleInputEmail1">Email address</label>
-                                       <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> <small id="emailHelp" class="form-text text-muted">We"ll never share your email with anyone else.</small> 
+                                       <label for="exampleInputEmail1">E-Mail-Addresse</label>
+                                       <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> <small id="emailHelp" class="form-text text-muted">Wir werden Ihre E-Mail-Adresse niemals an Dritte weitergeben.</small> 
                                     </div>
                                     
                                     
                                     
                                     
                                     <div class="form-group ">
-                                       <label for="exampleInputPassword1">Password</label>
-                                       <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password"> 
+                                       <label for="exampleInputPassword1">Passwort</label>
+                                       <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Passwort"> 
                                     </div>
                                     <div class="d-flex justify-content-end align-items-end">
                         
                                    
-                                   <a href="#!" class="text-body">Forgot password?</a>
+                                   <!-- <a href="#!" class="text-body">Forgot password?</a> -->
                                     </div>
 									 
                                    
@@ -74,7 +74,7 @@
                                        <p> <input type="submit" value="Login" name="login" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3"> </p>
                                     </div>
 									<div class="col-4 col-md-6 text-center  ">
-                                 <p class=" fw-bold mt-2 pt-1 mb-0">If Don't have an account?Please first register <a href="registration.php" class="link-danger">Register</a></p>
+                                 <p class=" fw-bold mt-2 pt-1 mb-0">Wenn Sie kein Konto haben? Bitte registrieren Sie sich zuerst <a href="registration.php" class="link-danger">Registrieren</a></p>
                                     </div>
                                  </div>
 								 

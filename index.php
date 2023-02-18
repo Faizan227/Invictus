@@ -160,8 +160,8 @@ if(!isset($_SESSION)){
 								<div  class="card-body  p-5">
 									<div class="row">
 										<div class="col-lg-5">
-									<h2 class="text-color-secondary font-weight-bold text-7 line-height-1 mb-1">Fordern Sie einen Rückruf an</h2>
-									<p class="custom-font-secondary text-4 pb-1 mb-4">Tragen Sie Ihre Daten in das Formular ein und wir rufen Sie zurück.</p>
+									<h2 class="text-color-secondary font-weight-bold text-7 line-height-1 mb-1">Einen Termin beantragen</h2>
+									<p class="custom-font-secondary text-4 pb-1 mb-4">Senden Sie uns eine E-Mail oder eine SMS für ein Treffen</p>
 									</div>
 									 <div class="col-lg-7">
 									<ul class="list list-unstyled mb-0">
@@ -368,7 +368,7 @@ if(!isset($_SESSION)){
 							</div>
 							<div class="col-xl-3 text-center text-xl-end">
 								<div class="position-relative">
-									<a href="contact.php" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="550">JETZT IN 60 SEKUNDEN BUCHEN</a>
+									<a href="contact.php" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="550">Kontaktiere uns jetzt</a>
 								</div>
 							</div>
 						</div>
@@ -394,8 +394,8 @@ if(!isset($_SESSION)){
 								<div class="col-md-8 col-lg-4">
 									<div class="featured-box featured-box-primary featured-box-effect-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
 										<div class="box-content text-center">
-											<div class="custom-featured-icon-wrapper bg-secondary mb-4">
-												<img src="Images/invictus/icon-1.png" class="img-fluid icon-featured" alt="" />
+											<div class="custom-featured-icon-wrapper bg-light mb-4">
+												<img src="Images/invictus/icon1-1.png" class="img-fluid icon-featured" alt="" />
 											</div>
 											<h3 class="text-transform-none font-weight-bold custom-font-size-1 mb-3">Hochwertige Materialien und Beschichtungen</h3>
 											<p class="px-3 mb-0 text-justify">Die Verwendung hochwertiger Materialien und Beschichtungen trägt auch dazu bei, die Lebensdauer der Werkzeuge zu verlängern, was den Kunden eine wertvolle Rendite für ihre Investition bietet.</p>
@@ -405,8 +405,8 @@ if(!isset($_SESSION)){
 								<div class="col-md-8 col-lg-4">
 									<div class="featured-box featured-box-primary featured-box-effect-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 										<div class="box-content text-center">
-											<div class="custom-featured-icon-wrapper bg-secondary mb-4">
-												<img src="Images/invictus/icon-2.png" class="img-fluid icon-featured" alt="" />
+											<div class="custom-featured-icon-wrapper bg-light mb-4">
+												<img src="Images/invictus/icon2-2.png" class="img-fluid icon-featured" alt="" />
 											</div>
 											<h3 class="text-transform-none font-weight-bold custom-font-size-1 mb-3">Kostengünstige Lösungen</h3>
 											<p class="px-3 mb-0 text-justify">Indem wir Produkte anbieten, die sowohl qualitativ hochwertig als auch erschwinglich sind. Wir bieten eine Reihe von Produkten an, die eine hervorragende Leistung zu einem günstigeren Preis bieten. </p>
@@ -416,8 +416,8 @@ if(!isset($_SESSION)){
 								<div class="col-md-8 col-lg-4">
 									<div class="featured-box featured-box-primary featured-box-effect-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
 										<div class="box-content text-center">
-											<div class="custom-featured-icon-wrapper bg-secondary mb-4">
-												<img src="Images/invictus/icon-3.png" class="img-fluid icon-featured" alt="" />
+											<div class="custom-featured-icon-wrapper bg-light mb-4">
+												<img src="Images/invictus/icon3-3.png" class="img-fluid icon-featured" alt="" />
 											</div>
 											<h3 class="text-transform-none font-weight-bold custom-font-size-1 mb-3">Zuverlässige und langlebige Produkte</h3>
 											<p class="px-3 mb-0 text-justify">Ob ein Kunde ein Werkzeug für eine bestimmte Schneidaufgabe oder für eine Reihe von Schneidanwendungen benötigt, die zuverlässigen und langlebigen Produkte des Unternehmens sind die perfekte Wahl. </p>

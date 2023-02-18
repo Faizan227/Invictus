@@ -35,14 +35,14 @@ function dropdown_menu(){
 										</ul>
 										<ul class="nav nav-pills position-relative bottom-1 ms-md-3">
 											<li class="nav-item">
-												<span class="d-flex d-none d-md-block align-items-center ws-nowrap text-color-secondary font-weight-medium text-3"><i class="icon-clock icons text-3 top-3 left-1 me-2 text-color-secondary font-weight-bold"></i> Mon - Sat 9:00am - 6:00pm</span>
+												<span class="d-flex d-none d-md-block align-items-center ws-nowrap text-color-secondary font-weight-medium text-3"><i class="icon-clock icons text-3 top-3 left-1 me-2 text-color-secondary font-weight-bold"></i> Mo - Sa 9:00 - 18:00 Uhr</span>
 											</li>
 										</ul>
 									</div>
 								</div>
 								<div class="header-column justify-content-end">
 									<div class="header-row">
-										<a href="log-in.php" class="custom-header-top-btn-style-1 btn btn-secondary font-weight-bold px-4 px-sm-5 py-3">Login</a>
+										<a href="log-in.php" class="custom-header-top-btn-style-1 btn btn-secondary font-weight-bold px-4 px-sm-5 py-3">Anmeldung</a>
 									</div>
 								</div>
 							</div>

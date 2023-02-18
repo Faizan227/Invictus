@@ -21,7 +21,7 @@
 						if($q_run){
 							?>
 							<div class="alert alert-success">
-								Registered Succesfully
+							Erfolgreich registriert
 							</div>
 							<script>
 								setTimeout(function(){window.location="log-in.php";},2000);
@@ -30,7 +30,7 @@
 						}else{
 							?>
 							<div class="alert alert-danger">
-								Error please Try Again
+							Fehler bitte versuchen Sie es erneut
 							</div>
 							<?php
 						}//else
@@ -54,12 +54,12 @@
 					<div class="container my-3">
 						<div class="row">
 							<div class="col-md-12 align-self-center p-static order-2 text-center">
-								<h1 class="font-weight-bold text-10">Registration Form</h1>
+								<h1 class="font-weight-bold text-10">Anmeldeformular</h1>
 							</div>
 							<div class="col-md-12 align-self-center order-1">
 								<ul class="breadcrumb breadcrumb-light d-block text-center">
-									<li><a href="index.php">Home</a></li>
-									<li class="active">Services</li>
+									<li><a href="index.php">Startseite</a></li>
+									<li class="active">Anmeldeformular</li>
 								</ul>
 							</div>
 						</div>
@@ -90,25 +90,25 @@
                                        <input class="form-control" type="text" name="username" id="example-text-input" placeholder="UserName" required > 
                                     </div> -->
 									<div class="form-group col-sm-6">
-                                       <label for="exampleInputEmail1">Email address *</label>
-                                       <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required> <small id="emailHelp" class="form-text text-muted">We"ll never share your email with anyone else.</small> 
+                                       <label for="exampleInputEmail1">E-Mail-Addresse *</label>
+                                       <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email eingeben" required> <small id="emailHelp" class="form-text text-muted">Wir werden Ihre E-Mail-Adresse niemals an Dritte weitergeben.</small> 
                                     </div>
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputEmail1">Phone number</label>
-                                       <input class="form-control" type="number" name="phone" id="example-tel-input-3" placeholder="Phone" required> <small class="form-text text-muted">We"ll never share your number with anyone else.</small> 
+                                       <label for="exampleInputEmail1">Telefonnummer</label>
+                                       <input class="form-control" type="number" name="phone" id="example-tel-input-3" placeholder="Telefon" required> <small class="form-text text-muted">Wir werden Ihre Nummer niemals an Dritte weitergeben.</small> 
                                     </div>
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputEmail1">Company Name *</label>
-                                       <input class="form-control" type="text" name="cname" id="example-text-input" placeholder="Company Name..."> 
+                                       <label for="exampleInputEmail1">Name der Firma *</label>
+                                       <input class="form-control" type="text" name="cname" id="example-text-input" placeholder="Name der Firma..."> 
                                     </div>
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputEmail1">Company Register No. *</label>
-                                       <input class="form-control" type="text" name="regno" id="example-text-input-2" placeholder="Comapny Registered Number..."> 
+                                       <label for="exampleInputEmail1">Handelsregisternummer. *</label>
+                                       <input class="form-control" type="text" name="regno" id="example-text-input-2" placeholder="Eingetragene Firmennummer..."> 
                                     </div>
                                     
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputPassword1">Password</label>
-                                       <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password" required> 
+                                       <label for="exampleInputPassword1">Passwort</label>
+                                       <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Passwort" required> 
                                     </div>
                                    
 									 <!-- <div class="form-group col-sm-12">
@@ -124,7 +124,7 @@
                                        <p> <input type="submit" value="Register" name="register" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3"> </p>
                                     </div>
 									<div class="col-4 col-md-6 text-center  ">
-                                 <p class=" fw-bold mt-2 pt-1 mb-0">Already have account <a href="log-in.php" class="link-danger">Login</a></p>
+                                 <p class=" fw-bold mt-2 pt-1 mb-0">Konto bereits vorhanden <a href="log-in.php" class="link-danger">Anmeldung</a></p>
                                     </div>
                                  </div>
 								 

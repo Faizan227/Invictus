@@ -649,7 +649,7 @@ function login(){
             $login_data = mysqli_fetch_array($q_run);
             if($login_data['a_email']==$email && $login_data['a_password']==md5($pass) ){
                 ?>
-                <div class="alert alert-success">Login successful! Please Wait...</div>
+                <div class="alert alert-success">Anmeldung erfolgreich! Warten Sie mal...</div>
                 <?php
                 $_SESSION['id']=$login_data['a_id'];
                 $_SESSION['email']=$login_data['a_email'];
@@ -661,14 +661,14 @@ function login(){
                 <?php
             }else{
                 ?>
-                <div class="alert alert-danger">Invalid Email or Password</div>
+                <div class="alert alert-danger">Ungültige E-Mail oder Passwort</div>
                 <?php
             }
 
 
         }else{
             ?>
-            <div class="alert alert-danger">Please Enter Email or Password</div>
+            <div class="alert alert-danger">Bitte E-Mail oder Passwort eingeben</div>
             <?php
         }
 

@@ -44,7 +44,7 @@ if (empty($_SESSION['email'])) {
         
         
             <div class="text-center">
-            <a href="mailto:info@invictus-diamantinstrumente.de?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body=I Saw <?php  echo  $data['p_name'];  ?>on your website.I want to get price" class="btn-primary py-2 px-3 text-4 font-weight-bold border-radius-2 " data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">Email</a>
+            <a href="mailto:info@invictus-diamantinstrumente.de?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body= ( <?php  echo  $data['p_name'];?> ) wir auf Ihrer Website gesehen haben. Wir möchten die Preisdetails für dieses Produkt erhalten." class="btn-primary py-2 px-3 text-4 font-weight-bold border-radius-2 " data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Erhalten Sie Informationen per E-Mail">E-mail</a>
           
         </div>
               

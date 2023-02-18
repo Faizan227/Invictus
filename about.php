@@ -86,35 +86,35 @@
 									<div class="card custom-card-style-1 custom-card-style-1-variation">
 										<div class="card-body text-center bg-color-light py-5">
 											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">2010</h4>
-											<p class="custom-font-secondary text-4 mb-4">Foundation</p>
-											<p class="mb-0">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin.</p>
+											<p class="custom-font-secondary text-4 mb-4">Stiftung</p>
+											<p class="mb-0 text-justify">2010 wurde unser Unternehmen in Deutschland gegründet. Von seinen bescheidenen Anfängen hat sich das Unternehmen schnell zu einem führenden Akteur in seiner Branche entwickelt und neue Maßstäbe für Innovation und Qualität gesetzt.</p>
 										</div>
 									</div>
 								</div>
 								<div>
 									<div class="card custom-card-style-1 custom-card-style-1-variation">
 										<div class="card-body text-center bg-color-light py-5">
-											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">2012</h4>
-											<p class="custom-font-secondary text-4 mb-4">30+ Employes</p>
-											<p class="mb-0">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin.</p>
+											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">30</h4>
+											<p class="custom-font-secondary text-4 mb-4">30+ Mitarbeiter</p>
+											<p class="mb-0 text-justify">Wir haben ein gutes Team von mehr als 30 Mitgliedern, die immer bereit sind, die Anforderungen unserer wertvollen Kunden zu erfüllen. und hilft dem Unternehmen, seine Ziele zu erreichen. Das Team ist gut geführt, mit klaren Zielen und effektiver Kommunikation mit unseren Kunden.</p>
 										</div>
 									</div>
 								</div>
 								<div>
 									<div class="card custom-card-style-1 custom-card-style-1-variation">
 										<div class="card-body text-center bg-color-light py-5">
-											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">2018</h4>
-											<p class="custom-font-secondary text-4 mb-4">New Office</p>
-											<p class="mb-0">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin.</p>
+											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">200</h4>
+											<p class="custom-font-secondary text-4 mb-4">200+ Kunden</p>
+											<p class="mb-0 text-justify">Wir sind froh, dass sich über 200 Kunden auf unserer Website registriert haben und Produkte bei uns kaufen. Ein großer Kundenstamm weist darauf hin, dass das Unternehmen Produkte anbietet, die nachgefragt werden und die Bedürfnisse des Marktes erfüllen.</p>
 										</div>
 									</div>
 								</div>
 								<div>
 									<div class="card custom-card-style-1 custom-card-style-1-variation">
 										<div class="card-body text-center bg-color-light py-5">
-											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">2020</h4>
-											<p class="custom-font-secondary text-4 mb-4">100+ Employes</p>
-											<p class="mb-0">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin.</p>
+											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">150</h4>
+											<p class="custom-font-secondary text-4 mb-4">150+ Produktes</p>
+											<p class="mb-0 text-justify">Unser Unternehmen bietet 150 verschiedene Produkte rund um Diamant-Schneidwerkzeuge an. Eine so breite Produktpalette deutet darauf hin, dass das Unternehmen ein tiefes Verständnis für den Diamantschleifmarkt und die Bedürfnisse seiner Kunden hat.</p>
 										</div>
 									</div>
 								</div>
@@ -173,7 +173,7 @@
 							</div>
 							<div class="col-xl-3 text-center text-xl-end">
 								<div class="position-relative">
-									<a href="contact.php" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3">JETZT IN 60 SEKUNDEN BUCHEN</a>
+									<a href="contact.php" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3">Kontaktiere uns jetzt</a>
 								</div>
 							</div>
 						</div>
