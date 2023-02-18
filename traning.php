@@ -114,9 +114,7 @@
 											<li>
 											<p class="custom-card-style-1-description text-justify">Safety instructions for handling our products </p>
 											</li>
-											<li>
-											<p class="custom-card-style-1-description text-justify">Safety instructions for handling our products </p>
-											</li>
+
  							                </ul>
 										</div>
 									</div>
