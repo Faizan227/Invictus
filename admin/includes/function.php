@@ -15,7 +15,7 @@ function create_cat(){
     if($q_run){
         ?>
         <div class="alert alert-success">
-            Category Created
+        Kategorie erstellt
         </div>
         <script>
             setTimeout(function(){window.location="categories.php";},2000);
@@ -24,7 +24,7 @@ function create_cat(){
     }else{
         ?>
         <div class="alert alert-danger">
-            Error please Try Again
+        Fehler bitte versuchen Sie es erneut
         </div>
         <?php
     }//else
@@ -72,7 +72,7 @@ function create_post(){
         if($q_run){
             ?>
             <div class="alert alert-success">
-                Post Created
+            Produkt erstellt
             </div>
             <script>
                 setTimeout(function(){window.location="post.php";},2000);
@@ -81,7 +81,7 @@ function create_post(){
         }else{
             ?>
             <div class="alert alert-danger">
-                Error please Try Again
+            Fehler bitte versuchen Sie es erneut
             </div>
             <?php
         }//else
@@ -119,8 +119,8 @@ function file_uploading($file_name){
                 <td ><img src="../uploads/<?php echo $data['c_file']; ?>" title="<?php echo $data['c_name']; ?>" alt="<?php echo $data['c_name']; ?>" style="max-width: 150px;"> </td>
                 <td ><?php echo $data['c_name']; ?> </td>
                 <td><?php echo $data['c_details']; ?></td>
-                <td><a href="?del_cat=<?php echo $data['c_id']; ?>" class="btn btn-danger">Delete</a></td>
-                <td><a href="categories.php?edit_cat=<?php echo $data['c_id']; ?>" class="btn btn-primary">Edit</a></td>
+                <td><a href="?del_cat=<?php echo $data['c_id']; ?>" class="btn btn-danger">Löschen</a></td>
+                <td><a href="categories.php?edit_cat=<?php echo $data['c_id']; ?>" class="btn btn-primary">Bearbeiten</a></td>
             </tr>
             <?php
         }
@@ -144,8 +144,8 @@ function display_pro(){
             <td><?php echo $data['p_scope'] ; ?></td>
             <td ><?php echo $data['machine']; ?> </td>
             <td><?php echo substr( $data['p_dimension'] ,0,20 ); ?></td>
-            <td><a href="?del_post=<?php echo $data['p_id']; ?>" class="btn btn-danger">Delete</a></td>
-            <td><a href="post.php?edit_post=<?php echo $data['p_id']; ?>" class="btn btn-primary">Edit</a></td>
+            <td><a href="?del_post=<?php echo $data['p_id']; ?>" class="btn btn-danger">Löschen</a></td>
+            <td><a href="post.php?edit_post=<?php echo $data['p_id']; ?>" class="btn btn-primary">Bearbeiten</a></td>
         </tr>
         <?php
     }
@@ -167,7 +167,7 @@ function create_user(){
         if($q_run){
             ?>
             <div class="alert alert-success">
-                User Created
+            Benutzer erstellt
             </div>
             <script>
                 setTimeout(function(){window.location="user.php";},2000);
@@ -176,7 +176,7 @@ function create_user(){
         }else{
             ?>
             <div class="alert alert-danger">
-                Error please Try Again
+            Fehler, bitte versuchen Sie es erneut
             </div>
             <?php
         }//else
@@ -196,8 +196,8 @@ function display_user(){
             <td><?php echo $data['a_email'] ; ?></td>
             <td><?php echo $data['a_phone']; ?></td>
             <td><?php echo $data['a_type']; ?></td>
-            <td><a href="?del_user=<?php echo $data['a_id']; ?>" class="btn btn-danger">Delete</a></td>
-            <td><a href="?edit_user=<?php echo $data['a_id']; ?>" class="btn btn-primary">Edit</a></td>
+            <td><a href="?del_user=<?php echo $data['a_id']; ?>" class="btn btn-danger">Löschen</a></td>
+            <td><a href="?edit_user=<?php echo $data['a_id']; ?>" class="btn btn-primary">Bearbeiten</a></td>
         </tr>
         <?php
     }
@@ -219,7 +219,7 @@ function create_team_member(){
         if($q_run){
             ?>
             <div class="alert alert-success">
-                Team Member Created
+            Teammitglied erstellt
             </div>
             <script>
                 setTimeout(function(){window.location="team-member.php";},2000);
@@ -228,7 +228,7 @@ function create_team_member(){
         }else{
             ?>
             <div class="alert alert-danger">
-                Error please Try Again
+            Fehler bitte versuchen Sie es erneut
             </div>
             <?php
         }//else
@@ -246,7 +246,7 @@ function display_team_member(){
             <td ><img src="../uploads/<?php echo $data['m_image']; ?>" title="<?php echo $data['m_name']; ?>" alt="<?php echo $data['m_name']; ?>" style="max-width: 150px;"> </td>
             <td ><?php echo $data['m_name']; ?> </td>
             <td ><?php echo $data['m_post']; ?> </td>
-            <td><a href="?del_member=<?php echo $data['m_id']; ?>" class="btn btn-danger">Delete Member</a></td>
+            <td><a href="?del_member=<?php echo $data['m_id']; ?>" class="btn btn-danger">Mitglied löschen</a></td>
             <!-- <td><a href="post.php?edit_post=<?php //echo $data['p_id']; ?>" class="btn btn-primary">Edit</a></td> -->
         </tr>
         <?php
@@ -281,7 +281,7 @@ function create_testimonial(){
         if($q_run){
             ?>
             <div class="alert alert-success">
-                Testimonial Created
+                Testimonial Erstellt
             </div>
             <script>
                 setTimeout(function(){window.location="add-testimonial.php";},2000);
@@ -290,7 +290,7 @@ function create_testimonial(){
         }else{
             ?>
             <div class="alert alert-danger">
-                Error please Try Again
+            Fehler, bitte versuchen Sie es erneut
             </div>
             <?php
         }//else
@@ -309,7 +309,7 @@ function display_testimonial(){
             <td colspan="4"><?php echo $data['cl_city']; ?> </td>
             <td><?php echo $data['cl_review'] ; ?></td>
             
-            <td><a href="?del_testi=<?php echo $data['cl_id']; ?>" class="btn btn-danger">Delete Testimonial</a></td>
+            <td><a href="?del_testi=<?php echo $data['cl_id']; ?>" class="btn btn-danger">Testimonial löschen</a></td>
             <!-- <td><a href="post.php?edit_post=<?php //echo $data['p_id']; ?>" class="btn btn-primary">Edit</a></td> -->
         </tr>
         <?php
@@ -387,7 +387,7 @@ function edit_cat(){
         <div class="container">
             <div class="row mt-3 mb-3">
                 <div class="col-md-12">
-                    <h2>Edit Category</h2>
+                    <h2>Kategorie bearbeiten</h2>
                 </div>
             </div>
             <div class="row mt-3">
@@ -397,26 +397,26 @@ function edit_cat(){
                         <!-------------form ------------->
                         <form class="row g-3" method="post" enctype="multipart/form-data">
                             <div class="col-md-12">
-                                <label for="cat_title" class="form-label">Category Title</label>
+                                <label for="cat_title" class="form-label">Kategorietitel</label>
                                 <input type="text" class="form-control" id="cat_title" value="<?php echo $data['c_name']; ?>" name="cat_title">
                             </div>
                             <div class="col-md-12">
-                                <label for="details" class="form-label">Category Details</label>
+                                <label for="details" class="form-label">Kategoriedetails</label>
                                 <textarea class="form-control" name="cat_details" id="details"  cols="30" rows="10"><?php echo $data['c_details']; ?></textarea>
                             </div>
                             <div class="col-md-3">
-                                <label for="price" class="form-label">Images</label>
+                                <label for="price" class="form-label">Bild</label>
                                 <img src="../uploads/<?php echo $data['c_file']; ?>" title="<?php echo $data['c_name']; ?>" alt="<?php echo $data['c_name']; ?>" style="max-width: 150px;"> 
                                 
                             </div>
                             <div class="col-md-3">
-                                <label for="file" class="form-label">Select Image</label>
+                                <label for="file" class="form-label">Bild ändern</label>
                                 <input type="file" name="new_file"  class="form-control"  id="file">
                                 <input type="hidden" name="old_file" value="<?php echo $data['c_file']; ?>" class="form-control"  id="file">
                             </div>
 
                             <div class="col-12">
-                                <button type="submit" name="update_cat" class="btn btn-primary">Update</button>
+                                <button type="submit" name="update_cat" class="btn btn-primary">Aktualisieren</button>
                             </div>
                         </form>
                         <!-------------form close------------->
@@ -437,7 +437,7 @@ function edit_cat(){
 		            {
                         ?>
                         <div class="alert alert-danger">
-                            All Field Required
+                        Alle Felder erforderlich
                         </div>
                         <?php
 
@@ -459,7 +459,7 @@ function edit_cat(){
                     if($q_run){
                         ?>
                         <div class="alert alert-success">
-                            Category Updated
+                        Kategorie aktualisiert
                         </div>
                         <script>
                             setTimeout(function(){window.location="view-categories.php";},2000);
@@ -468,7 +468,7 @@ function edit_cat(){
                     }else{
                     ?>
                         <div class="alert alert-danger">
-                            Error please Try Again
+                        Fehler Bitte versuchen Sie es erneut
                         </div>
                         <?php
                     }//else
@@ -501,7 +501,7 @@ function edit_post(){
         <div class="container">
             <div class="row mt-3 mb-3">
                 <div class="col-md-12">
-                    <h2>Post</h2>
+                    <h2>Produkt bearbeiten</h2>
                 </div>
             </div>
             <div class="row mt-3">
@@ -515,7 +515,7 @@ function edit_post(){
                                 <input type="text" name="p_code" class="form-control" value="<?php echo $data['p_code']; ?>" id="code">
                             </div>    
                         <div class="col-md-4">
-                                <label for="title" class="form-label">Title *</label>
+                                <label for="title" class="form-label">Titel *</label>
                                 <input type="text" name="p_title" value="<?php echo $data['p_name']; ?>" class="form-control" id="title">
                             </div>
                             <div class="col-md-4">
@@ -523,38 +523,38 @@ function edit_post(){
                                 <img src="../uploads/<?php echo $data['p_file']; ?>" title="<?php echo $data['p_name']; ?>" alt="<?php echo $data['p_name']; ?>" style="max-width: 150px;"> 
                                 
                            
-                                <label for="file" class="form-label">Select other Image</label>
+                                <label for="file" class="form-label">Bild ändern</label>
                                 <input type="file" name="new_p_file" value="" class="form-control"  id="file">
                                 <input type="hidden" name="old_file" value="<?php echo $data['p_file']; ?>" class="form-control"  id="file">
                             </div>
 
                             <div class="col-md-6">
-                                <label for="price" class="form-label">Characteristics *</label>
+                                <label for="price" class="form-label">Eigenschaften *</label>
                                 <textarea  class="form-control" id="details" name="p_details" rows="5"><?php echo $data['p_details']; ?></textarea>
                             </div>
                             <div class="col-md-6">
-                                <label for="price" class="form-label">Scope *</label>
+                                <label for="price" class="form-label">Umfang *</label>
                                 <textarea  class="form-control" id="scope" name="p_scope"  rows="5"><?php echo $data['p_scope']; ?></textarea>
                             </div>
                             <div class="col-md-6">
-                                <label for="machine" class="form-label">Machine *</label>
+                                <label for="machine" class="form-label">Maschine *</label>
                                 <textarea  class="form-control" id="machine" name="machine"  rows="5"><?php echo $data['machine']; ?></textarea>
                             </div>
                             <div class="col-md-6">
-                                <label for="price" class="form-label">Dimension *</label>
+                                <label for="price" class="form-label">Abmessungen *</label>
                                 <textarea  class="form-control" id="dimension" name="p_dimension"  rows="5"><?php echo $data['p_dimension']; ?></textarea>
                             </div>
                            
                             <div class="col-md-12">
-                                <label for="inputState" class="form-label">Category *</label>
+                                <label for="inputState" class="form-label">Kategorie *</label>
                                 <select id="inputState" class="form-select" name="p_cat">
-                                    <option value="0" selected>Choose...</option>
+                                    <option value="0" selected>Wählen...</option>
                                     <?php display_cat_single(); ?>
                                 </select>
                             </div>
 
                             <div class="col-12">
-                                <button type="submit" name="update_post" class="btn btn-primary">Update</button>
+                                <button type="submit" name="update_post" class="btn btn-primary">Aktualisieren</button>
                             </div>
                         </form>
                         <!-------------form close------------->
@@ -579,7 +579,7 @@ function edit_post(){
                    {
                        ?>
                        <div class="alert alert-danger">
-                           All Field Required
+                       Alle Felder erforderlich
                        </div>
                        <?php
 
@@ -598,7 +598,7 @@ function edit_post(){
                     if($q_run){
                         ?>
                         <div class="alert alert-success">
-                            Post Updated
+                        Produkt aktualisiert
                         </div>
                         <script>
                             setTimeout(function(){window.location="view-products.php";},2000);
@@ -607,7 +607,7 @@ function edit_post(){
                     }else{
                     ?>
                         <div class="alert alert-danger">
-                            Error please Try Again
+                        Fehler bitte versuchen Sie es erneut
                         </div>
                         <?php
                     }//else
@@ -791,7 +791,7 @@ function display_query(){
             <td><?php echo $data['date'] ; ?></td>
             <td ><p class="text-justify"><?php echo $data['message']; ?></p></td>
 
-            <td><a href="?del_query=<?php echo $data['msg_id']; ?>" class="btn btn-danger">Delete</a></td>
+            <td><a href="?del_query=<?php echo $data['msg_id']; ?>" class="btn btn-danger">Löschen</a></td>
             <!--            <td><a href="?edit_query=--><?php //echo $data['q_id']; ?><!--" class="btn btn-primary">Edit</a></td>
 -->
         </tr>
@@ -825,7 +825,7 @@ function create_company_brand(){
         if($q_run){
             ?>
             <div class="alert alert-success">
-                Brand Created
+            Marke erstellt
             </div>
             <script>
                 setTimeout(function(){window.location="add-company-logo.php";},2000);
@@ -834,7 +834,7 @@ function create_company_brand(){
         }else{
             ?>
             <div class="alert alert-danger">
-                Error please Try Again
+            Fehler bitte versuchen Sie es erneut
             </div>
             <?php
         }//else
@@ -851,7 +851,7 @@ function display_company_brand(){
             <th scope="row"><?php echo $sr; $sr++; ?> </th>
             <td ><img src="../uploads/<?php echo $data['brand_pic']; ?>" title="" alt="" style="max-width: 150px;"> </td>
            
-            <td><a href="?del_brand=<?php echo $data['id']; ?>" class="btn btn-danger">Delete Company</a></td>
+            <td><a href="?del_brand=<?php echo $data['id']; ?>" class="btn btn-danger">Firmenlogo löschen</a></td>
             <!-- <td><a href="post.php?edit_post=<?php //echo $data['p_id']; ?>" class="btn btn-primary">Edit</a></td> -->
         </tr>
         <?php

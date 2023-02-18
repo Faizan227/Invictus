@@ -5,13 +5,13 @@
 
 
 <!--------------bar------------------->
-<div class="container-fluid bg-dark p-1">
+<div class="container-fluid bg-info p-1">
 </div>
 <!--------------main content area------------------->
 <div class="container">
     <div class="row mt-3 mb-3">
     <div class="col-md-12">
-        <h2>User</h2>
+        <h2>Benutzer erstellen</h2>
     </div>
     </div>
     <div class="row mt-3">
@@ -26,26 +26,26 @@
                     </div>
 
                     <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Email</label>
+                        <label for="inputEmail4" class="form-label">E-mail</label>
                         <input type="email" class="form-control" id="inputEmail4" name="u_email">
                     </div>
                     <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">Password</label>
+                        <label for="inputPassword4" class="form-label">Passwort</label>
                         <input type="password" class="form-control" id="inputPassword4" name="u_pass">
                     </div>
                     <div class="col-12">
-                        <label for="number" class="form-label">Phone</label>
+                        <label for="number" class="form-label">Telefon</label>
                         <input type="number" class="form-control" id="number" name="u_phone" placeholder="0300 456 123 5">
                     </div>
                    <div class="col-12">
                        <label for="role" class="form-label"></label>
                        <select name="u_type" id="role" class="form-select" >
-                           <option value="admin">Admin</option>
-                           <option value="editor">Editor</option>
+                           <option value="admin">Administratorin</option>
+                           <option value="editor">Editorin</option>
                        </select>
                    </div>
                     <div class="col-12">
-                        <button type="submit"  name="create_user" class="btn btn-primary">Sign in</button>
+                        <button type="submit"  name="create_user" class="btn btn-primary">Erstellen</button>
                     </div>
                 </form>
                 <!-------------form close------------->

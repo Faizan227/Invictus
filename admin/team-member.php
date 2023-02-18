@@ -7,14 +7,14 @@
 
 
 <!--------------bar------------------->
-<div class="container-fluid bg-dark p-1">
+<div class="container-fluid bg-info p-1">
 </div>
 <!--------------main content area------------------->
 
         <div class="container">
             <div class="row mt-3 mb-3">
                 <div class="col-md-12">
-                    <h2>Add New Team Member</h2>
+                    <h2>Neues Teammitglied hinzufügen</h2>
                 </div>
             </div>
             <div class="row mt-3">
@@ -33,25 +33,25 @@
                                 <input type="text" name="m_position" class="form-control" id="m_position" required>
                             </div>
                             <div class="col-md-6">
-                                <label for="facebook" class="form-label">Add Facebook Link *</label>
+                                <label for="facebook" class="form-label">Facebook-Link hinzufügen *</label>
                                 <input type="text" name="facebook_link" class="form-control" id="facebook" required>
                             </div>
                             <div class="col-md-6">
-                                <label for="twitter" class="form-label">Add Twitter Link *</label>
+                                <label for="twitter" class="form-label">Twitter-Link hinzufügen *</label>
                                 <input type="text" name="twitter_link" class="form-control" id="twitter" required>
                             </div>
                             <div class="col-md-6">
-                                <label for="instagram" class="form-label">Add Instagram Link *</label>
+                                <label for="instagram" class="form-label">Instagram-Link hinzufügen *</label>
                                 <input type="text" name="instagram_link" class="form-control" id="instagram" required>
                             </div>
                             <div class="col-md-4">
-                                <label for="p_file" class="form-label">Select Picture *</label>
+                                <label for="p_file" class="form-label">Wählen Sie Bild *</label>
                                 <input type="file" name="p_file" class="form-control" id="p_file" required>
                             </div>
                           
                           
                             <div class="col-12">
-                                <button type="submit" name="create_member" class="btn btn-primary">Create Member</button>
+                                <button type="submit" name="create_member" class="btn btn-primary">Mitglied erstellen</button>
                             </div>
                         </form>
                         <!-------------form close------------->

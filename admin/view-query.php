@@ -5,13 +5,13 @@
 
 
 <!--------------bar------------------->
-<div class="container-fluid bg-dark p-1">
+<div class="container-fluid bg-info p-1">
 </div>
 <!--------------main content area------------------->
 <div class="container">
     <div class="row mt-3 mb-3">
     <div class="col-md-12">
-        <h2 class="text-danger">Queries</h2>
+        <h2 class="text-danger">Mitteilungen</h2>
     </div>
     </div>
     <div class="row mt-3">
@@ -25,11 +25,11 @@
                         <th scope="col">#</th>
                         <th scope="col">Name</th>
                         <th scope="col">Email</th>
-                        <th scope="col">Phone</th>
-                        <th scope="col">Date</th>
-                        <th scope="col">Message</th>
+                        <th scope="col">Telefon</th>
+                        <th scope="col">Datum</th>
+                        <th scope="col">Nachricht</th>
 
-                        <th colspan="1">operations</th>
+                        <th colspan="1">Operationen</th>
                     </tr>
                     </thead>
                     <tbody>

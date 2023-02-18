@@ -5,13 +5,13 @@
 
 
 <!--------------bar------------------->
-<div class="container-fluid bg-dark p-1">
+<div class="container-fluid bg-info p-1">
 </div>
 <!--------------main content area------------------->
 <div class="container">
     <div class="row mt-3 mb-3">
     <div class="col-md-12">
-        <h2 class="text-danger">Categories</h2>
+        <h2 class="text-danger">Kategorien</h2>
     </div>
     </div>
     <div class="row mt-3">
@@ -23,11 +23,11 @@
                     <thead>
                     <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Image</th>
-                        <th scope="col">Title</th>
-                        <th scope="col">Details</th>
+                        <th scope="col">Bild</th>
+                        <th scope="col">Titel</th>
+                        <th scope="col">Einzelheiten</th>
 
-                        <th colspan="2">Operations</th>
+                        <th colspan="2">Operationen</th>
                     </tr>
                     </thead>
                     <tbody>

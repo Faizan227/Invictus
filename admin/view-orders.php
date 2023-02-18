@@ -21,14 +21,14 @@ if(isset($_REQUEST['delete'])){
 <!-------------Header------------------>
 <?php include 'includes/nav.php';?>
 <!--------------bar------------------->
-<div class="container-fluid bg-dark p-1">
+<div class="container-fluid bg-info p-1">
 </div>
 <!--------------main content area------------------->
 <div class="container">
     <div class="row mt-3 mb-3">
     <div class="col-md-12">
-        <h2 class="text-danger">Register Customer</h2>
-        <a href="" onClick="window.print();return false" class="btn btn-info float-end  pull-right hidden-print wow fadeInDown">Print Order Record</a>
+        <h2 class="text-danger">Kunde registrieren</h2>
+        <a href="" onClick="window.print();return false" class="btn btn-info float-end  pull-right hidden-print wow fadeInDown">Kundendatensatz drucken</a>
     </div>
     </div>
     <div class="row mt-3">
@@ -41,12 +41,12 @@ if(isset($_REQUEST['delete'])){
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Name</th>
-                        <th scope="col">Email</th>
-                        <th scope="col">Mobile</th>
+                        <th scope="col">E-mail</th>
+                        <th scope="col">Telefon</th>
                         
-                        <th scope="col">Company Name</th>
-                        <th scope="col">Comapany Rg No.</th>
-                        <th scope="col">Date</th>
+                        <th scope="col">Name der Firma</th>
+                        <th scope="col">Firma Rg-Nr.</th>
+                        <th scope="col">Datum</th>
                         
                         <!-- <th scope="col">Order</th> -->
                         
@@ -77,7 +77,7 @@ if(isset($_REQUEST['delete'])){
                         <td><?php echo $row1['reg_date']; ?></td>
 
                         
-                        <td ><a href="slip.php?order_id=<?php echo $row1['order_id'] ?>" class="btn btn-sm btn-info">View</a>
+                        <td ><a href="slip.php?order_id=<?php echo $row1['order_id'] ?>" class="btn btn-sm btn-info">Sicht</a>
 
                         <!-- <form action="" method="GET">
                             <input type="hidden" name="orderId" value="<?php //echo $row1['order_id'] ?>">

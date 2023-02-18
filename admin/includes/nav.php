@@ -16,37 +16,37 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="home.php">Home</a>
+                    <a class="nav-link active" aria-current="page" href="home.php">Startseite</a>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Operations
+                    Operationen
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item disabled" href="#">Create</a></li>
-                        <li><a class="dropdown-item" href="categories.php">Categories</a></li>
-                        <li><a class="dropdown-item" href="post.php">Products</a></li>
-                        <li><a class="dropdown-item" href="user.php">User</a></li>
-                        <li><a class="dropdown-item" href="team-member.php">Team Member</a></li>
-                        <li><a class="dropdown-item" href="add-testimonial.php">Add Testimonial</a></li>
-                        <li><a class="dropdown-item" href="add-company-logo.php">Add Brand Logo</a></li>
+                        <li><a class="dropdown-item disabled" href="#">Erstellen</a></li>
+                        <li><a class="dropdown-item" href="categories.php">Kategorien</a></li>
+                        <li><a class="dropdown-item" href="post.php">Produkte</a></li>
+                        <li><a class="dropdown-item" href="user.php">Admin-Benutzer</a></li>
+                        <li><a class="dropdown-item" href="team-member.php">Teammitglied</a></li>
+                        <li><a class="dropdown-item" href="add-testimonial.php">Erfahrungsbericht hinzufügen</a></li>
+                        <li><a class="dropdown-item" href="add-company-logo.php">Markenlogo hinzufügen</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item disabled" href="#">View</a></li>
-                        <li><a class="dropdown-item" href="view-categories.php">Categories</a></li>
-                        <li><a class="dropdown-item" href="view-products.php">Products</a></li>
-                        <li><a class="dropdown-item" href="view-users.php">Users</a></li>
-                        <li><a class="dropdown-item" href="view-query.php">Queries</a></li>
-                        <li><a class="dropdown-item" href="view-orders.php">Orders</a></li>
-                        <li><a class="dropdown-item" href="view-team-member.php">Team Meamber</a></li>
+                        <li><a class="dropdown-item disabled" href="#">Sicht</a></li>
+                        <li><a class="dropdown-item" href="view-categories.php">Kategorien</a></li>
+                        <li><a class="dropdown-item" href="view-products.php">Produkte</a></li>
+                        <li><a class="dropdown-item" href="view-users.php">Admin-Benutzer</a></li>
+                        <li><a class="dropdown-item" href="view-query.php">Abfragen</a></li>
+                        <li><a class="dropdown-item" href="view-orders.php">Kunde registrieren</a></li>
+                        <li><a class="dropdown-item" href="view-team-member.php">Teammitglied</a></li>
 
-                        <li><a class="dropdown-item" href="view-testimonial.php">Testimonial</a></li>
-                        <li><a class="dropdown-item" href="view-company-brand.php">View Brand Logo</a></li>
+                        <li><a class="dropdown-item" href="view-testimonial.php">Erfahrungsbericht hinzufügen</a></li>
+                        <li><a class="dropdown-item" href="view-company-brand.php">Markenlogo hinzufügen</a></li>
 
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="?logout=ok" >Logout</a>
+                    <a class="nav-link " href="?logout=ok" >Ausloggen</a>
                 </li>
             </ul>
 

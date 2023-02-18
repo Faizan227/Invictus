@@ -5,7 +5,7 @@
 
 
 <!--------------bar------------------->
-<div class="container-fluid bg-dark p-1">
+<div class="container-fluid bg-info p-1">
 </div>
 <!--------------main content area------------------->
 <div class="container">
@@ -25,8 +25,8 @@
                         <th scope="col">#</th>
                         
                         <th  colspan="4" scope="col">Name</th>
-                        <th colspan="4" scope="col">Address</th>
-                        <th scope="col">Review</th>
+                        <th colspan="4" scope="col">Adresse</th>
+                        <th scope="col">Rezension</th>
                         
                         <th colspan="2"></th>
                     </tr>

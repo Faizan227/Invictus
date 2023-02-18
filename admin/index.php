@@ -6,7 +6,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>INVICTUS - Diamant Werkzeuge Essen</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -35,20 +35,20 @@
 
             </div>
             <div class="mb-3">
-                <h2 class="display-4 text-primary">LOGIN</h2>
+                <h2 class="display-4 text-primary">ANMELDUNG</h2>
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email" >
+                <label for="exampleFormControlInput1" class="form-label">E-Mail-Addresse:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@gmail.com" name="email" >
             </div>
             <div class="mb-3">
-                <label for="pass" class="form-label">Password</label>
-                <input type="password" class="form-control" id="pass" placeholder="Password" name="pass">
-            </div>
+                <label for="pass" class="form-label">Passwort</label>
+                <input type="password" class="form-control" id="pass" placeholder="Passwort" name="pass">
+            </div> 
             <div class="mb-3">
 
-                <input type="submit" class="btn btn-lg btn-outline-primary" name="login" value="Login">
-                <a class="float-end" href="forgot-password.php">Forgot Password?</a>
+                <input type="submit" class="btn btn-lg btn-outline-primary" name="login" value="Anmeldung">
+                <a class="float-end" href="forgot-password.php">Passwort vergessen?</a>
 
             </div>
             <div class="mb-3">
