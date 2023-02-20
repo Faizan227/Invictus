@@ -177,7 +177,7 @@ if(!isset($_SESSION)){
 									<span class="d-flex align-items-center justify-content-end justify-content-lg-end flex-column flex-lg-row font-weight-medium text-4 text-lg-3 text-xl-4">
 									EINE E-MAIL SENDEN: 
 										<strong class="text-3 ms-lg-3">
-											<a href="mailto:info@invictus-diamantinstrumente.de" class="text-color-tertiary text-color-hover-primary text-decoration-underline">info@invictus-diamantinstrumente.de</a>
+											<a href="mailto:info@invictus-diamantwerkzeuge.de" class="text-color-tertiary text-color-hover-primary text-decoration-underline">info@invictus-diamantwerkzeuge.de</a>
 										</strong>
 									</span>
 								</li>
@@ -264,7 +264,7 @@ if(!isset($_SESSION)){
 									INVICTUS<br> 
 									<span class="text-1 d-block">Diamant Werkzeuge Essen</span>
 								</h3>
-								<p class="custom-font-secondary text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Holen Sie sich zuverlässige und erschwingliche Diamantschneidwerkzeuge für Ihre Einrichtung mit 100 % Zufriedenheitsgarantie!</p>
+								<p class="custom-font-secondary text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Holen Sie sich zuverlässige und erschwingliche Diamantschneidwerkzeuge für Ihr Unternehmen mit 100 % Zufriedenheitsgarantie!</p>
 								<p class="pb-1 mb-3 appear-animation text-justify" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600">  INVICTUS Diamantwerkzeuge Essen ist Ihr erfahrener Partner für Diamantwerkzeuge in ganz Europa. Rund um Diamant-trennscheiben, Diamantbohrkronen, Schleiftechnik und Diamant-werkzeuge ist unsere Auswahl geradezu grenzenlos. Eine Auswahl unseres umfangreichen Angebotes finden Sie bereits auf unserer Seite. Sprechen Sie uns an, wenn Sie einen bestimmten Artikel suchen und vertrauen Sie auf langjährige  Berufserfahrung. Unser umfangreiches Lieferanten-Netzwerk und unsere Flexibilität. Wir bieten Ihnen Diamantwerkzeuge in bester Qualität zu fairen Preisen, eine verbindliche Beratung, individuelle Ideen und Lösungen für Ihr Tagesgeschäft sowie Ihre individuellen Anforderungen. Von Essen aus kommen wir auch zu Ihnen nach Dortmund, Bochum, Münster, Recklinghausen, Gelsenkirchen, Gladbeck, Bottrop, Duisburg, Moers, Krefeld, Düsseldorf, Mönchengladbach, Neuss, Dormagen, Köln, Leverkusen, Wuppertal, Solingen, Lüdenscheid oder Hagen, ins Bergische Land, ins Sauerland, ins Münsterland oder an den Niederrhein. Wir sind da, wo Sie uns brauchen - von NRW bis ganz Europa.</p>
 								<a href="about.php" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1800">mehr sehen</a>
 							</div>
@@ -363,8 +363,8 @@ if(!isset($_SESSION)){
 					<div class="container py-5 my-5">
 						<div class="row align-items-center justify-content-center pt-3">
 							<div class="col-md-9 col-lg-7 col-xl-9 text-center text-xl-start mb-4 mb-xl-0">
-								<h2 class="text-color-light font-weight-medium line-height-4 text-9 negative-ls-1 mb-2">Für <span class="font-weight-extra-bold custom-highlight-1 p-1 appear-animation" data-appear-animation="customHighlightAnim" data-appear-animation-delay="300">Gewerbe und Wohnen</span> Gebraucht</h2>
-								<p class="custom-font-secondary custom-font-size-1 font-weight-light text-color-light opacity-8 mb-0">"Buchen Sie Ihr Produkt noch heute, um sich Ihren Platz zu sichern und die Qualität und den Komfort zu erleben, die wir anbieten."</p>
+								<h2 class="text-color-light font-weight-medium line-height-4 text-9 negative-ls-1 mb-2">Der <span class="font-weight-extra-bold custom-highlight-1 p-1 appear-animation" data-appear-animation="customHighlightAnim" data-appear-animation-delay="300">Nächste Schnitt</span></h2>
+								<p class="custom-font-secondary custom-font-size-1 font-weight-light text-color-light opacity-8 mb-0">"Bestellen Sie Ihr Produkt noch heute, um die Qualität und den Komfort zu erleben, die wir anbieten."</p>
 							</div>
 							<div class="col-xl-3 text-center text-xl-end">
 								<div class="position-relative">
@@ -447,7 +447,7 @@ if(!isset($_SESSION)){
 						<div class="row  pb-2 mb-3">
 							<div class="col-md-9 col-lg-8 ">
 							<h3 class="text-color-secondary font-weight-bold text-transform-none text-8 mb-3 pb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">Unser Team</h3>							
-								<p class="custom-font-secondary text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Wir sind stolz darauf, ein talentiertes und engagiertes Teammitglied zu haben, das kontinuierlich zum Erfolg unseres Unternehmens beiträgt.</p>
+								<p class="custom-font-secondary text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Wir sind stolz darauf, ein talentiertes und engagiertes Teammitglieder zu haben, das kontinuierlich zum Erfolg unseres Unternehmens beiträgt.</p>
 							</div>
 						</div>
 						<div class="row appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">

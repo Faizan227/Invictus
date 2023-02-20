@@ -29,8 +29,8 @@
                         <li><a class="dropdown-item" href="post.php">Produkte</a></li>
                         <li><a class="dropdown-item" href="user.php">Admin-Benutzer</a></li>
                         <li><a class="dropdown-item" href="team-member.php">Teammitglied</a></li>
-                        <li><a class="dropdown-item" href="add-testimonial.php">Erfahrungsbericht hinzufügen</a></li>
-                        <li><a class="dropdown-item" href="add-company-logo.php">Markenlogo hinzufügen</a></li>
+                        <li><a class="dropdown-item" href="add-testimonial.php">Kundenbewertung hinzufügen</a></li>
+                        <li><a class="dropdown-item" href="add-company-logo.php">Firmenlogo hinzufügen</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item disabled" href="#">Sicht</a></li>
                         <li><a class="dropdown-item" href="view-categories.php">Kategorien</a></li>
@@ -40,8 +40,8 @@
                         <li><a class="dropdown-item" href="view-orders.php">Kunde registrieren</a></li>
                         <li><a class="dropdown-item" href="view-team-member.php">Teammitglied</a></li>
 
-                        <li><a class="dropdown-item" href="view-testimonial.php">Erfahrungsbericht hinzufügen</a></li>
-                        <li><a class="dropdown-item" href="view-company-brand.php">Markenlogo hinzufügen</a></li>
+                        <li><a class="dropdown-item" href="view-testimonial.php">Kundenbewertung</a></li>
+                        <li><a class="dropdown-item" href="view-company-brand.php">Firmenlogo</a></li>
 
                     </ul>
                 </li>

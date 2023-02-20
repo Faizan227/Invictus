@@ -59,8 +59,8 @@
 					<div class="container pt-4 pb-3 mt-5">
 						<div class="row align-items-center justify-content-center pt-3">
 							<div class="col-md-9 col-lg-7 col-xl-9 text-center text-xl-start mb-4 mb-xl-0">
-								<h2 class="text-color-light font-weight-medium line-height-4 text-9 negative-ls-1 mb-2">Für <span class="font-weight-extra-bold custom-highlight-1 p-1 appear-animation" data-appear-animation="customHighlightAnim" data-appear-animation-delay="300">Gewerbe und Wohnen</span> Gebraucht</h2>
-								<p class="custom-font-secondary custom-font-size-1 font-weight-light text-color-light opacity-8 mb-0">"Buchen Sie Ihr Produkt noch heute, um sich Ihren Platz zu sichern und die Qualität und den Komfort zu erleben, die wir anbieten."</p>
+								<h2 class="text-color-light font-weight-medium line-height-4 text-9 negative-ls-1 mb-2">Der <span class="font-weight-extra-bold custom-highlight-1 p-1 appear-animation" data-appear-animation="customHighlightAnim" data-appear-animation-delay="300">Nächste Schnitt</span></h2>
+								<p class="custom-font-secondary custom-font-size-1 font-weight-light text-color-light opacity-8 mb-0">"Bestellen Sie Ihr Produkt noch heute, um die Qualität und den Komfort zu erleben, die wir anbieten."</p>
 							</div>
 							<div class="col-xl-3 text-center text-xl-end">
 								<div class="position-relative">

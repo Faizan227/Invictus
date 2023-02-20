@@ -10,19 +10,19 @@
 							</a>
 							</div>
 							<!-- <p class="text-3-5 pe-lg-2 text-justify">INVICTUS Diamantwerkzeuge Essen ist Ihr erfahrener Partner für Diamantwerkzeuge in ganz Europa. </p> -->
-							<h4 class="font-weight-bold ls-0">Unsere Adresse</h4>
+							<h4 class="font-weight-bold ls-0">Unsere Adressen</h4>
 							<ul class="list list-unstyled mb-0">
 							<a href="https://goo.gl/maps/UPeX47tjfMT2s49W9" class="text-decoration-none" target="_blank">	
 							<li class="mb-1">
-							Vogelheimerstraße 92
+							Essen
 
 
 								</li>
 								<li class="mb-1">
-								45329 Essen
+								Remscheid
 								</li>
 								<li class="mb-0">
-								Deutschland
+								Duisburg
 								</li>
 							</a>
 							</ul>
@@ -46,7 +46,7 @@
 								</div>
 								<div class="feature-box-info ps-2">
 									<p class="text-uppercase font-weight-semibold line-height-1 text-2 pb-0 mb-0">RUF UNS JETZT AN</p>
-									<a href="tel: +4920185151751" class="text-uppercase text-color-light text-color-hover-secondary text-decoration-none text-4  pb-0"> +49 201 85 15 17 51</a>
+									<a href="tel: +4920185151751" class="text-uppercase text-color-light text-color-hover-secondary text-decoration-none text-4  pb-0"> +49 160 67 67 001</a>
 								</div>
 							</div>
 							<div class="feature-box feature-box-style-2 align-items-center mb-3">
@@ -55,7 +55,7 @@
 								</div>
 								<div class="feature-box-info ps-2">
 									<p class="text-uppercase font-weight-semibold line-height-1 text-2 pb-0 mb-0">E-Mail jetzt senden</p>
-									<a href="mailto:info@invictus-diamantinstrumente.de" class="text-lowercase text-color-light text-color-hover-secondary text-decoration-none text-4 pb-0">info@invictus-diamantinstrumente.de</a>
+									<a href="mailto:info@invictus-diamantwerkzeuge.de" class="text-lowercase text-color-light text-color-hover-secondary text-decoration-none text-4 pb-0">info@invictus-diamantwerkzeuge.de</a>
 								</div>
 							</div>
 							

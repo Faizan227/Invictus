@@ -52,7 +52,7 @@
 									INVICTUS<br> 
 									<span class="text-1 d-block">Diamant Werkzeuge Essen</span>
 								</h3>
-								<p class="custom-font-secondary text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Holen Sie sich zuverlässige und erschwingliche Diamantschneidwerkzeuge für Ihre Einrichtung mit 100 % Zufriedenheitsgarantie!</p>
+								<p class="custom-font-secondary text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Holen Sie sich zuverlässige und erschwingliche Diamantschneidwerkzeuge für Ihr Unternehmen mit 100 % Zufriedenheitsgarantie!</p>
 								<p class="pb-1 mb-3 appear-animation text-justify" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600">  INVICTUS Diamantwerkzeuge Essen ist Ihr erfahrener Partner für Diamantwerkzeuge in ganz Europa. Rund um Diamant-trennscheiben, Diamantbohrkronen, Schleiftechnik und Diamant-werkzeuge ist unsere Auswahl geradezu grenzenlos. Eine Auswahl unseres umfangreichen Angebotes finden Sie bereits auf unserer Seite. Sprechen Sie uns an, wenn Sie einen bestimmten Artikel suchen und vertrauen Sie auf langjährige  Berufserfahrung. Unser umfangreiches Lieferanten-Netzwerk und unsere Flexibilität. Wir bieten Ihnen Diamantwerkzeuge in bester Qualität zu fairen Preisen, eine verbindliche Beratung, individuelle Ideen und Lösungen für Ihr Tagesgeschäft sowie Ihre individuellen Anforderungen. Von Essen aus kommen wir auch zu Ihnen nach Dortmund, Bochum, Münster, Recklinghausen, Gelsenkirchen, Gladbeck, Bottrop, Duisburg, Moers, Krefeld, Düsseldorf, Mönchengladbach, Neuss, Dormagen, Köln, Leverkusen, Wuppertal, Solingen, Lüdenscheid oder Hagen, ins Bergische Land, ins Sauerland, ins Münsterland oder an den Niederrhein. Wir sind da, wo Sie uns brauchen - von NRW bis ganz Europa.</p>
 							<!-- <p class="mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="3000">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin. Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. </p> -->
 						</div>
@@ -85,27 +85,27 @@
 								<div>
 									<div class="card custom-card-style-1 custom-card-style-1-variation">
 										<div class="card-body text-center bg-color-light py-5">
-											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">2010</h4>
+											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">2012</h4>
 											<p class="custom-font-secondary text-4 mb-4">Stiftung</p>
-											<p class="mb-0 text-justify">2010 wurde unser Unternehmen in Deutschland gegründet. Von seinen bescheidenen Anfängen hat sich das Unternehmen schnell zu einem führenden Akteur in seiner Branche entwickelt und neue Maßstäbe für Innovation und Qualität gesetzt.</p>
+											<p class="mb-0 text-justify">2012 wurde unser Unternehmen in Deutschland gegründet. Von seinen bescheidenen Anfängen hat sich das Unternehmen schnell zu einem führenden Akteur in seiner Branche entwickelt und neue Maßstäbe für Innovation und Qualität gesetzt.</p>
 										</div>
 									</div>
 								</div>
 								<div>
 									<div class="card custom-card-style-1 custom-card-style-1-variation">
 										<div class="card-body text-center bg-color-light py-5">
-											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">30</h4>
-											<p class="custom-font-secondary text-4 mb-4">30+ Mitarbeiter</p>
-											<p class="mb-0 text-justify">Wir haben ein gutes Team von mehr als 30 Mitgliedern, die immer bereit sind, die Anforderungen unserer wertvollen Kunden zu erfüllen. und hilft dem Unternehmen, seine Ziele zu erreichen. Das Team ist gut geführt, mit klaren Zielen und effektiver Kommunikation mit unseren Kunden.</p>
+											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">10</h4>
+											<p class="custom-font-secondary text-4 mb-4">10+ Mitarbeiter</p>
+											<p class="mb-0 text-justify">Wir haben ein gutes Team von mehr als 10 Mitgliedern, die immer bereit sind, die Anforderungen unserer wertvollen Kunden zu erfüllen. und hilft dem Unternehmen, seine Ziele zu erreichen. Das Team ist gut geführt, mit klaren Zielen und effektiver Kommunikation mit unseren Kunden.</p>
 										</div>
 									</div>
 								</div>
 								<div>
 									<div class="card custom-card-style-1 custom-card-style-1-variation">
 										<div class="card-body text-center bg-color-light py-5">
-											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">200</h4>
-											<p class="custom-font-secondary text-4 mb-4">200+ Kunden</p>
-											<p class="mb-0 text-justify">Wir sind froh, dass sich über 200 Kunden auf unserer Website registriert haben und Produkte bei uns kaufen. Ein großer Kundenstamm weist darauf hin, dass das Unternehmen Produkte anbietet, die nachgefragt werden und die Bedürfnisse des Marktes erfüllen.</p>
+											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">5000</h4>
+											<p class="custom-font-secondary text-4 mb-4">5000+ Kunden</p>
+											<p class="mb-0 text-justify">Wir sind froh, dass sich über 5000 Kunden auf unserer Website registriert haben und Produkte bei uns kaufen. Ein großer Kundenstamm weist darauf hin, dass das Unternehmen Produkte anbietet, die nachgefragt werden und die Bedürfnisse des Marktes erfüllen.</p>
 										</div>
 									</div>
 								</div>
@@ -114,7 +114,7 @@
 										<div class="card-body text-center bg-color-light py-5">
 											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">150</h4>
 											<p class="custom-font-secondary text-4 mb-4">150+ Produktes</p>
-											<p class="mb-0 text-justify">Unser Unternehmen bietet 150 verschiedene Produkte rund um Diamant-Schneidwerkzeuge an. Eine so breite Produktpalette deutet darauf hin, dass das Unternehmen ein tiefes Verständnis für den Diamantschleifmarkt und die Bedürfnisse seiner Kunden hat.</p>
+											<p class="mb-0 text-justify">Unser Unternehmen bietet für jeden Anwendungsgebiet verschiedene Produkte rund um Diamant-Schneidwerkzeuge an. Eine so breite Produktpalette deutet darauf hin, dass das Unternehmen ein tiefes Verständnis für den Diamantschleifmarkt und die Bedürfnisse seiner Kunden hat.</p>
 										</div>
 									</div>
 								</div>
@@ -168,8 +168,8 @@
 					<div class="container pt-4 pb-3 mt-5">
 						<div class="row align-items-center justify-content-center pt-3">
 							<div class="col-md-9 col-lg-7 col-xl-9 text-center text-xl-start mb-4 mb-xl-0">
-								<h2 class="text-color-light font-weight-medium line-height-4 text-9 negative-ls-1 mb-2">Für <span class="font-weight-extra-bold custom-highlight-1 p-1 appear-animation" data-appear-animation="customHighlightAnim" data-appear-animation-delay="300">Gewerbe und Wohnen</span> Gebraucht</h2>
-								<p class="custom-font-secondary custom-font-size-1 font-weight-light text-color-light opacity-8 mb-0">"Buchen Sie Ihr Produkt noch heute, um sich Ihren Platz zu sichern und die Qualität und den Komfort zu erleben, die wir anbieten."</p>
+								<h2 class="text-color-light font-weight-medium line-height-4 text-9 negative-ls-1 mb-2">Der <span class="font-weight-extra-bold custom-highlight-1 p-1 appear-animation" data-appear-animation="customHighlightAnim" data-appear-animation-delay="300">Nächste Schnitt</span></h2>
+								<p class="custom-font-secondary custom-font-size-1 font-weight-light text-color-light opacity-8 mb-0">"Bestellen Sie Ihr Produkt noch heute, um die Qualität und den Komfort zu erleben, die wir anbieten."</p>
 							</div>
 							<div class="col-xl-3 text-center text-xl-end">
 								<div class="position-relative">

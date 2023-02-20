@@ -53,12 +53,12 @@
 								Sener Kirli
 								</li>
 								<li class="mb-1">
-								Vogelheimer Strasse 92,
+								Vogelheimerstraße 92
 
 
 								</li>
 								<li class="mb-1">
-								45329 food
+								45329 Essen
 								</li>
 								
 							
