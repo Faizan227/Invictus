@@ -18,8 +18,8 @@
 		<meta name="author" content="Husnain">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<link rel="shortcut icon" href="images/invictus/invictus-logo.png" type="image/x-icon" />
+		<!-- <link rel="apple-touch-icon" href="images/invictus/invictus-logo-head.png"> -->
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">

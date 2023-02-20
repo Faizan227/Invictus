@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-md-4">
             <!-- <h4 class="mt-3 text-light"><?php // echo $title; ?></h4> -->
-            <a href="home.php" class="text-decoration-none " > <img src="images/logo-1.png" alt=""> </a>
+            <a href="home.php" class="text-decoration-none " > <img src="../images/invictus/invictus-logo-head.png" width="200" height="" alt=""> </a>
         </div>
         <div class="col-md-8">
 <nav class="navbar navbar-expand-lg navbar-light ">
