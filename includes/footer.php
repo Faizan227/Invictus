@@ -6,7 +6,7 @@
 						<div class="col-md-3 col-lg-3 mb-4 mb-lg-0">
 							<div class="mb-3 mb-lg-0">
 							<a href="index.php">
-								<img alt="Porto" width="140" height="120" src="Images/invictus/logo.png">
+								<img alt="invictus" width="200" height="100" src="Images/invictus/invictus-logo-head.png">
 							</a>
 							</div>
 							<!-- <p class="text-3-5 pe-lg-2 text-justify">INVICTUS Diamantwerkzeuge Essen ist Ihr erfahrener Partner für Diamantwerkzeuge in ganz Europa. </p> -->
@@ -14,15 +14,15 @@
 							<ul class="list list-unstyled mb-0">
 							<a href="https://goo.gl/maps/UPeX47tjfMT2s49W9" class="text-decoration-none" target="_blank">	
 							<li class="mb-1">
-								Vogelheimer Strasse 92,
+							Vogelheimerstraße 92,
 
 
 								</li>
 								<li class="mb-1">
-								45329 food
+								45329 Essen
 								</li>
 								<li class="mb-0">
-									Essen, Germany
+								Drutschland
 								</li>
 							</a>
 							</ul>
@@ -36,7 +36,7 @@
 									<img class="icon-animated" width="45" src="Images/invictus/phone.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
 								</div>
 								<div class="feature-box-info ps-2">
-									<p class="text-uppercase font-weight-semibold line-height-1 text-2 pb-0 mb-0">CALL US NOW</p>
+									<p class="text-uppercase font-weight-semibold line-height-1 text-2 pb-0 mb-0">RUF UNS JETZT AN</p>
 									<a href="tel:+49201433 95 601" class="text-uppercase text-color-light text-color-hover-secondary text-decoration-none text-4 pb-0">+49 201 43 39 56 01</a>
 								</div>
 							</div>
@@ -45,7 +45,7 @@
 									<img class="icon-animated" width="45" src="Images/invictus/phone.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
 								</div>
 								<div class="feature-box-info ps-2">
-									<p class="text-uppercase font-weight-semibold line-height-1 text-2 pb-0 mb-0">CALL US NOW</p>
+									<p class="text-uppercase font-weight-semibold line-height-1 text-2 pb-0 mb-0">RUF UNS JETZT AN</p>
 									<a href="tel: +4920185151751" class="text-uppercase text-color-light text-color-hover-secondary text-decoration-none text-4  pb-0"> +49 201 85 15 17 51</a>
 								</div>
 							</div>
@@ -54,7 +54,7 @@
 									<img class="icon-animated" width="45" src="Images/invictus/envelope-regular.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
 								</div>
 								<div class="feature-box-info ps-2">
-									<p class="text-uppercase font-weight-semibold line-height-1 text-2 pb-0 mb-0">Send Email Now</p>
+									<p class="text-uppercase font-weight-semibold line-height-1 text-2 pb-0 mb-0">E-Mail jetzt senden</p>
 									<a href="mailto:info@invictus-diamantinstrumente.de" class="text-lowercase text-color-light text-color-hover-secondary text-decoration-none text-4 pb-0">info@invictus-diamantinstrumente.de</a>
 								</div>
 							</div>

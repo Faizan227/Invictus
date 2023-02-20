@@ -30,25 +30,15 @@
 
 				<section class="section border-0 pb-0 pb-lg-5 m-0">
 					<div class="container my-lg-4">
-						<div class="row">
-							<div class="col-lg-9 order-lg-2 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
+						<div class="row align-items-center align-items-center justify-content-center">
+							<div class="col-lg-10 order-lg-2 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 							<p class="custom-font-secondary text-4 mb-4">Holen Sie sich zuverlässige und erschwingliche Diamantschneidwerkzeuge für Ihre Einrichtung mit 100 % Zufriedenheitsgarantie!</p>	
 							<?php display_product_cat_wise();
 							
 							?>
 							<?php //get_info(); ?> 
 							</div>
-							<div class="col-lg-3 order-lg-1">
-								<div class="card custom-border-radius-1 box-shadow-1 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
-									<div class="card-body py-5">
-										<h2 class="text-color-secondary font-weight-bold text-6 line-height-1 pb-2 mb-4">Alle Produkte</h2>
-										<ul class="list list-unstyled custom-nav-list-effect-1 mb-0">
-											<?php display_cat_link(); ?>
-										</ul>
-									</div>
-								</div>
-								
-							</div>
+							
 						</div>
 					</div>
 				</section>

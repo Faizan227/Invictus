@@ -481,12 +481,12 @@ include "connection.php";
       <h3><?php echo $data['p_name']; ?></h3>
       </td>
       <td >      
-         <div class="d-flex align-items-start mt-5 me-4">
-           <ul class="social-icons social-icons-medium social-icons-clean-with-border social-icons-clean-with-border-border-grey social-icons-clean-with-border-icon-dark me-3 mb-0">
+         <div class="align-items-start mt-5 me-4">
+           <ul class="social-icons social-icons-medium social-icons-clean-with-border social-icons-clean-with-border-border-grey social-icons-clean-with-border-icon-dark me-3  mb-0">
            <!-- whatsapp -->
-           <li class="social-icons-whatsapp pb-2">
+           <li class="social-icons-whatsapp  pb-2">
            <a href="https://wa.me/491606767001?&text=Product Code: [ <?php echo $data['p_code']; ?> ] Product Name: [ <?php echo $data['p_name']; ?> ] 'Wir möchten detaillierte Preisinformationen zu diesem Produkt erhalten.'" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Erhalten Sie Informationen per WhatsApp">
-           <i class="fab fa-whatsapp"></i>
+           <i class="fab fa-whatsapp fa-2xl"></i>
            </a>
            </li>
            
@@ -495,10 +495,9 @@ include "connection.php";
            <!-- <li class="social-icons-email">
            <a href="mailto:info@invictus-diamantinstrumente.de?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body=I Saw <?php  echo  $data['p_name'];  ?> on your website.I want to get price" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
            <i class="far fa-envelope"></i> -->
-          <li class="social-icons-email">
-           <!-- <a href="mailto:H@gmail.com" onclick="<?php //get_info(); ?>" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email"> -->
+          <li class="social-icons-email ">
            <a href="email_script.php?product=<?php echo $data['p_id']?>" onclick="<?php //get_info(); ?>" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Erhalten Sie Informationen per E-Mail">
-           <i class="far fa-envelope"></i>
+           <i class="far fa-envelope fa-2xl"></i>
            <!-- <li class="social-icons-email">
            <button type="submit" name="get_info" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
            <i class="far fa-envelope"></i> -->

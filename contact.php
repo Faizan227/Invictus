@@ -67,22 +67,22 @@ if(isset($_REQUEST['send-message'])){
 										<h2 class="font-weight-bold text-color-secondary text-6 text-lg-5 text-xl-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">In Kontakt kommen</h2>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Owner S. Kirli</h3>
-											<a href="tel:+49201433 95 601" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4">+49201433 95 601</a>
+											<a href="tel:+49201433 95 601" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4">+49 201 43 39 56 01</a>
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Verkaufsleiter</h3>
-											<a href="tel: +4920185151751" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4"> +4920185151751</a>										
+											<a href="tel: +4920185151751" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4"> +49 201 85 15 17 51</a>										
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Assistenzzeiten</h3>
-											<p>Mon - Sat 9:00am - 8:00pm<br> Sunday - CLOSED</p>
+											<p>Mo - Sa 9:00 - 20:00 Uhr<br> Sonntag - GESCHLOSSEN</p>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<h2 class="font-weight-bold text-color-secondary text-6 text-lg-5 text-xl-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">Postanschrift und Post</h2>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1300">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Die Anschrift</h3>
-											<p>Vogelheimer Strasse 92, <br>45329 food <br>Essen, Germany</p>
+											<p>Vogelheimerstraße 92,, <br>45329 Essen <br>Drutschland</p>
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Email</h3>
