@@ -14,7 +14,7 @@
 							<ul class="list list-unstyled mb-0">
 							<a href="https://goo.gl/maps/UPeX47tjfMT2s49W9" class="text-decoration-none" target="_blank">	
 							<li class="mb-1">
-							Vogelheimerstraße 92,
+							Vogelheimerstraße 92
 
 
 								</li>
@@ -22,7 +22,7 @@
 								45329 Essen
 								</li>
 								<li class="mb-0">
-								Drutschland
+								Deutschland
 								</li>
 							</a>
 							</ul>

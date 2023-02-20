@@ -66,7 +66,7 @@ if(isset($_REQUEST['send-message'])){
 									<div class="col-md-6">
 										<h2 class="font-weight-bold text-color-secondary text-6 text-lg-5 text-xl-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">In Kontakt kommen</h2>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
-											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Owner S. Kirli</h3>
+											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Inhaber S. Kirli</h3>
 											<a href="tel:+49201433 95 601" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4">+49 201 43 39 56 01</a>
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
@@ -74,15 +74,15 @@ if(isset($_REQUEST['send-message'])){
 											<a href="tel: +4920185151751" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4"> +49 201 85 15 17 51</a>										
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
-											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Assistenzzeiten</h3>
+											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Öffnungszeiten</h3>
 											<p>Mo - Sa 9:00 - 20:00 Uhr<br> Sonntag - GESCHLOSSEN</p>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<h2 class="font-weight-bold text-color-secondary text-6 text-lg-5 text-xl-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">Postanschrift und Post</h2>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1300">
-											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Die Anschrift</h3>
-											<p>Vogelheimerstraße 92,, <br>45329 Essen <br>Drutschland</p>
+											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Anschrift</h3>
+											<p>Vogelheimerstraße 92 <br>45329 Essen <br>Deutschland</p>
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Email</h3>
