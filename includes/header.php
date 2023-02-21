@@ -17,7 +17,7 @@ function dropdown_menu(){
 
 
 ?>
-<?php include "includes/function.php"; ?>
+      <?php include "includes/function.php"; ?>
 
     
         
@@ -69,7 +69,7 @@ function dropdown_menu(){
 													<li class=""><a href="about.php" class="nav-link <?php if($page=='about'){ echo 'active';} ?>">Über uns</a></li>
 													<li class="dropdown ">
 														<a class="nav-link dropdown-toggle <?php if($page=='product'){ echo 'active';} ?>" href="" >
-														Produkte<span class="child-indicator submenu-toggle mx-2"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5"><path id="Polygon_5" data-name="Polygon 5" d="M5,0l5,5H0Z" transform="translate(10 5) rotate(180)"/></svg></span>
+														Produkte<span class="child-indicator sm-d-none submenu-toggle mx-2"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5"><path id="Polygon_5" data-name="Polygon 5" d="M5,0l5,5H0Z" transform="translate(10 5) rotate(180)"/></svg></span>
 														</a>
 														<ul class="dropdown-menu">
 															<?php dropdown_menu(); ?>

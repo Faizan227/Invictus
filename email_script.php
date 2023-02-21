@@ -14,9 +14,12 @@
 
 <?php
 // session_start();
-if (empty($_SESSION['email'])) {
-    header("Location: log-in.php");
-    exit;
+if (empty($_SESSION['email'])) {?>
+<script>
+     setTimeout( function(){window.location="log-in.php" } ,600);
+</script>
+       <!-- header("Location: log-in.php"); -->
+   <?php exit;
 }else{
     $product = $_GET['product'];
     include "includes/connection.php";
@@ -25,8 +28,8 @@ if (empty($_SESSION['email'])) {
         while($data = mysqli_fetch_array($q_run)){
     ?>
     <div class="container my-5">
-        <div class="row align-content-center">
-            <div class="col-md-3 col-lg-3"></div>
+        <div class="row align-items-center align-items-center justify-content-center">
+            
             <div class="col col-md-6 col-lg-6">
              <div class="card custom-border-radius-1 box-shadow-1 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
 		      <div class="card-body py-5">
@@ -52,7 +55,7 @@ if (empty($_SESSION['email'])) {
          </div>
         </div>
 
-        <div class="col-md-3 col-lg-3"></div>
+        
 	 </div>
     </div>
      
