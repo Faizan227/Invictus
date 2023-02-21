@@ -67,18 +67,34 @@ if(isset($_REQUEST['send-message'])){
 										<h2 class="font-weight-bold text-color-secondary text-6 text-lg-5 text-xl-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Kontakte</h2>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Inhaber S. Kirli</h3>
-											<a href="tel:+49201433 95 601" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4">+49 201 43 39 56 01</a><br>
-											<a href="tel:+49 160 67 67 001" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4">+49 160 67 67 001</a>
+											<ul class="">
+											<li>
+											<a href="tel:+49201433 95 601" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none ">+49 201 43 39 56 01</a><br>
+											</li>
+											<li>
+											<a href="tel:+49 160 67 67 001" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none ">+49 160 67 67 001</a>
+											</li>
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Vertriebsleiter</h3>
-											<a href="tel: +4920185151751" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4"> +49 201 85 15 17 51</a>	
-											<a href="tel: +491787611160" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4"> +49 178 76 11 160</a>	
+											<ul class="">
+											<li>
+											<a href="tel: +4920185151751" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none "> +49 201 85 15 17 51</a>	
+											</li>
+											<li>
+											<a href="tel: +491787611160" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none "> +49 178 76 11 160</a>	
+											</li>	
+										</ul>
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Purchasing/Techinal Manager</h3>
-											<a href="tel: +4921914493505" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4"> +49 219 144 93 505</a>	
-											<a href="tel: +491709489666" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4"> +49 170 948 96 66</a>	
+											<ul class="">
+											<li>
+											<a href="tel: +4921914493505" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none "> +49 219 144 93 505</a>	
+											</li>
+											<li>
+											<a href="tel: +491709489666" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none"> +49 170 948 96 66</a>	
+											</li> 
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Öffnungszeiten</h3>
