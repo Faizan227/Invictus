@@ -68,15 +68,14 @@ if(isset($_REQUEST['send-message'])){
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Inhaber S. Kirli</h3>
 											<ul class=" list-unstyled">
-
-											
-
 											<li>
 											<i class="fa fa-phone"></i><a href="tel:+49201433 95 601" class="d-inline-block ms-1 text-color-default text-color-hover-primary text-decoration-none ">+49 201 43 39 56 01</a><br>
 											</li>
 											<li>
 											<i class="fa fa-mobile-retro "></i><a href="tel:+49 160 67 67 001" class="d-inline-block ms-2 text-color-default text-color-hover-primary text-decoration-none ">+49 160 67 67 001</a>
-											</li>
+											
+										   </li>
+											</ul> 
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Vertriebsleiter</h3>
