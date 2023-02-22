@@ -3,7 +3,7 @@
                 
 				
 					if(isset($_REQUEST['register'])){
-						$name=$_REQUEST['username'];
+						// $name=$_REQUEST['username'];
 						$phone=$_REQUEST['phone'];
 						$email=$_REQUEST['email'];
 						$comapny=$_REQUEST['cname'];
@@ -11,11 +11,36 @@
 						$pass=$_REQUEST['password'];
 						$date = date("Y/m/d");
 						// $request=$_REQUEST['request'];
-						
-						
+						// Validate password strength
+                        // $uppercase = preg_match('@[A-Z]@', $pass);
+                        // $lowercase = preg_match('@[a-z]@', $pass);
+                        // $number    = preg_match('@[0-9]@', $pass);
+                        // $specialChars = preg_match('@[^\w]@', $pass);
+                        // if(!$uppercase || !$lowercase || !$number || !$specialChars || strlen($pass) < 8) {
+						if( strlen($pass) < 8) {?>
+
+                            <div class="alert alert-danger">
+							Ihr Passwort hat weniger als 8 Zeichen, bitte versuchen Sie es erneut!
+							</div> 
+						   <?php
+						   }else{
+                                       						
 						include "includes/connection.php";
-						$q="INSERT INTO customer (cus_name, cus_email,cus_phone,company_name,com_reg_no, cus_password, reg_date ) VALUES 
-												('$name','$email','$phone','$comapny','$regno',md5('$pass'),$date)";
+						$sql = "SELECT * FROM customer WHERE cus_email = '$email'";
+                       $result = $con->query($sql);
+					   
+                      if($result->num_rows > 0) {?>
+                       
+						   <div class="alert alert-warning">
+						   Diese E-Mail existiert bereits, bitte versuchen Sie es erneut mit einer anderen E-Mail
+							</div> 
+					     <?php
+						 
+						 } else{
+							
+
+						$q="INSERT INTO customer ( cus_email,cus_phone,company_name,com_reg_no, cus_password, reg_date ) VALUES 
+												('$email','$phone','$comapny','$regno',md5('$pass'),$date)";
 						$q_run =  mysqli_query($con, $q);
 						echo mysqli_error($con);
 						if($q_run){
@@ -34,7 +59,10 @@
 							</div>
 							<?php
 						}//else
-					}//isset
+					}
+					}
+				}
+				//isset
 				
                 
                 ?>
@@ -68,13 +96,7 @@
 
 				<section class="section border-0 pb-0 pb-lg-5 m-0">
 					<div class="container my-4">
-						<!-- <div class="row mb-4 pb-2">
-							<div class="col">
-							<h4>Registration is fast, easy, and free.</h4>
-                        <p>Once you"re registered, you can:</p>
-                        <hr>
-							</div>
-						</div> -->
+						
 						
                      <div class="row">
                      <!-- REGISTER -->
@@ -85,10 +107,7 @@
                               
 							  <form action="" method="post">
                                  <div class="row">
-								  <!-- <div class="form-group col-sm-12">
-                                       <label for="exampleInputEmail1">User-Name *</label>
-                                       <input class="form-control" type="text" name="username" id="example-text-input" placeholder="UserName" required > 
-                                    </div> -->
+								 
 									<div class="form-group col-sm-6">
                                        <label for="exampleInputEmail1">E-Mail-Addresse *</label>
                                        <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email eingeben" required> <small id="emailHelp" class="form-text text-muted">Wir werden Ihre E-Mail-Adresse niemals an Dritte weitergeben.</small> 
@@ -97,6 +116,8 @@
                                        <label for="exampleInputEmail1">Telefonnummer</label>
                                        <input class="form-control" type="number" name="phone" id="example-tel-input-3" placeholder="Telefon" required> <small class="form-text text-muted">Wir werden Ihre Nummer niemals an Dritte weitergeben.</small> 
                                     </div>
+								 </div>
+								 <div class="row">	
                                     <div class="form-group col-sm-6">
                                        <label for="exampleInputEmail1">Name der Firma *</label>
                                        <input class="form-control" type="text" name="cname" id="example-text-input" placeholder="Name der Firma..."> 
@@ -105,26 +126,37 @@
                                        <label for="exampleInputEmail1">Handelsregisternummer. *</label>
                                        <input class="form-control" type="text" name="regno" id="example-text-input-2" placeholder="Eingetragene Firmennummer..."> 
                                     </div>
-                                    
+								 </div>
+								 <div class="row"> 
                                     <div class="form-group col-sm-6">
                                        <label for="exampleInputPassword1">Passwort</label>
-                                       <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Passwort" required> 
-                                    </div>
+                                       <input type="password" class="form-control" name="password" id="exampleInputPassword1"  placeholder="Passwort" required><small class="form-text text-muted">Das Passwort muss mindestens 8 Zeichen lang sein.*</small> 
+									   
+									</div> 
+									   <div class="form-group show-password col-sm-6">
+									    
+									   <input class="pass" type="checkbox" onclick="myFunction()" ><label class="ms-2" for="exampleInputPassword1">Passwort anzeigen</label> 
+									</div>
                                    
-									 <!-- <div class="form-group col-sm-12">
-                                       <label for="exampleTextarea">Address</label>
-                                       <textarea class="form-control" id="exampleTextarea"  name="address" rows="3"></textarea>
-                                    </div>
-                                    -->
+									
                                  </div>
-                                
+								 <div class="row">
+							  		<div class="form-group col">
+								    	<div class="form-check ">
+								      		<input class="form-check-input" type="checkbox" value="1" name="agree" id="tabContent10Checkbox" data-msg-required="Sie müssen vor dem Absenden zustimmen." required>
+								      		<label class="form-check-label" for="tabContent10Checkbox">
+											  Ich habe die Allgemeinen Nutzungsbedingungen gelesen und stimme diesen ausdrücklich zu.*
+								      		</label>
+								   		</div>
+								  	</div>
+								</div>
                                  <div class="row">
-                                    <div class="col-4 col-md-6">
+                                    <div class="col-12 col-4 col-md-6">
 
-                                       <p> <input type="submit" value="Register" name="register" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3"> </p>
+                                       <p> <input type="submit" value="Register" name="register"  class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3"> </p>
                                     </div>
-									<div class="col-4 col-md-6 text-center  ">
-                                 <p class=" fw-bold mt-2 pt-1 mb-0">Konto bereits vorhanden <a href="log-in.php" class="link-danger">Anmeldung</a></p>
+									<div class="col-12 col-4 col-md-6 text-center  ">
+                                 <p class=" fw-bold mt-2  pt-1 mb-0">Konto bereits vorhanden <a href="log-in.php" class="link-danger">Anmeldung</a></p>
                                     </div>
                                  </div>
 								 
@@ -162,6 +194,17 @@
 
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
+<script>
+	function myFunction() {
+  var x = document.getElementById("exampleInputPassword1");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
 
+}
+
+</script>
 	</body>
 </html>

@@ -1,9 +1,4 @@
 @charset "UTF-8";
-/*
-Name: 			theme-elements.css
-Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	9.9.0
-*/
 /* Accordion */
 .accordion .card {
 	margin-top: 5px;
@@ -7298,6 +7293,13 @@ select.form-control-sm, select.form-control-lg {
 }
 
 /* Custom Checkbox */
+@media (min-width:576px){
+.form-group.show-password  input{
+margin-top: 38px;
+border-radius: 2px;
+padding: 40px;
+}
+}
 .custom-checkbox-1 {
 	position: relative;
 	padding: 0 0 0 25px;

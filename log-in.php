@@ -59,6 +59,10 @@
                                        <label for="exampleInputPassword1">Passwort</label>
                                        <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Passwort"> 
                                     </div>
+									<div class="form-group  col-sm-6">
+									    
+										<input class="" type="checkbox" onclick="myFunction()" ><label class="ms-2" for="exampleInputPassword1">Passwort anzeigen</label> 
+									 </div>
                                     <div class="d-flex justify-content-end align-items-end">
                         
                                    
@@ -69,11 +73,11 @@
                                  </div>
                                 
                                  <div class="row">
-                                    <div class="col-4 col-md-6">
+                                    <div class="col-12 col-4 col-md-6">
 
                                        <p> <input type="submit" value="Login" name="login" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3"> </p>
                                     </div>
-									<div class="col-4 col-md-6 text-center  ">
+									<div class="col-12 col-4 col-md-6 text-center  ">
                                  <p class=" fw-bold mt-2 pt-1 mb-0">Wenn Sie kein Konto haben? Bitte registrieren Sie sich zuerst <a href="registration.php" class="link-danger">Registrieren</a></p>
                                     </div>
                                  </div>
@@ -112,6 +116,17 @@
 
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
+		<script>
+	function myFunction() {
+  var x = document.getElementById("exampleInputPassword1");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
 
+}
+
+</script>
 	</body>
 </html>

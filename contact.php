@@ -67,39 +67,36 @@ if(isset($_REQUEST['send-message'])){
 										<h2 class="font-weight-bold text-color-secondary text-6 text-lg-5 text-xl-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Kontakte</h2>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Inhaber S. Kirli</h3>
-											<ul class="">
+											<ul class=" list-unstyled">
 											<li>
-											<a href="tel:+49201433 95 601" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none ">+49 201 43 39 56 01</a><br>
+											<i class="fa fa-phone"></i><a href="tel:+49201433 95 601" class="d-inline-block ms-1 text-color-default text-color-hover-primary text-decoration-none ">+49 201 43 39 56 01</a><br>
 											</li>
 											<li>
-											<a href="tel:+49 160 67 67 001" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none ">+49 160 67 67 001</a>
+											<i class="fa fa-mobile-retro "></i><a href="tel:+49 160 67 67 001" class="d-inline-block ms-2 text-color-default text-color-hover-primary text-decoration-none ">+49 160 67 67 001</a>
 											</li>
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Vertriebsleiter</h3>
-											<ul class="">
+											<ul class="  list-unstyled">
 											<li>
-											<a href="tel: +4920185151751" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none "> +49 201 85 15 17 51</a>	
+											<i class="fa fa-phone"></i><a href="tel: +4920185151751" class="d-inline-block ms-1 text-color-default text-color-hover-primary text-decoration-none "> +49 201 85 15 17 51</a>	
 											</li>
 											<li>
-											<a href="tel: +491787611160" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none "> +49 178 76 11 160</a>	
+											<i class="fa fa-mobile-retro "></i><a href="tel: +491787611160" class="d-inline-block ms-2 text-color-default text-color-hover-primary text-decoration-none "> +49 178 76 11 160</a>	
 											</li>	
 										</ul>
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Purchasing/Techinal Manager</h3>
-											<ul class="">
+											<ul class=" list-unstyled">
 											<li>
-											<a href="tel: +4921914493505" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none "> +49 219 144 93 505</a>	
+											<i class="fa fa-phone"></i> <a href="tel: +4921914493505" class="d-inline-block ms-1 text-color-default text-color-hover-primary text-decoration-none "> +49 219 144 93 505</a>	
 											</li>
 											<li>
-											<a href="tel: +491709489666" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none"> +49 170 948 96 66</a>	
+											<i class="fa fa-mobile-retro "></i><a href="tel: +491709489666" class="d-inline-block ms-2 text-color-default text-color-hover-primary text-decoration-none"> +49 170 948 96 66</a>	
 											</li> 
 										</div>
-										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
-											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Öffnungszeiten</h3>
-											<p>Mo - Fr 8:00 - 20:00 Uhr<br>Sa 9:00 - 15:00 Uhr</p>
-										</div>
+										
 									</div>
 									<div class="col-md-6">
 										<h2 class="font-weight-bold text-color-secondary text-6 text-lg-5 text-xl-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">Postanschrift</h2>
@@ -107,9 +104,13 @@ if(isset($_REQUEST['send-message'])){
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Anschrift</h3>
 											<p>Vogelheimerstraße 92 <br>45329 Essen <br>Deutschland</p>
 										</div>
-										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500">
-											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Email</h3>
+										<div class="appear-animation mb-2" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">
+											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-4 mb-0">Email</h3>
 											<a href="mailto:info@invictus-diamantwerkzeuge.de" class="text-color-default text-color-hover-primary text-decoration-underline mb-4">info@invictus-diamantwerkzeuge.de</a>
+										</div>
+										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">
+											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-4 mb-0">Öffnungszeiten</h3>
+											<p>Mo - Fr 8:00 - 20:00 Uhr<br>Sa 9:00 - 15:00 Uhr</p>
 										</div>
 									</div>
 								</div>

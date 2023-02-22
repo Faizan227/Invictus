@@ -266,7 +266,13 @@ body {
 html.sticky-header-active #header .header-top {
 		padding: 0 !important;
 }
-
+@media (max-width: 400px) {
+	.sm-text span {
+		font-size: 14px;
+		font-weight: 400px !important;
+	}
+	
+}
 @media (min-width: 992px) {
 		#header .header-nav-main nav > ul > li > a {
 				font-size: 15px;

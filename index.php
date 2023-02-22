@@ -68,7 +68,7 @@ if(!isset($_SESSION)){
 						</div>
 						<div class="row justify-content-center justify-content-lg-start pb-5 mb-5">
 							<div class="col-md-10 col-lg-6 text-center text-lg-end pe-lg-4 pb-5 mb-5">
-								<h1 class="text-color-light font-weight-medium line-height-4 text-10 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Hochwertige <span class="font-weight-extra-bold custom-highlight-1  ws-nowrap p-1 customHighlightAnim customHighlightAnimDelay">Diamant-Schneidwerkzeuge</span> für jeden Schneidbedarf</h1>
+								<h1 class="text-color-light font-weight-medium line-height-4 text-10 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Hochwertige <span class="font-weight-extra-bold text-0 text-md-2-3-3 custom-highlight-1  ws-nowrap p-1 customHighlightAnim customHighlightAnimDelay">Diamant-Schneidwerkzeuge</span> für jeden Schneidbedarf</h1>
 								<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 									<p class="custom-font-secondary font-weight-bold custom-font-size-2 text-color-light text-justify opacity-6 mb-4">Finden Sie die besten Diamantschneidwerkzeuge zum besten Preis, nur bei uns</p>
 								</div>
@@ -129,8 +129,8 @@ if(!isset($_SESSION)){
 							</div>
 						</div>
 						<div class="row justify-content-center justify-content-lg-start pb-5 mb-5">
-							<div class="col-md-10 col-lg-6 text-center text-lg-end pe-lg-4 pb-5 mb-5">
-								<h1 class="text-color-light font-weight-medium line-height-4 text-10 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Innovative <span class="font-weight-extra-bold custom-highlight-1 ws-nowrap p-1 customHighlightAnim customHighlightAnimDelay">Diamant-Schneidwerkzeuge</span> für maximale Leistung</h1>
+							<div class="col-12 tool  col-md-10 col-lg-6 text-center text-lg-end pe-lg-4 pb-5 mb-5">
+								<h1 class="text-color-light font-weight-medium line-height-4 text-10 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Innovative <span class="font-weight-extra-bold text-0 text-md-2-3-3 tolls-1 custom-highlight-1 ws-nowrap p-1 customHighlightAnim customHighlightAnimDelay">Diamant-Schneidwerkzeuge</span> für maximale Leistung</h1>
 								<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 									<p class="custom-font-secondary font-weight-light custom-font-size-1 text-color-light opacity-6 text-justify mb-4">Erleben Sie unübertroffene Präzision mit unseren Diamantschneidwerkzeugen</p>
 								</div>

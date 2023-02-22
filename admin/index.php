@@ -6,6 +6,8 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
+        		<!-- Favicon -->
+     <link rel="icon" type="image/x-icon" href="../images/invictus/invictus-logo.png">
     <title>INVICTUS - Diamant Werkzeuge Essen</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -44,13 +46,18 @@
             <div class="mb-3">
                 <label for="pass" class="form-label">Passwort</label>
                 <input type="password" class="form-control" id="pass" placeholder="Passwort" name="pass">
-            </div> 
+            </div>
+            <div class="mb-3 ">
+									    
+			   <input class="" type="checkbox" onclick="myFunction()" ><label class="ms-2" for="pass">Passwort anzeigen</label> 
+				</div> 
             <div class="mb-3">
 
                 <input type="submit" class="btn btn-lg btn-outline-primary" name="login" value="Anmeldung">
                 <a class="float-end" href="forgot-password.php">Passwort vergessen?</a>
 
             </div>
+            
             <div class="mb-3">
                 
             </div>
@@ -67,5 +74,17 @@
 
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/custom.js"></script>
+<script>
+	function myFunction() {
+  var x = document.getElementById("pass");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+
+}
+
+</script>
 </body>
 </html>

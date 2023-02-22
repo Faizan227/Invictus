@@ -3130,7 +3130,12 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 #header.header-floating-icons .header-nav-main nav > ul > li.open > a:after, #header.header-floating-icons .header-nav-main nav > ul > li.accessibility-open > a:after, #header.header-floating-icons .header-nav-main nav > ul > li.active > a:after, #header.header-floating-icons .header-nav-main nav > ul > li:hover > a:after, #header.header-floating-icons .header-nav-main nav > ul > li:active > a:after, #header.header-floating-icons .header-nav-main nav > ul > li:focus > a:after {
 	background: #FFF;
 }
-
+/* @media (min-width: 992px){
+.tool .tools {
+font-weight: 400px !important;
+color:#0cc485;
+}
+} */
 @media (min-width: 992px) {
 	#header.header-floating-icons {
 		background: transparent;
@@ -6188,8 +6193,30 @@ h6 .inverted {
 }
 
 /* Font Size */
-.text-0 {
-	font-size: .7em !important;
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 359px){
+	.text-0 {
+		font-size: 23px !important;
+		/* font-weight: 50px !important; */
+	}	
+}
+
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 400px){
+	.text-0 {
+		font-size: 25px !important;
+		/* font-weight: 1000px !important; */
+	}	
+}
+@media only screen 
+  and (min-device-width: 401px) 
+  and (max-device-width: 549px){
+	.text-0 {
+		font-size: 28px !important;
+		/* font-weight: 1000px !important; */
+	}	
 }
 
 .text-1 {
@@ -6415,7 +6442,12 @@ h6 .inverted {
 		font-size: 6.66em !important;
 	}
 }
-
+@media (min-width: 550px){
+	.text-md-2-3-3,
+		.text-md-2-5 {
+		font-size: .95em !important;
+	}
+}
 @media (min-width: 768px) {
 	.text-md-0 {
 		font-size: .7em !important;
@@ -7927,13 +7959,19 @@ a.text-light:focus, a.text-light:hover {
 
 .font-weight-extrabold,
 .font-weight-extra-bold {
-	font-weight: 800 !important;
+	font-weight: 750 !important;
 }
 
 .font-weight-black {
 	font-weight: 900 !important;
 }
-
+@media  (max-width: 400px) 
+  {
+	.font-weight-extrabold,
+.font-weight-extra-bold {
+	font-weight: 680 !important;
+}
+  }
 /* Letter Space */
 .letter-spacing-minus-1 {
 	letter-spacing: -1px;
