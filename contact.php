@@ -67,22 +67,14 @@ if(isset($_REQUEST['send-message'])){
 										<h2 class="font-weight-bold text-color-secondary text-6 text-lg-5 text-xl-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Kontakte</h2>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Inhaber S. Kirli</h3>
-<<<<<<< HEAD
 											<ul class=" list-unstyled">
-=======
-<<<<<<< HEAD
-											<a href="tel:+49201433 95 601" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4">+49 201 43 39 56 01</a>
-											<a href="tel:+49 160 67 67 001" class="d-inline-block text-color-default text-color-hover-primary text-decoration-none mb-4">+49 160 67 67 001</a>
-=======
-											<ul class="">
->>>>>>> 15d3d11da7c9611aeaa188ffa6d99e4f9a85c6d0
 											<li>
 											<i class="fa fa-phone"></i><a href="tel:+49201433 95 601" class="d-inline-block ms-1 text-color-default text-color-hover-primary text-decoration-none ">+49 201 43 39 56 01</a><br>
 											</li>
 											<li>
 											<i class="fa fa-mobile-retro "></i><a href="tel:+49 160 67 67 001" class="d-inline-block ms-2 text-color-default text-color-hover-primary text-decoration-none ">+49 160 67 67 001</a>
 											</li>
->>>>>>> 936493b6010465406e4c37b50e2c75d46fccecea
+
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Vertriebsleiter</h3>
