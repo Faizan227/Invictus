@@ -14,12 +14,11 @@
         <h2>Willkommen bei Admin Penal</h2>
     </div>
     </div>
-    <div class="row mt-3">
-        <div class="col-md-12">
+   
             <!-----content--------------------->
             <div class="row">
   
-                <div class="col-md-4">
+                <div class="col-12 col-md-4">
                     <div class="card text-white bg-info mb-3" >
                         <div class="card-header">Produkte</div>
                         <div class="card-body">
@@ -31,7 +30,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-12 col-md-4">
                     <div class="card text-white bg-info mb-3" >
                         <div class="card-header">Kategorien</div>
                         <div class="card-body">
@@ -43,7 +42,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-12 col-md-4">
                     <div class="card text-dark bg-light mb-3" >
                         <div class="card-header">Admin-Benutzer</div>
                         <div class="card-body">
@@ -59,7 +58,7 @@
 
             </div>
             <div class="row">
-                <div class="col col-md-6">
+                <div class="col-12 col-md-6">
                     <div class="card text-white bg-success mb-3" >
                         <div class="card-header">Kunde registrieren</div>
                         <div class="card-body">
@@ -71,7 +70,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-md-6">
+                <div class="col-12 col-md-6">
                     <div class="card text-white bg-danger mb-3" >
                         <div class="card-header">Mitteilungen</div>
                         <div class="card-body">
@@ -86,8 +85,7 @@
             </div>
          
             <!-----content-closed------------->
-        </div>
-    </div>
+      
 </div>
 
 

@@ -6,6 +6,7 @@ Diamant Werkzeuge Essen";
 <html lang="de">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo $title; ?></title>
     		<!-- Favicon -->
             <link rel="icon" type="image/x-icon" href="../images/invictus/invictus-logo.png">
