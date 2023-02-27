@@ -50,11 +50,13 @@
 							<h3 class="text-color-secondary font-weight-bold text-transform-none line-height-2 text-10 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">
 							Individuelle Schulungen und Workshops für Fachhändler und Handwerker
 								</h3>
-								<p class="custom-font-secondary text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Holen Sie sich zuverlässige und erschwingliche Diamantschneidwerkzeuge für Ihre Einrichtung mit 100 % Zufriedenheitsgarantie!</p>
+								<p class="custom-font-secondary text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Invictus Diamantwerkzeuge steht für Diamantwerkzeuge nach höchstem Standard.</p>
 						</div>
 							<!-- <p class="mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="3000">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin. Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. </p> -->
 							<div class="col-lg-6 mb-5 mb-lg-0">
-							<p class="pb-1 mb-3 appear-animation text-justify" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600">  INVICTUS Diamantwerkzeuge Essen ist Ihr erfahrener Partner für Diamantwerkzeuge in ganz Europa. Rund um Diamanttrennscheiben, Diamantbohrkronen, Schleiftechnik und Diamantwerkzeuge ist unsere Auswahl geradezu grenzenlos. Eine Auswahl unseres umfangreichen Angebotes finden Sie bereits auf unserer Seite. Sprechen Sie uns an, wenn Sie einen bestimmten Artikel suchen und vertrauen Sie auf langjährige  Berufserfahrung. Unser umfangreiches Lieferanten-Netzwerk und unsere Flexibilität. Wir bieten Ihnen Diamantwerkzeuge in bester Qualität zu fairen Preisen, eine verbindliche Beratung, individuelle Ideen und Lösungen für Ihr Tagesgeschäft sowie Ihre individuellen Anforderungen. Von Essen aus kommen wir auch zu Ihnen nach Dortmund, Bochum, Münster, Recklinghausen, Gelsenkirchen, Gladbeck, Bottrop, Duisburg, Moers, Krefeld, Düsseldorf, Mönchengladbach, Neuss, Dormagen, Köln, Leverkusen, Wuppertal, Solingen, Lüdenscheid oder Hagen, ins Bergische Land, ins Sauerland, ins Münsterland oder an den Niederrhein. Wir sind da, wo Sie uns brauchen - von NRW bis ganz Europa.</p>
+							<p class="pb-1 mb-3 appear-animation text-justify" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600">  Wie unsere Werkzeuge, sind auch die Einsatzbereiche dafür vielfältig und speziell.Für kompetentes Wissen beim Verkauf und nötiges Fachwissen für den Gebrauch, bieten wir von Invictus Diamantwerkzeuge ihnen gerne Workshops und Schulungen an.
+							In diesem wenden wir uns dem Umgang, sowie den Besonderheiten unserer Diamantwerkzeuge zu und geben ihnen praktische Anwendertips für den korrekten und passenden Einsatz bei ihren Projekten.
+ </p>
 
 							
 							</div>
@@ -63,11 +65,7 @@
 								<div data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
 									<img src="Images/invictus/slide-bg-1.png" class="img-fluid  custom-box-shadow-1 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="2600" alt="" />
 								</div>
-								<!-- <div class="position-absolute top-50pct left-50pct transform3dxy-n50" style="left: 25%;">
-									<div data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
-										<img src="Images/DSC03046.jpg" class="img-fluid rounded-circle custom-box-shadow-1 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="2200" alt="" />
-									</div>
-								</div> -->
+								
 							</div>
 						</div>
 					</div>
@@ -78,69 +76,46 @@
 						<div class="row mb-4 pb-2">
 							<div class="col text-center">
 							<h4 class="text-color-secondary font-weight-bold text-transform-none  text-9 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">
-							Unser Leistungsspektrum im Bereich der Schulungen
+							Im Einzelnen bietet unsere Schulung ihnen:
 								</h4>
-								<p class="custom-font-secondary text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Get reliable & affordable cleaning services for your facility with a 100% satisfaction guaranteed! </p>
-								<p class="pb-1 mb-3 text-justify appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ultricies nunc, eu interdum enim convallis pretium. Quisque eu neque augue. Aliquam egestas nunc at efficitur faucibus. Praesent mauris eros, tincidunt id enim sodales, rhoncus malesuada ligula. </p>
+								<p class="custom-font-secondary text-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Invictus Diamantwerkzeuge steht für Diamantwerkzeuge nach höchstem Standard. </p>
+								
 							</div>
 						</div>
-						<div class="row row-gutter-sm">
-							<div class="col-md-6 col-lg-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
-								<a href="services-detail.php" class="text-decoration-none">
+						<div class="row row-gutter-sm align-items-center align-items-center justify-content-center">
+							<div class="col-md-6 col-lg-6 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
+								<a href="#" class="text-decoration-none">
 									<div class="card custom-card-style-1">
 										<div class="card-body text-center py-5">
 										
-											<h4 class="custom-card-style-1-title text-color-secondary font-weight-bold mb-2">Building Services</h4>
+											<h4 class="custom-card-style-1-title text-color-secondary font-weight-bold mb-2">Schulung</h4>
 											
 								            
-											<p class="custom-card-style-1-description text-justify">Safety instructions for handling our products Safety instructions for handling our products Safety instructions for handling our products </p>
 											
+								            
+											 <p class=" text-justify">Fachgerechte Einweisung zum sicheren Umgang mit unseren Werkzeugen und Maschinen</p>
+											
+											
+											<p class=" text-justify">Wichtiges zu Normen und Verordnungen</p>
+											
+											<p class=" text-justify">Fachberatung für den kompetenten Verkaufsprozess – Welches Werkzeug für welchen Bereich</p>
+											<!-- ----- -->
+											<p class=" text-justify">Was ist zu meiden </p>
+											
+											<p class="text-justify">Die richtige Pflege der Diamantwerkzeuge. </p>
+											
+											<p class=" text-justify">Tips für den sicheren Umgang mit Reklamationen. </p>
+											
+
+ 							               											
 											
  							               
 										</div>
 									</div>
 								</a>
 							</div>
-							<div class="col-md-6 col-lg-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">
-								<a href="demo-cleaning-services-services-detail.html" class="text-decoration-none">
-									<div class="card custom-card-style-1">
-										<div class="card-body text-center py-5">
-											 
-											<h4 class="custom-card-style-1-title text-color-secondary font-weight-bold mb-2">Post Construction</h4>
-											<ul class="list-unstyled mb-0">
-								            <li>
-											<p class="custom-card-style-1-description text-justify">Safety instructions for handling our products </p>
-											</li>
-											<li>
-											<p class="custom-card-style-1-description text-justify">Safety instructions for handling our products </p>
-											</li>
-
- 							                </ul>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="col-md-6 col-lg-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1300">
-								<a href="demo-cleaning-services-services-detail.html" class="text-decoration-none">
-									<div class="card custom-card-style-1">
-										<div class="card-body text-center py-5">
-											
-											<h4 class="custom-card-style-1-title text-color-secondary font-weight-bold mb-2">Office Cleaning</h4>
-											<ul class="list-unstyled mb-0">
-								            <li>
-											<p class="custom-card-style-1-description text-justify">Safety instructions for handling our products </p>
-											</li>
-											<li>
-											<p class="custom-card-style-1-description text-justify">Safety instructions for handling our products </p>
-											</li>
-											<li>
-											<p class="custom-card-style-1-description text-justify">Safety instructions for handling our products </p>
-											</li>
- 							                </ul>
-										</div>
-									</div>
-								</a>
-							</div>
+						
+							
 							
 							
 							

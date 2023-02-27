@@ -86,15 +86,19 @@
 							<div class="alert alert-success d-none" id="newsletterSuccess">
 								<strong>Erfolg!</strong> Sie wurden zu unserer E-Mail-Liste hinzugefügt.
 							</div>
-							<div class="alert alert-danger d-none" id="newsletterError"></div>
-							<form id="newsletterForm" class="form-style-5 opacity-10" action="php/newsletter-subscribe.php" method="POST">
+							
+
+							<form id="newsletter" class="form-style-5 opacity-10" action="" method="POST">
 								<div class="row">
 									<div class="form-group col">
-										<input class="form-control" placeholder="E-Mail-Addresse" name="newsletterEmail" id="newsletterEmail" type="text" />
+										<input class="form-control" placeholder="E-Mail-Addresse" name="email" id="newsletterEmail" type="text" />
+										<span class="text-danger hidden" id="emailError"></span>
 									</div>
 								</div>
 								<div class="row">
 									<div class="form-group col">
+									
+
 										<button class="btn btn-primary btn-rounded btn-px-4 btn-py-2 font-weight-bold" type="submit">ABONNIEREN</button>
 									</div>
 								</div>
@@ -122,10 +126,7 @@
                                             
                                             <a href="data-protection.php" class="ms-1 text-decoration-none">Datenschutz</a>
                                         </li>
-                                        <!-- <li>
-                                            
-                                            <a href="#" class="ms-1 text-decoration-none">Cookie-Richtlinie</a>
-                                        </li> -->
+                                       
                                     </ul>
                                 </nav>
                             </div>
