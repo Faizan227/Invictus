@@ -83,7 +83,7 @@
 							</div>
 						</div>
 						<div class="row row-gutter-sm align-items-center align-items-center justify-content-center">
-							<div class="col-md-8 col-lg-9 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
+							<div class="col-md-8 col-lg-8 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
 								<a href="#" class="text-decoration-none">
 									<div class="card custom-card-style-1">
 										<div class="card-body text-center py-5">
