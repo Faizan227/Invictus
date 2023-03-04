@@ -14963,7 +14963,36 @@ html.boxed .slider-container {
 	height: 0;
 	overflow: hidden;
 }
-
+@media (max-width:991px){
+	.child-indicator .sm-d-none {
+		display: none !important;
+		width: 0;
+		height: 0;
+		overflow: hidden;
+	}	
+}
+/* @media (max-width:460px){
+	 .time-d-none {
+		display: none !important;
+		
+	}	
+} */
+@media (max-width:455px){
+	.time-d-none {
+	   /* display: block !important; */
+	   font-size: 9.5px;
+	   font-weight: bolder ;
+	   
+   }	
+}
+@media (max-width:340px){
+	.time-d-none {
+	   /* display: block !important; */
+	   font-size: 8px;
+	   font-weight: bolder ;
+	   
+   }	
+}
 .sort-source > li > a {
 	padding: 6px 12px;
 	text-decoration: none;
