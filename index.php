@@ -72,7 +72,7 @@ if(!isset($_SESSION)){
 								<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 									<p class="custom-font-secondary font-weight-bold custom-font-size-2 text-color-light text-justify opacity-6 mb-4">Finden Sie die besten Diamantschneidwerkzeuge zum besten Preis, nur bei uns</p>
 								</div>
-								<a href="#whoweare" data-hash data-hash-offset="0" data-hash-offset-lg="150" class="btn btn-secondary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">Mehr sehen</a>
+								<a href="#categories" data-hash data-hash-offset="0" data-hash-offset-lg="150" class="btn btn-secondary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">Mehr sehen</a>
 								<div class="spacer pt-5 my-5"></div>
 							</div>
 						 </div>
@@ -160,8 +160,8 @@ if(!isset($_SESSION)){
 								<div  class="card-body  p-5">
 									<div class="row">
 										<div class="col-lg-5">
-									<h2 class="text-color-secondary font-weight-bold text-7 line-height-1 mb-1">Einen Termin beantragen</h2>
-									<p class="custom-font-secondary text-4 pb-1 mb-4">Senden Sie uns eine E-Mail oder eine SMS für ein Treffen</p>
+									<h2 class="text-color-secondary font-weight-bold text-7 line-height-1 mb-1">Einen Termin vereinbaren</h2>
+									<p class="custom-font-secondary text-4 pb-1 mb-4">Schreiben Sie uns eine E-Mail oder eine SMS für ein Treffen</p>
 									</div>
 									 <div class="col-lg-7">
 									<ul class="list list-unstyled mb-0">
@@ -175,7 +175,7 @@ if(!isset($_SESSION)){
 								</li>
 								<li class="mb-0">
 									<span class="d-flex align-items-center justify-content-end justify-content-lg-end flex-column flex-lg-row font-weight-medium text-4 text-lg-3 text-xl-4">
-									EINE E-MAIL SENDEN: 
+									EINE E-MAIL SCHREIBEN: 
 										<strong class="text-3 ms-lg-3">
 											<a href="mailto:info@invictus-diamantwerkzeuge.de" class="text-color-tertiary text-color-hover-primary text-decoration-underline">info@invictus-diamantwerkzeuge.de</a>
 										</strong>
@@ -285,14 +285,14 @@ if(!isset($_SESSION)){
 					</div>
 				</section>
         <!-- main-services start -->
-				<section class="section border-0 py-4 m-0">
+				<section id="categories" class="section border-0 py-4 m-0">
 					<div class="container">
 						<div class="row align-items-end pb-3 mb-5 mb-lg-4">
 							<div class="col-lg-7 col-xl-8 mb-4 mb-lg-0">
 								<div class="d-flex align-items-center mb-2">
 									<span class="custom-line appear-animation" data-appear-animation="customLineAnimation" appear-animation-duration="1s"></span>
 									<div class="overflow-hidden ms-3">
-										<h2 class="text-color-primary font-weight-semibold line-height-3 text-4 mb-0 appear-animation" data-appear-animation="maskRight" data-appear-animation-delay="1000">WAS WIR TUN</h2>
+										<h2 class="text-color-primary font-weight-semibold line-height-3 text-4 mb-0 appear-animation" data-appear-animation="maskRight" data-appear-animation-delay="1000">WAS WIR BIETEN</h2>
 									</div>
 								</div>
 								<h3 class="text-color-secondary font-weight-bold text-transform-none text-8 mb-3 pb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">Unsere Produkte</h3>
@@ -301,7 +301,7 @@ if(!isset($_SESSION)){
 							<div class="col-lg-5 col-xl-4">
 								<div class="d-flex justify-content-lg-end">
 									<!-- <a href="services.php" class="btn btn-primary btn-modern font-weight-bold text-3 btn-px-4 py-3 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1800">VIEW ALL SERVICES</a> -->
-									<a href="#booknow" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3 ms-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1600">BUCHEN SIE JETZT</a>
+									<a href="log-in.php" class="btn btn-secondary btn-modern font-weight-bold text-3 btn-px-4 py-3 ms-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1600">BESTELLEN SIE JETZT</a>
 								</div>
 							</div>
 						</div>

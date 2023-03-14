@@ -45,7 +45,7 @@
 							<div class="d-flex align-items-center mb-2">
 								<span class="custom-line appear-animation" data-appear-animation="customLineAnimation" data-appear-animation-delay="1200" appear-animation-duration="1s"></span>
 								<div class="overflow-hidden ms-3">
-									<h2 class="text-color-primary font-weight-semibold line-height-3 text-4 mb-0 appear-animation" data-appear-animation="maskRight" data-appear-animation-delay="2200">WHO WE ARE</h2>
+									<h2 class="text-color-primary font-weight-semibold line-height-3 text-4 mb-0 appear-animation" data-appear-animation="maskRight" data-appear-animation-delay="2200">WER WIR SIND</h2>
 								</div>
 							</div>
 							<h3 class="text-color-secondary font-weight-bold text-transform-none line-height-2 text-10 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">
@@ -76,7 +76,7 @@
 					<div class="row  pb-2 mb-3">
 						<div class="col-md-9 col-lg-8 ">
 							<h2 class="text-color-secondary font-weight-bold line-height-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">Unsere Geschichte</h2>
-							<p class="custom-font-secondary text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">"Unser Unternehmen hat eine reiche Geschichte, die von Jahren des Wachstums, der Innovation und der Verpflichtung zu Exzellenz geprägt ist."</p>
+							<p class="custom-font-secondary text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">"Unser Unternehmen hat eine lange Geschichte, die von Jahren des Wachstums, der Innovation und der Verpflichtung zu Exzellenz geprägt ist."</p>
 						</div>
 					</div>
 					<div class="row appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
@@ -86,7 +86,7 @@
 									<div class="card custom-card-style-1 custom-card-style-1-variation">
 										<div class="card-body text-center bg-color-light py-5">
 											<h4 class="text-color-secondary font-weight-bold line-height-1 text-8 mb-2">2012</h4>
-											<p class="custom-font-secondary text-4 mb-4">Stiftung</p>
+											<p class="custom-font-secondary text-4 mb-4">Gründung</p>
 											<p class="mb-0 text-justify">2012 wurde unser Unternehmen in Deutschland gegründet. Von seinen bescheidenen Anfängen hat sich das Unternehmen schnell zu einem führenden Akteur in seiner Branche entwickelt und neue Maßstäbe für Innovation und Qualität gesetzt.</p>
 										</div>
 									</div>
