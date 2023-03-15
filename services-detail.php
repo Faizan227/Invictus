@@ -33,9 +33,7 @@
 						<div class="row align-items-center align-items-center justify-content-center">
 							<div class="col-lg-10 order-lg-2 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 							<p class="custom-font-secondary text-4 mb-4">Holen Sie sich zuverlässige und erschwingliche Diamantschneidwerkzeuge für Ihre Einrichtung mit 100 % Zufriedenheitsgarantie!</p>	
-							<?php display_product_cat_wise();
-							
-							?>
+							<?php display_product_cat_wise();?>
 							<?php //get_info(); ?> 
 							</div>
 							
