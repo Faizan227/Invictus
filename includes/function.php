@@ -383,7 +383,7 @@ function cus_login(){
                 
                 ?>
                 <script>
-                    setTimeout( function(){window.location="index.php" } ,3000);
+                    setTimeout( function(){window.location="services.php" } ,3000);
                 </script>
 
                 <?php

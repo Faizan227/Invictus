@@ -35,11 +35,8 @@ function dropdown_menu(){
 										</ul>
 										<ul class="nav nav-pills position-relative bottom-1 ms-md-3">
 											<li class="nav-item">
-<<<<<<< HEAD
 												<span class="d-flex d-none  d-md-block  align-items-center ws-nowrap text-color-secondary font-weight-medium time-d-none "><i class="icon-clock icons text-3 top-3 left-1 me-2 text-color-secondary font-weight-bold"></i> Mo - Fr 8:00 - 18:00 Uhr Sa 9:00 - 15:00 Uhr  </span>
-=======
-												<span class="d-flex d-none d-md-block align-items-center ws-nowrap text-color-secondary font-weight-medium text-3"><i class="icon-clock icons text-3 top-3 left-1 me-2 text-color-secondary font-weight-bold"></i> Mo - Fr 8:00 - 18:00 Uhr Sa 9:00 - 15:00 Uhr</span>
->>>>>>> 5416f361785912c432587e5379e4c1a5a33316ea
+												<!-- <span class="d-flex d-none d-md-block align-items-center ws-nowrap text-color-secondary font-weight-medium text-3"><i class="icon-clock icons text-3 top-3 left-1 me-2 text-color-secondary font-weight-bold"></i> Mo - Fr 8:00 - 18:00 Uhr Sa 9:00 - 15:00 Uhr</span> -->
 											</li>
 										</ul>
 									</div>
@@ -72,8 +69,8 @@ function dropdown_menu(){
 													<li class=""><a href="index.php" class="nav-link <?php if($page=='home'){ echo 'active';} ?>">Startseite</a></li>
 													<li class=""><a href="about.php" class="nav-link <?php if($page=='about'){ echo 'active';} ?>">Über uns</a></li>
 													<li class="dropdown ">
-														<a class="nav-link dropdown-toggle <?php if($page=='product'){ echo 'active';} ?>" href="" >
-														Produkte<span class="child-indicator sm-d-none submenu-toggle mx-2"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5"><path id="Polygon_5" data-name="Polygon 5" d="M5,0l5,5H0Z" transform="translate(10 5) rotate(180)"/></svg></span>
+														<a class="nav-link dropdown-toggle <?php if($page=='product'){ echo 'active';} ?>" href="services.php" >
+														Produkte
 														</a>
 														<ul class="dropdown-menu">
 															<?php dropdown_menu(); ?>

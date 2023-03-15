@@ -19091,3 +19091,26 @@ ul.team-list .team-item .thumb-info-social-icons {
 		line-height: 100px;
 	}
 }
+
+/* @media (max-width:460px){
+	 .time-d-none {
+		display: none !important;
+		
+	}	
+} */
+@media (max-width:455px){
+	.time-d-none {
+	   /* display: block !important; */
+	   font-size: 9.5px;
+	   font-weight: bolder ;
+
+   }	
+}
+@media (max-width:340px){
+	.time-d-none {
+	   /* display: block !important; */
+	   font-size: 8px;
+	   font-weight: bolder ;
+
+   }	
+}

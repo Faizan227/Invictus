@@ -1531,7 +1531,8 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	}
 
 	#header .header-nav-main nav > ul > li > a.dropdown-toggle .fa-chevron-down {
-		display: none;
+		/* display: none; */
+		padding-left: 10px;
 	}
 
 	#header .header-nav-main nav > ul > li > a.active {
@@ -4859,7 +4860,14 @@ html.side-header-hamburguer-sidebar-narrow-bar .slider-container {
 		padding-right: 2px !important;
 	}
 }
-
+@media (max-width:991px){
+	.child-indicator .sm-d-none-indicator #polygon_5 {
+		display: none !important;
+		width: 0;
+		height: 0;
+		overflow: hidden;
+	}	
+}
 /* Page Header */
 .page-header {
 	background-color: #212529;
