@@ -28,14 +28,14 @@ function dropdown_menu(){
 							<div class="header-row">
 								<div class="header-column justify-content-start">
 									<div class="header-row">
-										<ul class="header-social-icons social-icons social-icons-clean social-icons-medium position-relative right-7 d-none d-md-block ms-0">
+										<ul class="header-social-icons social-icons social-icons-clean social-icons-medium position-relative right-7  d-md-block ms-0">
 											<li class="social-icons-instagram"><a href="https://www.instagram.com/invictus_diamantwerkzeuge/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
 											<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
 											<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
 										</ul>
 										<ul class="nav nav-pills position-relative bottom-1 ms-md-3">
 											<li class="nav-item">
-												<span class="d-flex  d-md-block  align-items-center ws-nowrap text-color-secondary font-weight-medium time-d-none "><i class="icon-clock icons text-3 top-3 left-1 me-2 text-color-secondary font-weight-bold"></i> Mo - Fr 8:00 - 18:00 Uhr Sa 9:00 - 15:00 Uhr  </span>
+												<span class="d-flex d-none  d-md-block  align-items-center ws-nowrap text-color-secondary font-weight-medium time-d-none "><i class="icon-clock icons text-3 top-3 left-1 me-2 text-color-secondary font-weight-bold"></i> Mo - Fr 8:00 - 18:00 Uhr Sa 9:00 - 15:00 Uhr  </span>
 											</li>
 										</ul>
 									</div>
@@ -68,7 +68,7 @@ function dropdown_menu(){
 													<li class=""><a href="index.php" class="nav-link <?php if($page=='home'){ echo 'active';} ?>">Startseite</a></li>
 													<li class=""><a href="about.php" class="nav-link <?php if($page=='about'){ echo 'active';} ?>">Über uns</a></li>
 													<li class="dropdown ">
-														<a class="nav-link dropdown-toggle <?php if($page=='product'){ echo 'active';} ?>" href="" >
+														<a class="nav-link dropdown-toggle <?php if($page=='product'){ echo 'active';} ?>" href="services.php" >
 														Produkte<span class=" child-indicator mx-2"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" class=" sm-d-none" viewBox="0 0 10 5"><path id="Polygon_5" data-name="Polygon 5" d="M5,0l5,5H0Z" transform="translate(10 5) rotate(180)"/></svg></span>
 														</a>
 														<ul class="dropdown-menu">

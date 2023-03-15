@@ -49,7 +49,7 @@
 								  
 									<div class="form-group ">
                                        <label for="exampleInputEmail1">E-Mail-Addresse</label>
-                                       <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> <small id="emailHelp" class="form-text text-muted">Wir werden Ihre E-Mail-Adresse niemals an Dritte weitergeben.</small> 
+                                       <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> 
                                     </div>
                                     
                                     

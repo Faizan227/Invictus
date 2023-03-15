@@ -110,11 +110,11 @@
 								 
 									<div class="form-group col-sm-6">
                                        <label for="exampleInputEmail1">E-Mail-Addresse *</label>
-                                       <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email eingeben" required> <small id="emailHelp" class="form-text text-muted">Wir werden Ihre E-Mail-Adresse niemals an Dritte weitergeben.</small> 
+                                       <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email eingeben" required>  
                                     </div>
                                     <div class="form-group col-sm-6">
                                        <label for="exampleInputEmail1">Telefonnummer</label>
-                                       <input class="form-control" type="number" name="phone" id="example-tel-input-3" placeholder="Telefon" required> <small class="form-text text-muted">Wir werden Ihre Nummer niemals an Dritte weitergeben.</small> 
+                                       <input class="form-control" type="number" name="phone" id="example-tel-input-3" placeholder="Telefon" required> <small class="form-text text-muted"> 
                                     </div>
 								 </div>
 								 <div class="row">	

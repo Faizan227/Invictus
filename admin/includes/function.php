@@ -541,7 +541,7 @@ function edit_post(){
                                 <textarea  class="form-control" id="machine" name="machine"  rows="5"><?php echo $data['machine']; ?></textarea>
                             </div>
                             <div class="col-md-6">
-                                <label for="price" class="form-label">Abmessungen *</label>
+                                <label for="price" class="form-label">Abmessungen * (Verwenden Sie & dort, wo Sie den Wert in der nächsten Zeile anzeigen möchten)</label>
                                 <textarea  class="form-control" id="dimension" name="p_dimension"  rows="5"><?php echo $data['p_dimension']; ?></textarea>
                             </div>
                            
@@ -575,7 +575,9 @@ function edit_post(){
                     $oldfile=$_REQUEST['old_file'];
                     //file uploading
                    $file=$_FILES['new_p_file']['name'];
-                   if(empty($_REQUEST['p_title'])||empty($_REQUEST['p_details'])||empty($_REQUEST['p_scope'])||empty($_REQUEST['p_cat']))
+                //    if(empty($_REQUEST['p_title'])||empty($_REQUEST['p_details'])||empty($_REQUEST['p_scope'])||empty($_REQUEST['p_cat']))
+                   if(empty($_REQUEST['p_cat']))
+
                    {
                        ?>
                        <div class="alert alert-danger">

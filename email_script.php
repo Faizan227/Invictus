@@ -14,12 +14,12 @@
 
 <?php
 // session_start();
-if (empty($_SESSION['email'])) {?>
+if (empty($_SESSION['cus_id'])) {?>
 <script>
      setTimeout( function(){window.location="log-in.php" } ,600);
 </script>
-       <!-- header("Location: log-in.php"); -->
-   <?php exit;
+       
+   <?php
 }else{
     $product = $_GET['product'];
     include "includes/connection.php";
@@ -47,7 +47,7 @@ if (empty($_SESSION['email'])) {?>
         
         
             <div class="text-center">
-            <a href="mailto:info@invictus-diamantinstrumente.de?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body= ( <?php  echo  $data['p_name'];?> ) wir auf Ihrer Website gesehen haben. Wir möchten die Preisdetails für dieses Produkt erhalten." class="btn-primary py-2 px-3 text-4 font-weight-bold border-radius-2 " data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Erhalten Sie Informationen per E-Mail">E-mail</a>
+            <a href="mailto:info@invictus-diamantinstrumente.de?Subject=Produktcode:<?php echo $data['p_code']; ?>&amp;Body=Produktname: <?php  echo  $data['p_name'];?>, 'wir auf Ihrer Website gesehen haben. Wir möchten die Preisdetails für dieses Produkt erhalten'." class="btn-primary py-2 px-3 text-4 font-weight-bold border-radius-2 " data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Erhalten Sie Informationen per E-Mail">E-mail</a>
           
         </div>
               
@@ -69,22 +69,7 @@ if (empty($_SESSION['email'])) {?>
 
 
 
-// if (isset($_GET['send_email'])) {
-//    $to = "Husnain325@gmail.com";
-// $subject = "Test Email";
-// $message = "This is a test email.";
 
-// $headers = "From: sender@example.com\r\n";
-// $headers .= "Reply-To: sender@example.com\r\n";
-// $headers .= "Content-Type: text/html\r\n";
-
-// mail($to, $subject, $message, $headers);
-// }
-
-// function send_email() {
-    // Code to send an email
-    // ...
-// }
 ?>
 
 </div>

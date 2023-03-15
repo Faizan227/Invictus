@@ -3,10 +3,10 @@
 		<footer id="footer" class="footer bg-color-secondary border-0 mt-0">
 				<div class="container container-xl-custom  align-item-center pt-4 pb-3">
 					<div class="row py-5 ">
-						<div class="col-md-3 col-lg-3 mb-4 mb-lg-0">
+						<div class="col-md-3 col-lg-2 mb-4 mb-lg-0">
 							<div class="mb-3 mb-lg-0">
 							<a href="index.php">
-								<img alt="invictus" width="160" height="60" src="Images/invictus/invictus-logo-footer.png">
+								<img alt="invictus" width="140" height="60" src="Images/invictus/invictus-logo-footer.png">
 							</a>
 							</div>
 							<!-- <p class="text-3-5 pe-lg-2 text-justify">INVICTUS Diamantwerkzeuge Essen ist Ihr erfahrener Partner für Diamantwerkzeuge in ganz Europa. </p> -->
@@ -29,7 +29,7 @@
 							
 						</div>
 						
-						<div class="col-md-3 col-lg-3 mb-4 mb-lg-0">
+						<div class="col-md-3 col-lg-4 mb-4  mb-lg-0">
 							<h4 class="font-weight-bold ls-0">Unsere Kontakte</h4>
 							<div class="feature-box feature-box-style-2 align-items-center mb-3">
 								<div class="feature-box-icon">
@@ -59,15 +59,14 @@
 								</div>
 							</div>
 							
-							<!-- <a href="demo-cleaning-services-contact.html" class="btn btn-primary font-weight-bold px-5 py-3 mb-2">BOOK NOW</a> -->
 						</div>
-						<div class="col-md-2 col-lg-2 mb-4 mb-md-0">
+						<div class="col-md-3 col-lg-2 mb-4 mb-md-0">
 							<h4 class="font-weight-bold ls-0">Unsere Produkte</h4>
 							<ul class="list-unstyled mb-0">
 								<?php display_footer_link(); ?>
 							</ul>
 						</div>
-						<div class="col-md-4 col-lg-4 ">
+						<div class="col-md-3 col-lg-4 ">
 							<h4 class="font-weight-bold ls-0">Folgen Sie uns</h4>
 							<ul class="social-icons pb-3 social-icons-clean social-icons-medium">
 								<li>

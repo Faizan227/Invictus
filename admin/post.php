@@ -52,7 +52,7 @@
                                 <textarea  class="form-control" id="machine" name="machine" placeholder="Machine ..." rows="5"></textarea>
                             </div>
                             <div class="col-md-6">
-                                <label for="price" class="form-label">Abmessungen in mm</label>
+                                <label for="price" class="form-label">Abmessungen in mm (Verwenden Sie & dort, wo Sie den Wert in der nächsten Zeile anzeigen möchten)</label>
                                 <textarea  class="form-control" id="dimension" name="p_dimension" placeholder="Dimension ..." rows="5"></textarea>
                             </div>
                             <div class="col-md-12">

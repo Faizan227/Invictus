@@ -7647,6 +7647,7 @@ h6 .inverted {
 /* Text Alignment */
 .text-justify {
 	text-align: justify;
+	/* justify-content: center; */
 }
 
 /* Text Transform */

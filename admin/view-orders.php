@@ -1,22 +1,4 @@
 <?php include 'includes/header.php';
-
-$conn = mysqli_connect("localhost", "root", "", "invictus_db");
-
-
-
-
-// DELETE Button CLicked
-if(isset($_REQUEST['delete'])){
-    $orderId = $_REQUEST['orderId'];
-    $sql3 = "DELETE FROM `order_manager` WHERE order_id = '$orderId'";
-    if(mysqli_query($conn, $sql3)){
-        $sql4 = "DELETE FROM `user_orders` WHERE order_id = '$orderId'";
-        if(mysqli_query($conn, $sql4)){
-            echo "<script>alert('Record Deleted');</script>";
-        }
-    }
-}
-
 ?>
 <!-------------Header------------------>
 <?php include 'includes/nav.php';?>
@@ -59,87 +41,24 @@ if(isset($_REQUEST['delete'])){
                     <?php
                     // $sr = 1;
                 //    $date=date("d:m:Y i:s");
-                    $sql1 = "SELECT * FROM customer ORDER BY cus_id DESC";
-                    $result1 = mysqli_query($conn, $sql1);
+                   include "includes/connection.php";
+                    $sql1 = "SELECT * FROM customer ORDER BY cus_id DESC";                    
+                    $result1 = mysqli_query($con, $sql1);
                     while($row1 = mysqli_fetch_assoc($result1)){
-
                     ?>
-
                     <tr>
                         <!-- <td><?php  //echo $sr++; ?></td> -->
                         <td><?php echo $row1['cus_id'] ?></td>
                         <td><a href="mailto:" class="text-decoration-none text-dark"><?php echo $row1['cus_email'] ?></a> </td>
-
                         <td><?php echo $row1['cus_phone'] ?></td>
                         <td><?php echo $row1['company_name'] ?></td>
                         <td><?php echo $row1['com_reg_no']; ?></td>
-                        <td><?php echo $row1['reg_date']; ?></td>
-
-                        
+                        <td><?php echo $row1['reg_date']; ?></td>                        
                         <td ><a href="slip.php?order_id=<?php echo $row1['order_id'] ?>" class="btn btn-sm btn-info">Sicht</a>
-
-                        <!-- <form action="" method="GET">
-                            <input type="hidden" name="orderId" value="<?php //echo $row1['order_id'] ?>">
-                            <button type="submit" name="delete" class="btn btn-danger btn-sm ms-2">Delete</button>
-                        </form> -->
-                    </td>
-                        <!-- <td>
-
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>Name</th>
-                                    <th>Price</th>
-                                    <th>Quantity</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-
-                            <?php
-
-                            $orderId = $row1['order_id'];                             
-                              $sql2 = "SELECT * FROM user_orders WHERE order_id = '$orderId'";
-                              $result2 = mysqli_query($conn, $sql2);
-                              while($row2 = mysqli_fetch_assoc($result2)){
-                            
-                            ?>
-
-                                <tr>
-                                    <td scope="row"><?php echo $row2['item_name'] ?></td>
-                                    <td scope="row"><?php echo $row2['item_price'] ?></td>
-                                    <td scope="row"><?php echo $row2['item_quantity'] ?></td>
-                                    
-                                </tr>
-
-                                <?php } ?>
-                               
-                            </tbody>
-                        </table>                      
-                               
-
-                            
-                        </td> -->
-                    </tr>
-
-                    
-                    <?php 
-                    
+                       </td>
+                    </tr>                    
+                    <?php                     
                 } ?>
-
-
-
-
-
-
-                    <?php
-                 
-                    // display_orders();
-                    // del_order();
-                    ?>
-
-                
-                    
-
                     </tbody>
                 </table>
                 <!-------------form close------------->

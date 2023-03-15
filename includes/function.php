@@ -471,24 +471,27 @@ include "connection.php";
     $q="SELECT * FROM products WHERE p_category = '$categories'";
     $q_run =  mysqli_query($con, $q);
     while($data = mysqli_fetch_array($q_run)){
+       $pattern= "/&/i";
+       $replacment = "<br />";
+        
     ?>
-    <table class="p-4 mb-3 table table-hover border-bottom bg-light">
+    <table class="p-4 mb-4 table table-hover border-bottom bg-light">
       <tbody>
         
       <tr scope="col">
-      <td><img src="uploads/<?php echo $data['p_file']; ?>" class="img-fluid float-start custom-max-width-1 w-75 my-3 me-4" alt="" /></td>
+      <td><img src="uploads/<?php echo $data['p_file']; ?>" class=" float-start custom-max-width-1 w-50 my-3 me-4" alt="" /></td>
       <td colspan="" ><h3 class="mt-5 text-color-primary"><?php echo $data['p_code']; ?>
       <h3><?php echo $data['p_name']; ?></h3>
       </td>
       <td >      
          <div class="align-items-start mt-5 me-4">
-           <ul class="social-icons social-icons-medium social-icons-clean-with-border social-icons-clean-with-border-border-grey social-icons-clean-with-border-icon-dark me-3  mb-0">
+           <ul class="list social-icons social-icons-medium social-icons-clean-with-border social-icons-clean-with-border-border-grey social-icons-clean-with-border-icon-dark me-3  mb-0">
            <!-- whatsapp -->
            <li class="social-icons-whatsapp  pb-2">
-           <a href="https://wa.me/491606767001?&text=Product Code: [ <?php echo $data['p_code']; ?> ] Product Name: [ <?php echo $data['p_name']; ?> ] 'Wir möchten detaillierte Preisinformationen zu diesem Produkt erhalten.'" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Erhalten Sie Informationen per WhatsApp">
+           <a href="https://wa.me/491606767001?&text=Produktcode:  <?php echo $data['p_code']; ?> , Produktname: <?php echo $data['p_name']; ?> 'Wir möchten detaillierte Preisinformationen zu diesem Produkt erhalten.'" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Erhalten Sie Informationen per WhatsApp">
            <i class="fab fa-whatsapp fa-2xl"></i>
            </a>
-           </li>
+           </li><br>
            
            <!-- I%20saw%20this%20and%20thought%20of%20you!%20-->
            <!-- Email -->
@@ -508,13 +511,13 @@ include "connection.php";
          </div> 
         </td>
       </tr>
-      <tr scope="col">
+      <tr scope="col mb-0 pb-0">
       <td class="text-bold ps-3">Eigenschaften:</td>
-      <td colspan="2"><p class="text-justify pe-5"><?php echo $data['p_details']; ?></p></td>
+      <td colspan="2" class="text-justify pe-5"><?php echo $data['p_details']; ?></td>
       </tr>
       <tr scope="col">
       <td class="text-bold ps-3">Geltungsbereich:</td>
-      <td colspan="2"><p class="text-justify pe-5"><?php echo $data['p_scope']; ?></p></td>
+      <td colspan="2" class="text-justify pe-5"><?php echo $data['p_scope']; ?></td>
       </tr>
       
       <tr>
@@ -523,7 +526,7 @@ include "connection.php";
        </tr>
        <tr>
       <td class="text-bold ps-3">Abmessung in mm:</td>
-      <td colspan="2"><p class="text-justify pe-5"><?php echo $data['p_dimension']; ?></p></td>
+      <td colspan="2" class="text-justify pe-5"><?php echo preg_replace($pattern,$replacment,$data['p_dimension']); ?></td>
       </tr>
        
        <tr>
