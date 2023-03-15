@@ -7647,6 +7647,9 @@ h6 .inverted {
 /* Text Alignment */
 .text-justify {
 	text-align: justify;
+	word-spacing: -2px;
+	text-justify: distribute;
+	
 }
 
 /* Text Transform */
