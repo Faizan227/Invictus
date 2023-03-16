@@ -613,5 +613,9 @@ function display_brand(){
             }
         }
         // session_destroy();
+
+// cookies
+//   session_start();
+
 ?>
 

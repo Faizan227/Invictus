@@ -54,6 +54,6 @@
 		<!-- Head Libs -->
 		<script src="vendor/modernizr/modernizr.min.js"></script>
 		<!-- newsletter -->
-		<!-- <script src="subscribe_scripts.js"></script> -->
+		
 	
     

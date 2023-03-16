@@ -509,27 +509,12 @@ if(!isset($_SESSION)){
 								
 							
 							</div>
-							<!-- <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
-								<img src="img/logos/logo-8.png" alt="" class="img-fluid" style="max-width: 90px;">
-							</div>
-							<div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
-								<img src="img/logos/logo-9.png" alt="" class="img-fluid" style="max-width: 140px;">
-							</div>
-							<div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
-								<img src="img/logos/logo-10.png" alt="" class="img-fluid" style="max-width: 140px;">
-							</div>
-							<div class="col-sm-4 col-lg-2 mb-5 mb-sm-0">
-								<img src="img/logos/logo-11.png" alt="" class="img-fluid" style="max-width: 140px;">
-							</div>
-							<div class="col-sm-4 col-lg-2 mb-5 mb-sm-0">
-								<img src="img/logos/logo-12.png" alt="" class="img-fluid" style="max-width: 100px;">
-							</div>
-							<div class="col-sm-4 col-lg-2">
-								<img src="img/logos/logo-13.png" alt="" class="img-fluid" style="max-width: 100px;">
-							</div> -->
+							
 						</div>
 					</div>	
 				</section>
+				<!-- cookies-banner -->
+
 
 
 			
@@ -540,23 +525,7 @@ if(!isset($_SESSION)){
 
 		</div>
 
-		<!-- Vendor -->
-		<script src="vendor/plugins/js/plugins.min.js"></script>
-
-		<!-- Theme Base, Components and Settings -->
-		<script src="js/theme.js"></script>
-
-		<!-- Current Page Vendor and Views -->
-		<script src="js/views/view.contact.js"></script>
-
-		<!-- Demo -->
-		<script src="js/demos/demo-cleaning-services.js"></script>
-
-		<!-- Theme Custom -->
-		<script src="js/custom.js"></script>
-
-		<!-- Theme Initialization Files -->
-		<script src="js/theme.init.js"></script>
+		<?php include "includes/footer-files.php" ?>
 
 	</body>
 </html>

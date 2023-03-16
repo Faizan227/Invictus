@@ -131,20 +131,7 @@
 
 		</div>
 
-		<!-- Vendor -->
-		<script src="vendor/plugins/js/plugins.min.js"></script>
-
-		<!-- Theme Base, Components and Settings -->
-		<script src="js/theme.js"></script>
-
-		<!-- Demo -->
-		<script src="js/demos/demo-cleaning-services.js"></script>
-
-		<!-- Theme Custom -->
-		<script src="js/custom.js"></script>
-
-		<!-- Theme Initialization Files -->
-		<script src="js/theme.init.js"></script>
+		<?php include "includes/footer-files.php" ?>
 
 	</body>
 </html>
