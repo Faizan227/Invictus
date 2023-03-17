@@ -484,7 +484,7 @@ include "connection.php";
       <h3><?php echo $data['p_name']; ?></h3>
       </td>
       <td >      
-         <div class="align-items-start mt-5 me-4">
+         <div class="align-items-end  float-end mt-5 me-4">
            <ul class="list social-icons social-icons-medium social-icons-clean-with-border social-icons-clean-with-border-border-grey social-icons-clean-with-border-icon-dark me-3  mb-0">
            <!-- whatsapp -->
            <li class="social-icons-whatsapp  pb-2">

@@ -104,7 +104,7 @@ if(isset($_REQUEST['send-message'])){
 										<h2 class="font-weight-bold text-color-secondary text-6 text-lg-5 text-xl-6 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">Postanschrift</h2>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1300">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-3 mb-0">Anschrift</h3>
-											<p>Vogelheimerstraße 92 <br>45329 Essen <br>Deutschland</p>
+											<p>Essen <br>Remscheid <br>Duisburg</p>
 										</div>
 										<div class="appear-animation mb-2" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-4 mb-0">Email</h3>
