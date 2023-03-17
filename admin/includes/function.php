@@ -143,7 +143,8 @@ function display_pro(){
             <td><?php echo $data['p_details'] ; ?></td>
             <td><?php echo $data['p_scope'] ; ?></td>
             <td ><?php echo $data['machine']; ?> </td>
-            <td><?php echo substr( $data['p_dimension'] ,0,20 ); ?></td>
+            <!-- <td><?php //echo substr( $data['p_dimension'] ,0,20 ); ?></td> -->
+            <td><?php echo $data['p_dimension']; ?></td>
             <td><a href="?del_post=<?php echo $data['p_id']; ?>" class="btn btn-danger">Löschen</a></td>
             <td><a href="post.php?edit_post=<?php echo $data['p_id']; ?>" class="btn btn-primary">Bearbeiten</a></td>
         </tr>
