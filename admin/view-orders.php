@@ -54,7 +54,7 @@
                         <td><?php echo $row1['company_name'] ?></td>
                         <td><?php echo $row1['com_reg_no']; ?></td>
                         <td><?php echo $row1['reg_date']; ?></td>                        
-                        <td ><a href="slip.php?order_id=<?php echo $row1['order_id'] ?>" class="btn btn-sm btn-info">Sicht</a>
+                        
                        </td>
                     </tr>                    
                     <?php                     
