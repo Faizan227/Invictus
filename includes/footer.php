@@ -6,25 +6,21 @@
 						<div class="col-md-3 col-lg-2 mb-4 mb-lg-0">
 							<div class="mb-3 mb-lg-0">
 							<a href="index.php">
-								<img alt="invictus" width="140" height="60" src="Images/invictus/invictus-logo-footer.png">
+								<img alt="invictus" width="150" height="40" src="Images/invictus/invictus-logo-footer.png">
 							</a>
-							</div>
+							</div><br/>
 							<!-- <p class="text-3-5 pe-lg-2 text-justify">INVICTUS Diamantwerkzeuge Essen ist Ihr erfahrener Partner für Diamantwerkzeuge in ganz Europa. </p> -->
 							<h4 class="font-weight-bold ls-0">Unsere Adressen</h4>
-							<ul class="list list-unstyled mb-0">
-							<a href="https://goo.gl/maps/UPeX47tjfMT2s49W9" class="text-decoration-none" target="_blank">	
+							<ul class="list list-unstyled mb-0">	
 							<li class="mb-1">
-							Essen
-
-
-								</li>
-								<li class="mb-1">
+								Essen
+							</li>
+							<li class="mb-1">
 								Remscheid
-								</li>
-								<li class="mb-0">
+							</li>
+							<li class="mb-0">
 								Duisburg
-								</li>
-							</a>
+							</li>
 							</ul>
 							
 						</div>
