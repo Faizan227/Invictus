@@ -40,7 +40,7 @@
 							
 
 						$q="INSERT INTO customer ( cus_email,cus_phone,company_name,com_reg_no, cus_password, reg_date ) VALUES 
-												('$email','$phone','$comapny','$regno',md5('$pass'),$date)";
+												('$email','$phone','$comapny','$regno',md5('$pass'),'$date')";
 						$q_run =  mysqli_query($con, $q);
 						echo mysqli_error($con);
 						if($q_run){

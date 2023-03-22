@@ -1,3 +1,8 @@
+<?php
+include "includes/connection.php";
+if(!isset($_SESSION)){
+    session_start();
+}?>
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -14,7 +19,7 @@
 
 <?php
 // session_start();
-if (empty($_SESSION['cus_id'])) {?>
+if (!isset($_SESSION['email'])) {?>
 <script>
      setTimeout( function(){window.location="log-in.php" } ,600);
 </script>
