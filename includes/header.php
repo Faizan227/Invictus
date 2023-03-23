@@ -35,12 +35,13 @@ function dropdown_menu(){
 										</ul>
 										<ul class="nav nav-pills position-relative bottom-1 ms-md-3">
 											<li class="nav-item">
-												<span class="d-flex d-none  d-md-block  align-items-center ws-nowrap text-color-secondary font-weight-medium time-d-none "><i class="icon-clock icons text-3 top-3 left-1 me-2 text-color-secondary font-weight-bold"></i> Mo - Fr 8:00 - 18:00 Uhr Sa 9:00 - 15:00 Uhr <br/> Telefonisch erreichbar  </span>
-												<!-- <span class="d-flex d-none d-md-block align-items-center ws-nowrap text-color-secondary font-weight-medium text-3"><i class="icon-clock icons text-3 top-3 left-1 me-2 text-color-secondary font-weight-bold"></i> Mo - Fr 8:00 - 18:00 Uhr Sa 9:00 - 15:00 Uhr</span> -->
+												<span class="d-flex   d-md-block  align-items-center ws-nowrap text-color-secondary font-weight-medium time-d-none "><i class="icon-clock icons text-3 top-3 left-1 me-2 text-color-secondary font-weight-bold"></i> Mo - Fr 8:00 - 18:00 Uhr Sa 9:00 - 15:00 Uhr <br/> Telefonisch erreichbar  </span>
+												<!-- <span class="d-flex  d-md-block align-items-center ws-nowrap text-color-secondary font-weight-medium text-3"><i class="icon-clock icons text-3 top-3 left-1 me-2 text-color-secondary font-weight-bold"></i> Mo - Fr 8:00 - 18:00 Uhr Sa 9:00 - 15:00 Uhr <br/> Telefonisch erreichbar </span> -->
 											</li>
 										</ul>
 									</div>
 								</div>
+							
 								<div class="header-column justify-content-end">
 									<div class="header-row">
 										<a href="log-in.php" class="custom-header-top-btn-style-1 btn btn-secondary font-weight-bold px-4 px-sm-5 py-3">Anmeldung</a>
@@ -89,7 +90,7 @@ function dropdown_menu(){
 										</div>
 										<div class="feature-box-info ps-2">
 											<p class="font-weight-semibold line-height-1 text-2 pb-0 mb-1">RUF UNS JETZT AN</p>
-											<a href="tel:+49201433 95 601" class="text-color-tertiary text-color-hover-primary text-decoration-none font-weight-bold line-height-1 custom-font-size-1 pb-0">+49 201 43395601</a>
+											<a href="tel:+49201433 95 601" class="text-color-tertiary text-2 text-md-4 text-color-hover-primary text-decoration-none font-weight-bold line-height-1  pb-0">+49 201 43395601</a>
 										</div>
 									</div>
 									<button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">

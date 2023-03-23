@@ -168,7 +168,7 @@ if(!isset($_SESSION)){
 								<li class="mb-4 mb-lg-2">
 									<span class="d-flex align-items-center justify-content-end justify-content-lg-end flex-column flex-lg-row font-weight-medium text-4 text-lg-3 text-xl-4">
 									EINEN TERMIN VEREINBAREN: 
-										<strong class="text-5 mt-2 mt-lg-0 ms-lg-3">
+										<strong class="text-4 text-lg-3 text-xl-4 mt-2 mt-lg-0 ms-lg-3">
 											<a href="tel:+49201433 95 601" class="text-color-secondary text-color-hover-primary text-decoration-none">+49 201 43395601</a>
 										</strong>
 									</span>
@@ -176,7 +176,7 @@ if(!isset($_SESSION)){
 								<li class="mb-0">
 									<span class="d-flex align-items-center justify-content-end justify-content-lg-end flex-column flex-lg-row font-weight-medium text-4 text-lg-3 text-xl-4">
 									EINE E-MAIL SCHREIBEN: 
-										<strong class="text-3 ms-lg-3">
+										<strong class="text-1 text-lg-3 text-xl-4 ms-lg-3">
 											<a href="mailto:info@invictus-diamantwerkzeuge.de" class="text-color-tertiary text-color-hover-primary text-decoration-underline">info@invictus-diamantwerkzeuge.de</a>
 										</strong>
 									</span>
@@ -184,58 +184,36 @@ if(!isset($_SESSION)){
 							    </ul>
 								</div>
 									</div>
-									<!-- <form class=" custom-form-style-2" action="" method="get">
-										<div class="contact-form-success alert alert-success d-none mt-4">
-											<strong>Success!</strong> Your request has been sent to us.
-										</div>
-
-										<div class="contact-form-error alert alert-danger d-none mt-4">
-											<strong>Error!</strong> There was an error sending your request.
-											<span class="mail-error-message text-1 d-block"></span>
-										</div>
-
-										<div class="row">
-											<div class="form-group col pb-1 mb-3">
-												<input type="email" value=""  maxlength="100" class="form-control" name="email" placeholder="Your Name" required>
-											</div>
-										</div>
-										<div class="row">
-											<div class="form-group col pb-1 mb-3">
-												<input type="password" value=""  maxlength="100" class="form-control" name="password" placeholder="password" required>
-											</div>
-										</div>
-										<div class="row">
-											<div class="form-group col pb-1 mb-3">
-												<div class="custom-select-1">
-													<select  class="form-control" name="request" required>
-														<option value="0" selected>Ausgewähltes Produkt</option>
-														<?php //display_cat_name(); ?>
-													</select>
-												</div>
-											</div>
-										</div>
-										<div class="row">
-											<div class="form-group col">
-												<button type="submit" name="send_request" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3" data-loading-text="Loading...">Ruf mich zurück</button>
-											</div>
-										</div>
-									</form> -->
+									
+										
+										
+										
 								</div>
-								<?php //send_request(); ?>
+								
 							  </div>
 						     </div>
-						<!-- <div class="col-lg-6 pb-lg-5">
-							
-						</div> -->
+						
 					           </div>
 			</div>
 			 
 		
 			<?php
-// $session_id = $_SESSION['email'];
-// echo $session_id ;
+// 			// echo $session_id;
+// echo $_SESSION['email'];
+// // echo $session_id ;
+// $name = session_name();
+// print("Session Name: ".$name);
+
+// ?>
+<?php
+    // session_start();
+    // echo "<h3> PHP List All Session Variables</h3>";
+    // foreach ($_SESSION as $key=>$val)
+    // echo $key." ".$val."<br/>";
+	// echo ini_get('session.save_path');
 
 ?>
+
 				
 				
 				

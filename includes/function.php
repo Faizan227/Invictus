@@ -375,6 +375,7 @@ function cus_login(){
                 ?>
                 <div class="alert alert-success">Anmeldung erfolgreich! Warten Sie mal...</div>
                 <?php
+                                
                
                 
                 $_SESSION['cus_id']= $login['cus_id'];
@@ -485,20 +486,20 @@ include "connection.php";
       </td>
       <td >      
          <div class="align-items-end  float-end mt-5 me-4">
-           <ul class="list social-icons social-icons-medium social-icons-clean-with-border social-icons-clean-with-border-border-grey social-icons-clean-with-border-icon-dark me-3  mb-0">
+           <ul class="list social-icons social-icons-medium    me-3  mb-0">
            <!-- whatsapp -->
-           <li class="social-icons-whatsapp  pb-2">
+           <li class="social-icons-whatsapp  ">
            <a href="https://wa.me/491606767001?&text=Produktcode:  <?php echo $data['p_code']; ?> , Produktname: <?php echo $data['p_name']; ?> 'Wir möchten detaillierte Preisinformationen zu diesem Produkt erhalten.'" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Erhalten Sie Informationen per WhatsApp">
-           <i class="fab fa-whatsapp fa-2xl"></i>
+           <i class="fab fa-whatsapp  fa-2xl"></i>
            </a>
            </li><br>
            
            <!-- I%20saw%20this%20and%20thought%20of%20you!%20-->
            <!-- Email -->
            <!-- <li class="social-icons-email">
-           <a href="mailto:info@invictus-diamantinstrumente.de?Subject=Product Code :<?php echo $data['p_code']; ?>&amp;Body=I Saw <?php  echo  $data['p_name'];  ?> on your website.I want to get price" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
+           <a href="mailto:info@invictus-diamantinstrumente.de?Subject=Product Code :<?php //echo $data['p_code']; ?>&amp;Body=I Saw <?php  //echo  $data['p_name'];  ?> on your website.I want to get price" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Get Info By Email">
            <i class="far fa-envelope"></i> -->
-          <li class="social-icons-email ">
+          <li class="social-icons-email mt-2">
            <a href="email_script.php?product=<?php echo $data['p_id']?>" onclick="<?php //get_info(); ?>" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Erhalten Sie Informationen per E-Mail">
            <i class="far fa-envelope fa-2xl"></i>
            <!-- <li class="social-icons-email">
