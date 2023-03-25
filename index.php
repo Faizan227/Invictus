@@ -198,15 +198,17 @@ if(!isset($_SESSION)){
 			 
 		
 			<?php
-// 			// echo $session_id;
-// echo $_SESSION['email'];
-// // echo $session_id ;
-// $name = session_name();
-// print("Session Name: ".$name);
+// 			$name = session_name();
+			
+//  $session_id = $_SESSION['cus_id'];
+//  echo "Session Id Login: $session_id <br>" ;
+//  echo "Session Email Login: $_SESSION[email] <br>" ;
+//  print("Session Name: ".$name);
 
-// ?>
+
+ ?>
 <?php
-    // session_start();
+   
     // echo "<h3> PHP List All Session Variables</h3>";
     // foreach ($_SESSION as $key=>$val)
     // echo $key." ".$val."<br/>";
