@@ -1,4 +1,6 @@
-
+<?php
+include "includes/function.php";
+?>
 <?php
                 
 				
@@ -65,7 +67,7 @@
 				//isset
 				
                 
-                ?>
+   ?>
 <!DOCTYPE html>
 <html lang="de">
 <head>

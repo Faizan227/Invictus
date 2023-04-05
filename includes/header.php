@@ -1,7 +1,5 @@
-<?php
-if(!isset($_SESSION)){
-    session_start();
-}
+<?php 
+
 function dropdown_menu(){
 	include "connection.php";
     $q="SELECT * FROM categories";
@@ -16,8 +14,9 @@ function dropdown_menu(){
 }
 
 
+
 ?>
-      <?php include "includes/function.php"; ?>
+      
 
     
         
@@ -44,7 +43,19 @@ function dropdown_menu(){
 							
 								<div class="header-column justify-content-end">
 									<div class="header-row">
+									<?php
+									if(isset($_SESSION['email_id'])){?>
+										<a href="?logout=1" class="custom-header-top-btn-style-1 btn btn-secondary font-weight-bold px-4 px-sm-5 py-3">Ausloggen</a>
+                                        
+									<?php }else{?>
 										<a href="log-in.php" class="custom-header-top-btn-style-1 btn btn-secondary font-weight-bold px-4 px-sm-5 py-3">Anmeldung</a>
+
+
+									<?php }
+									?>	
+	
+										
+										
 									</div>
 								</div>
 							</div>
@@ -102,5 +113,6 @@ function dropdown_menu(){
 					</div>
 				</div>
 			</header>
+			<?php logout(); ?>
        
     

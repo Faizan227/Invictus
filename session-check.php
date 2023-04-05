@@ -1,10 +1,14 @@
 
 <?php
+
+include "includes/function.php";
+
 include "includes/connection.php";
 
-if(!isset($_SESSION)){
-    session_start();
-}?>
+// if(!isset($_SESSION)){
+//     session_start();
+// }
+?>
 
 <!DOCTYPE html>
 <html lang="de">
@@ -51,7 +55,7 @@ if(!isset($_SESSION)){
 			
 //  $session_id = $_SESSION['cus_id'];
 //  echo "Session Id Login: $session_id <br>" ;
- echo "Session Email Login: $_SESSION[email] <br>" ;
+ echo "Login with this E-mail: $_SESSION[email_id] <br>" ;
  print("Session Name: ".$name);
 
 
@@ -62,6 +66,9 @@ if(!isset($_SESSION)){
     foreach ($_SESSION as $key=>$val)
     echo $key." ".$val."<br/>";
 	echo ini_get('session.save_path');
+	// session_decode('tn151iq70iiofur9k0tkhq1tko');
+	echo phpinfo();
+	
 
 ?>
  							               											

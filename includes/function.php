@@ -1,8 +1,11 @@
 <?php
+// session_save_path('./tmp/');
+ session_start();
+     
 include "connection.php";
-if(!isset($_SESSION)){
-    session_start();
-}
+   
+
+// session_start();
 function message(){
     if(isset($_REQUEST['send_message'])){
       $name = $_REQUEST['name'];
@@ -277,16 +280,7 @@ function get_page($directory,  $type ){
 }
 
 
-function logout(){
-    if(isset($_GET['logout'])){
-        session_destroy();
-        ?>
-        <script>setTimeout(function(){
-                window.location="index.php";
-            }, 0) </script>
-        <?php
-    }
-}
+
 
 
 
@@ -379,7 +373,7 @@ function cus_login(){
                
                 
                 $_SESSION['cus_id']= $login['cus_id'];
-                $_SESSION['email']= $login['cus_email'];
+                $_SESSION['email_id']= $login['cus_email'];
 
                 
                 ?>
@@ -617,6 +611,18 @@ function display_brand(){
 
 // cookies
 //   session_start();
+function logout(){
+    if(isset($_REQUEST['logout'])){
+        session_unset();
+        session_destroy();
+        ?>
+        <script>
+            setTimeout( function(){window.location="index.php" } ,2000);
+        </script>
 
+        <?php
+    }
+
+}
 ?>
 

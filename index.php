@@ -1,7 +1,7 @@
 <?php
-if(!isset($_SESSION)){
-    session_start();
-} 
+include "includes/function.php";
+// session_save_path('./tmp/');
+// session_start();
 ?>
 <!DOCTYPE html>
 <html lang="de">
