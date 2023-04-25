@@ -1,16 +1,26 @@
+
 <?php
+
 include "includes/function.php";
+
+include "includes/connection.php";
+
+// if(!isset($_SESSION)){
+//     session_start();
+// }
 ?>
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
 		<?php include "includes/header-main.php";?>
 	</head>
-	<body>
+	
+<body>
 
 		<div class="body">
 		<?php 
-		$page = 'product';
+		$page = 'traning';
 		include "includes/header.php";?>
 
 			<div role="main" class="main">
@@ -19,26 +29,59 @@ include "includes/function.php";
 					<div class="container my-3">
 						<div class="row">
 							<div class="col-md-12 align-self-center p-static order-2 text-center">
-								<?php display_header_name();?>
+								<h1 class="font-weight-bold text-10">Schulung und Workshop</h1>
 							</div>
 							<div class="col-md-12 align-self-center order-1">
 								<ul class="breadcrumb breadcrumb-light d-block text-center">
 									<li><a href="index.php">Startseite</a></li>
-									<li class="active">Produkte</li>
+									<li class="active">Schulung</li>
 								</ul>
 							</div>
 						</div>
 					</div>
 				</section>
-
+				
 				<section class="section border-0 pb-0 pb-lg-5 m-0">
 					<div class="container my-lg-4">
-						<div class="row align-items-center align-items-center justify-content-center">
-							<div class="col-lg-10 order-lg-2 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
-							<p class="custom-font-secondary text-4 mb-4">Holen Sie sich zuverlässige und erschwingliche Diamantschneidwerkzeuge für Ihre Einrichtung mit 100 % Zufriedenheitsgarantie!</p>	
-							<?php display_product_cat_wise();?>
-							<?php //get_info(); ?> 
+						
+						<div class="row row-gutter-sm align-items-center align-items-center justify-content-center">
+							<div class="col-md-8 col-lg-8 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
+								<a href="#" class="text-decoration-none">
+									<div class="card custom-card-style-1">
+										<div class="card-body text-center py-5">
+										
+										<?php
+			$name = session_name();
+			
+//  $session_id = $_SESSION['cus_id'];
+//  echo "Session Id Login: $session_id <br>" ;
+ echo "Login with this E-mail: $_SESSION[email_id] <br>" ;
+ print("Session Name: ".$name);
+
+
+ ?>
+<?php
+   
+    echo "<h3> PHP List All Session Variables</h3>";
+    foreach ($_SESSION as $key=>$val)
+    echo $key." ".$val."<br/>";
+	echo ini_get('session.save_path');
+	// session_decode('tn151iq70iiofur9k0tkhq1tko');
+	echo phpinfo();
+	
+
+?>
+ 							               											
+											
+ 							               
+										</div>
+									</div>
+								</a>
 							</div>
+						
+							
+							
+							
 							
 						</div>
 					</div>
@@ -52,7 +95,7 @@ include "includes/function.php";
 								c9.13,0.69,40.29,3.02,109,7c48.33,2.8,87.04,5.04,132,7c76.86,3.35,135.02,4.27,184,5c104.27,1.56,187.39,0.71,234,0
 								c21.92-0.34,91.62-1.5,183-5c50.62-1.94,106.43-4.12,181-9c57.01-3.73,108.05-7.94,152-12c94.91-8.78,162.37-17.44,182-20
 								c41.76-5.45,72.06-10.09,96-14c21.23-3.47,39.04-6.63,52-9c0-11.67,0-23.33,0-35C1279-11,638-11-3-11C-2,0.67-1,12.33,0,24z"/>
-							<path fill="#F7F7F7" d="M-7,23c1.59,0.23,4.03,0.58,7,1c82.06,11.6,145.17,16.35,182,19c244.62,17.62,377,23,377,23
+							<path fill="#FFF" d="M-7,23c1.59,0.23,4.03,0.58,7,1c82.06,11.6,145.17,16.35,182,19c244.62,17.62,377,23,377,23
 								c157.86,6.42,277.64,7.71,308,8c75.8,0.73,232.89,1.31,438-6c0,0,137.72-4.66,358-19c42.98-2.8,104.01-7.03,183-16
 								c33.26-3.78,60.85-7.38,80-10c0-9.01,0-18.01,0-27.02c-644,0-1288,0-1932,0C-6.33,4.99-6.67,13.99-7,23z"/>
 						</svg>
@@ -74,7 +117,9 @@ include "includes/function.php";
 
 			</div>
 
-			<?php include "includes/footer.php" ?>
+			<?php include "includes/footer.php"; 
+			 ?>
+
 		</div>
 
 		<?php include "includes/footer-files.php" ?>

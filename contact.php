@@ -1,4 +1,7 @@
 <?php
+
+include "includes/function.php";
+
 include "includes/connection.php"; 
 if(isset($_REQUEST['send-message'])){
 	$name = $_REQUEST['name'];
