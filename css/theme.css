@@ -7647,7 +7647,7 @@ h6 .inverted {
 /* Text Alignment */
 .text-justify {
 	hyphens: auto;
-	text-align: justify
+	text-align: justify;
 }
 
 /* Text Transform */
