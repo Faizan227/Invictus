@@ -1252,9 +1252,10 @@
 	}
 }
 
-.scroll-rotate {
-	position: relative;
-	transform: translatex(-50%) translatey(-50%);
+@supports (transform: translatex(-50%) translatey(-50%);) {
+	.scroll-rotate {
+		position: relative;
+	}
 }
 
 .highlight-scribble-1 {

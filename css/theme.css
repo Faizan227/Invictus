@@ -7648,6 +7648,11 @@ h6 .inverted {
 .text-justify {
 	hyphens: auto;
 	text-align: justify;
+	-webkit-hyphens : auto;
+	-moz-hyphens : auto;
+	-ms-hyphens : auto;
+	word-wrap : break-word;
+	overflow-wrap : break-word;
 }
 
 /* Text Transform */
