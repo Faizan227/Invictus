@@ -327,12 +327,13 @@ pre {
 	z-index: 1;
 }
 
-#header .header-logo img {
-	transition: all 0.3s ease;
-	position: relative;
-	top: 0;
-	image-rendering: -webkit-optimize-contrast;
-	transform: translateZ(0);
+@supports (image-rendering: -webkit-optimize-contrast) {
+	#header .header-logo img {
+		transition: all 0.3s ease;
+		position: relative;
+		top: 0;
+		transform: translateZ(0);
+	}
 }
 
 #header .header-nav {
@@ -5075,12 +5076,11 @@ html[xmlns] .clearfix {
 }
 
 /* Background Clip Text */
-.bg-clip-text {
-	background-clip: text !important;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
+@supports (-webkit-background-clip: text; background-clip: text !important;) {
+	.bg-clip-text {
+		-webkit-text-fill-color: transparent;
+	}
 }
-
 /* Background Scales Overlay */
 .bg-color-scale-overlay {
 	position: relative;
@@ -7648,6 +7648,11 @@ h6 .inverted {
 .text-justify {
 	hyphens: auto;
 	text-align: justify;
+	-webkit-hyphens : auto;
+	-moz-hyphens : auto;
+	-ms-hyphens : auto;
+	word-wrap : break-word;
+	overflow-wrap : break-word;
 }
 @media (max-width: 414px){
 	.text-justify {
@@ -7964,22 +7969,22 @@ a.text-light:focus, a.text-light:hover {
 .font-weight-bold {
 	font-weight: 700 !important;
 }
-
-.font-weight-extrabold,
-.font-weight-extra-bold {
-	font-weight: 750 !important;
+@supports (font-weight: 750 !important;) {
+	.font-weight-extrabold, .font-weight-extra-bold {
+	}
 }
 
 .font-weight-black {
 	font-weight: 900 !important;
 }
-@media  (max-width: 400px) 
-  {
-	.font-weight-extrabold,
-.font-weight-extra-bold {
-	font-weight: 680 !important;
+
+@supports (font-weight: 680 !important;) {
+	@media (max-width: 400px) {
+		.font-weight-extrabold,
+		.font-weight-extra-bold {
+		}
+	}
 }
-  }
 /* Letter Space */
 .letter-spacing-minus-1 {
 	letter-spacing: -1px;
@@ -8083,8 +8088,9 @@ a.text-light:focus, a.text-light:hover {
 }
 
 /* Border Radius */
-.border-radius-0 {
-	border-radius: 4 !important;
+@supports (border-radius: 4 !important;) {
+	.border-radius-0 {
+	}
 }
 
 .border-width-1 {
@@ -10331,11 +10337,12 @@ a.text-light:focus, a.text-light:hover {
 	text-align: center;
 }
 
-#footer .logo img {
-	position: relative;
-	top: 2px;
-	image-rendering: -webkit-optimize-contrast;
-	transform: translateZ(0);
+@supports(image-rendering: -webkit-optimize-contrast;) {
+	#footer .logo img {
+		position: relative;
+		top: 2px;
+		transform: translateZ(0);
+	}
 }
 
 #footer .twitter [class*="fa-"], #footer .twitter .icons {
