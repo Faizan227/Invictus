@@ -19,7 +19,7 @@ function message(){
         echo mysqli_error($con);
         if($q_run){ ?> 
                              <div class="contact-form-success alert alert-success d-none mt-4">
-                                    <strong>Success!</strong> Your message has been sent to us.
+                                    <strong>Success!</strong> Ihre Nachricht ist erfolgreich gesendet.
                                 </div>
         <?php
 

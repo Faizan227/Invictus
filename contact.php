@@ -1,35 +1,55 @@
 <?php
+require 'php/phpmailer/src/PHPMailer.php';
+require 'php/phpmailer/src/SMTP.php';
+require 'php/phpmailer/src/Exception.php';
 
 include "includes/function.php";
 
-include "includes/connection.php"; 
-if(isset($_REQUEST['send-message'])){
-	$name = $_REQUEST['name'];
-	$email = $_REQUEST['email'];
-	$phone = $_REQUEST['phone'];
-	$message = $_REQUEST['message'];
-	$date = date("Y/m/d");
-	include "includes/connection.php";
-	$q = "INSERT INTO messages (sen_name,sen_email,sen_phone,message,date) VALUES ('$name','$email','$phone','$message','$date') ";
-	$q_run = mysqli_query($con, $q);
-	  
-	  echo mysqli_error($con);
-	  if($q_run){ ?> 
-						   <div class="contact-form-success alert alert-success  mt-4">
-								  <strong>Success!</strong> Your message has been sent to us.
-							  </div>
-							 
-	  <?php
+include "includes/connection.php";
 
-  }else{ ?>
-						<div class="contact-form-error alert alert-danger  mt-4">
-								  <strong>Error!</strong> There was an error sending your message.
-								  <span class="mail-error-message text-1 d-block"></span>
-							  </div>
-	  <?php
-  }
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-  }
+
+// Check if the form is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Get form data
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+	$phone = $_POST['phone'];
+    $message = $_POST['message'];
+
+    // Create a new PHPMailer instance
+    $mail = new PHPMailer();
+
+    try {
+        // Set up SMTP
+        $mail->isSMTP();
+        $mail->Host = 'smtp.freesmtpservers.com'; // Update with your SMTP server
+        $mail->SMTPAuth = false;
+		//$mail->Username = ''; // Update with your SMTP username
+        //$mail->Password = ''; // Update with your SMTP password
+        //$mail->SMTPSecure = 'SSL/TLS';
+        $mail->Port = 25;
+
+        // Set up sender and recipient
+        $mail->setFrom('Homepage@invictus-diamantwerkzeuge.de', 'Homepage'); // Update with your email and name
+        $mail->addAddress('faizanriaz009@gmail.com', 'Faizan Riaz'); // Update with recipient email and name
+
+        // Set email subject and body
+        $mail->Subject = 'Homepage Kontak Formula';
+        $mail->Body = "Name: $name\nEmail: $email\nphone:$phone\nMessage: $message";
+
+        // Send the email
+        $mail->send();
+
+        // Display success message
+        echo '<p>Email has been sent successfully!</p>';
+    } catch (Exception $e) {
+        // Display error message
+        echo '<p>Email could not be sent. Error: ', $mail->ErrorInfo, '</p>';
+    }
+}
  ?>
 <!DOCTYPE html>
 <html lang="de">
@@ -115,8 +135,9 @@ if(isset($_REQUEST['send-message'])){
 										</div>
 										<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">
 											<h3 class="font-weight-bold text-color-secondary text-transform-none text-4 text-lg-4 mb-0">Öffnungszeiten</h3>
-											<p>Mo - Fr 8:00 - 20:00 Uhr<br>Sa 9:00 - 15:00 Uhr</p>
-										</div>
+											<p>Telefonisch erreichbar <br/> Mo - Fr 8:00 - 18:00 Uhr<br>Sa 9:00 - 15:00 Uhr</p>
+											
+											</div>
 									</div>
 								</div>
 							</div>
@@ -148,7 +169,7 @@ if(isset($_REQUEST['send-message'])){
 					</div>
 					<div class="row pb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">
 						<div class="col">
-							<form class="custom-form-style-1" action="" method="post">
+							<form class="custom-form-style-1" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                                 
                                 
                                 

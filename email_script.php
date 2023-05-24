@@ -53,7 +53,7 @@ if (!isset($_SESSION['email_id'])) {?>
         
         
             <div class="text-center">
-            <a href="mailto:info@invictus-diamantinstrumente.de?Subject=Produktcode:<?php echo $data['p_code']; ?>&amp;Body=Produktname: <?php  echo  $data['p_name'];?>, 'wir auf Ihrer Website gesehen haben. Wir möchten die Preisdetails für dieses Produkt erhalten'." class="btn-primary py-2 px-3 text-4 font-weight-bold border-radius-2 " data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Erhalten Sie Informationen per E-Mail">E-mail</a>
+            <a href="mailto:info@invictus-diamantwerkzeuge.de?Subject=Produktcode:<?php echo $data['p_code']; ?>&amp;Body=Produktname: <?php  echo  $data['p_name'];?>, 'wir auf Ihrer Website gesehen haben. Wir möchten die Preisdetails für dieses Produkt erhalten'." class="btn-primary py-2 px-3 text-4 font-weight-bold border-radius-2 " data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Erhalten Sie Informationen per E-Mail">E-mail</a>
           
         </div>
               
