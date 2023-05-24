@@ -7654,6 +7654,13 @@ h6 .inverted {
 	word-wrap : break-word;
 	overflow-wrap : break-word;
 }
+@media (max-width: 414px){
+	.text-justify {
+		hyphens: auto;
+		text-align: left;
+		word-spacing: .5px;
+	}
+}
 
 /* Text Transform */
 .text-uppercase {

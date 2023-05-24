@@ -650,7 +650,7 @@ function login(){
             $query="SELECT * FROM admin WHERE a_email='$email' AND a_password=md5('$pass')";
             $q_run = mysqli_query($con, $query);
             $login_data = mysqli_fetch_array($q_run);
-            if($login_data['a_email']==$email && $login_data['a_password']==md5($pass) ){
+            if(isset($login_data['a_email']) && isset($login_data['a_password']) && $login_data['a_email']==$email && $login_data['a_password']==md5($pass) ){
                 ?>
                 <div class="alert alert-success">Anmeldung erfolgreich! Warten Sie mal...</div>
                 <?php
