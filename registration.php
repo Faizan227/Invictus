@@ -121,11 +121,11 @@ include "includes/function.php";
 								 </div>
 								 <div class="row">	
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputEmail1">Name der Firma *</label>
+                                       <label for="">Name der Firma</label>
                                        <input class="form-control" type="text" name="cname" id="example-text-input" placeholder="Name der Firma..."> 
                                     </div>
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputEmail1">Handelsregisternummer. *</label>
+                                       <label for="">Handelsregisternummer.</label>
                                        <input class="form-control" type="text" name="regno" id="example-text-input-2" placeholder="Eingetragene Firmennummer..."> 
                                     </div>
 								 </div>

@@ -1,62 +1,15 @@
 <?php
-require 'php/phpmailer/src/PHPMailer.php';
-require 'php/phpmailer/src/SMTP.php';
-require 'php/phpmailer/src/Exception.php';
 
 include "includes/function.php";
 
 include "includes/connection.php";
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-
-// Check if the form is submitted
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Get form data
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-	$phone = $_POST['phone'];
-    $message = $_POST['message'];
-
-    // Create a new PHPMailer instance
-    $mail = new PHPMailer();
-
-    try {
-        // Set up SMTP
-        $mail->isSMTP();
-        $mail->Host = 'smtp.freesmtpservers.com'; // Update with your SMTP server
-        $mail->SMTPAuth = false;
-		//$mail->Username = ''; // Update with your SMTP username
-        //$mail->Password = ''; // Update with your SMTP password
-        //$mail->SMTPSecure = 'SSL/TLS';
-        $mail->Port = 25;
-
-        // Set up sender and recipient
-        $mail->setFrom('Homepage@invictus-diamantwerkzeuge.de', 'Homepage'); // Update with your email and name
-        $mail->addAddress('faizanriaz009@gmail.com', 'Faizan Riaz'); // Update with recipient email and name
-
-        // Set email subject and body
-        $mail->Subject = 'Homepage Kontak Formula';
-        $mail->Body = "Name: $name\nEmail: $email\nphone:$phone\nMessage: $message";
-
-        // Send the email
-        $mail->send();
-
-        // Display success message
-        echo '<p>Email has been sent successfully!</p>';
-    } catch (Exception $e) {
-        // Display error message
-        echo '<p>Email could not be sent. Error: ', $mail->ErrorInfo, '</p>';
-    }
-}
  ?>
 <!DOCTYPE html>
 <html lang="de">
 <head>
 		<?php include "includes/header-main.php";?>
-	</head>
-	<body>
+</head>
+<body>
 
 		<div class="body">
 		<?php 
@@ -169,7 +122,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 					</div>
 					<div class="row pb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">
 						<div class="col">
-							<form class="custom-form-style-1" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+							<form class="custom-form-style-1" action="php/kontakt-formula.php" method="post">
                                 
                                 
                                 
@@ -199,7 +152,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     </div>
                                 </div>
 								
-                            </form>
+                            </form><br/>
+							<div id="message-section">
+								<?php
+								if (isset($_GET['message'])) {
+									$message = $_GET['message'];
+									echo "<p>$message</p>";
+								}
+								?>
+							</div>
 							
 						</div>
 					</div>
